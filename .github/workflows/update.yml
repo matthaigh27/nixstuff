@@ -5,8 +5,7 @@ name: update-vendored-sources
 # then picks the bumps up with a normal `nix flake update`.
 on:
   schedule:
-    # Times are UTC (GitHub cron ignores DST). AEST = UTC+10, so during
-    # daylight saving (AEDT, UTC+11) these land an hour later in local time.
+    # Times are UTC. AEST = UTC+10 year-round (no daylight saving here).
     - cron: "17 20 * * *" # 06:17 AEST
     - cron: "17 3 * * *"  # 13:17 AEST
   workflow_dispatch:
