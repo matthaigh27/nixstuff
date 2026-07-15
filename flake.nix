@@ -22,6 +22,9 @@
           cli-proxy-api = call ./pkgs/cli-proxy-api.nix;
           mise = call ./pkgs/mise.nix;
           llama-cpp = call ./pkgs/llama-cpp.nix;
+          claude-code = call ./pkgs/claude-code.nix;
+          codex = call ./pkgs/codex.nix;
+          zed-editor-preview = call ./pkgs/zed-preview.nix;
         };
     in
     {

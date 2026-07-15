@@ -23,19 +23,29 @@ jobs:
 
       - uses: DeterminateSystems/nix-installer-action@main
 
+      # nvchecker reads its GitHub token from a keyfile, not $GITHUB_TOKEN, so
+      # write one from the Actions token (5000 req/hr vs 60 unauthenticated).
       - name: Run nvfetcher
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: nix run nixpkgs#nvfetcher --
-
-      # Build the Linux packages on this Linux runner so a bad bump (e.g. an
-      # autoPatchelf regression on the pi/cli-proxy-api ELFs) fails the job
-      # before it can be committed. The darwin packages can't be built here.
-      - name: Build Linux packages
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          nix build --no-link --print-out-paths \
+          umask 077
+          printf '[keys]\ngithub = "%s"\n' "$GH_TOKEN" > "$RUNNER_TEMP/keys.toml"
+          nix run nixpkgs#nvfetcher -- --keyfile "$RUNNER_TEMP/keys.toml"
+
+      # Build the Linux packages on this Linux runner so a bad bump (e.g. a
+      # renamed/missing asset or an autoPatchelf regression) fails the job before
+      # it can be committed. The darwin packages can't be built here.
+      - name: Build Linux packages
+        env:
+          NIXPKGS_ALLOW_UNFREE: "1"
+        run: |
+          nix build --impure --no-link --print-out-paths \
             '.#packages.x86_64-linux.pi' \
-            '.#packages.x86_64-linux.cli-proxy-api'
+            '.#packages.x86_64-linux.cli-proxy-api' \
+            '.#packages.x86_64-linux.codex' \
+            '.#packages.x86_64-linux.claude-code' \
+            '.#packages.x86_64-linux.zed-editor-preview'
 
       - name: Commit bumps
         run: |

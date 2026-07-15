@@ -6,6 +6,30 @@
   dockerTools,
 }:
 {
+  claude-code-aarch64-darwin = {
+    pname = "claude-code-aarch64-darwin";
+    version = "2.1.210";
+    src = fetchurl {
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.210/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-DTDK7vTdaTszHaMeDgJQ5MpsXsgR9YzpYcJEHSfvsaI=";
+    };
+  };
+  claude-code-aarch64-linux = {
+    pname = "claude-code-aarch64-linux";
+    version = "2.1.210";
+    src = fetchurl {
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.210/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-bMNOEx/IUcz17Ln/u379HMxoCG2ifLTdmIUs6Qtohlk=";
+    };
+  };
+  claude-code-x86_64-linux = {
+    pname = "claude-code-x86_64-linux";
+    version = "2.1.210";
+    src = fetchurl {
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.210/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-6koKBB42/h17UJeduq8HDtJ75CsBHnFrPtXFKt016WM=";
+    };
+  };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
     version = "7.2.77";
@@ -28,6 +52,54 @@
     src = fetchurl {
       url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.77/CLIProxyAPI_7.2.77_linux_amd64.tar.gz";
       sha256 = "sha256-3AgUzQ/DP0cupPPVWHRH4U/8s0hT7ayaUj7cHF17qGA=";
+    };
+  };
+  codex-aarch64-darwin = {
+    pname = "codex-aarch64-darwin";
+    version = "0.144.4";
+    src = fetchurl {
+      url = "https://github.com/openai/codex/releases/download/rust-v0.144.4/codex-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-d8iWmkgTAvnbHZ6ipsIcCDq64/Go/Ipyddw4MjaZOR4=";
+    };
+  };
+  codex-aarch64-linux = {
+    pname = "codex-aarch64-linux";
+    version = "0.144.4";
+    src = fetchurl {
+      url = "https://github.com/openai/codex/releases/download/rust-v0.144.4/codex-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-TQckPvSuZ4a4syHXrqP5vk4dLFl65UB+fBuYczNAgrI=";
+    };
+  };
+  codex-code-mode-host-aarch64-darwin = {
+    pname = "codex-code-mode-host-aarch64-darwin";
+    version = "0.144.4";
+    src = fetchurl {
+      url = "https://github.com/openai/codex/releases/download/rust-v0.144.4/codex-code-mode-host-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-o0KbpqbWWkym8ywpLTXw2gZ2UfwPgzPc+kKnw7a119k=";
+    };
+  };
+  codex-code-mode-host-aarch64-linux = {
+    pname = "codex-code-mode-host-aarch64-linux";
+    version = "0.144.4";
+    src = fetchurl {
+      url = "https://github.com/openai/codex/releases/download/rust-v0.144.4/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-y2nctK5lcykENf5Wch8f7VgPlpl9JY81Nv/hjQX6a48=";
+    };
+  };
+  codex-code-mode-host-x86_64-linux = {
+    pname = "codex-code-mode-host-x86_64-linux";
+    version = "0.144.4";
+    src = fetchurl {
+      url = "https://github.com/openai/codex/releases/download/rust-v0.144.4/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-MClBvtb7PIgp3eX+coZO4ERm7sFiPHO0PNRL8vr+gDg=";
+    };
+  };
+  codex-x86_64-linux = {
+    pname = "codex-x86_64-linux";
+    version = "0.144.4";
+    src = fetchurl {
+      url = "https://github.com/openai/codex/releases/download/rust-v0.144.4/codex-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-N8mFvp2J6MT0OzqgWUwSE+rCEtMK4rlSIfCP7IB1FdE=";
     };
   };
   llama-cpp-aarch64-darwin = {
@@ -62,20 +134,20 @@
       sha256 = "sha256-vYv0mzbaAPr0G5XIMtr1OFIoFsCVBhkckAvmBoaLtTE=";
     };
   };
-  pi-x86_64-darwin = {
-    pname = "pi-x86_64-darwin";
-    version = "0.80.7";
-    src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v0.80.7/pi-darwin-x64.tar.gz";
-      sha256 = "sha256-PnGsOqS6bNkvf4xwTgYoK0QThCh352cLLc47G/QiMY0=";
-    };
-  };
   pi-x86_64-linux = {
     pname = "pi-x86_64-linux";
     version = "0.80.7";
     src = fetchurl {
       url = "https://github.com/earendil-works/pi/releases/download/v0.80.7/pi-linux-x64.tar.gz";
       sha256 = "sha256-xfWpp3o45o/LCJ3U41Bau2TJjRlZW1WBjJYb53mIlxk=";
+    };
+  };
+  zed-preview-x86_64-linux = {
+    pname = "zed-preview-x86_64-linux";
+    version = "1.11.3-pre";
+    src = fetchurl {
+      url = "https://github.com/zed-industries/zed/releases/download/v1.11.3-pre/zed-linux-x86_64.tar.gz";
+      sha256 = "sha256-RbAZBNMgfUtkVukGDFnimpnDLVTGMCjK6nVtn5dYz6E=";
     };
   };
 }
