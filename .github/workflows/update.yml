@@ -37,10 +37,8 @@ jobs:
       # renamed/missing asset or an autoPatchelf regression) fails the job before
       # it can be committed. The darwin packages can't be built here.
       - name: Build Linux packages
-        env:
-          NIXPKGS_ALLOW_UNFREE: "1"
         run: |
-          nix build --impure --no-link --print-out-paths \
+          nix build --no-link --print-out-paths \
             '.#packages.x86_64-linux.pi' \
             '.#packages.x86_64-linux.cli-proxy-api' \
             '.#packages.x86_64-linux.codex' \
