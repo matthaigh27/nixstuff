@@ -42,22 +42,16 @@
     {
       packages = packagesBySystem;
 
-      # Grafts the vendored packages over nixpkgs by name, BUILT against the
-      # consumer's pkgs (so their config — allowUnfree etc. — and overlays apply,
-      # and no second nixpkgs is instantiated). The key set comes from
-      # packagesBySystem (static, computed against a separate pkgs), so it never
-      # forces a derivation against `final` — doing so would recurse, because
-      # callPackage's intersectAttrs forces `final`'s attribute names.
+      # Grafts the vendored packages over nixpkgs by name. These are the same
+      # derivations as `packages` (pre-built here against nixpkgs with
+      # allowUnfree), so claude-code carries no unfree re-check into the consumer
+      # — matching how sadjow's flakes work, and needed because my systems keep
+      # nixpkgs.config.allowUnfree = false. nixstuff's nixpkgs `follows` the
+      # consumer's, so there's no version skew from the separate instantiation.
+      # Only packages with an asset for the build platform are present, so
+      # mise/llama-cpp fall back to nixpkgs off aarch64-darwin and
+      # zed-editor-preview only appears on x86_64-linux.
       overlays.default = final: prev:
-        let
-          # Key off `prev` (already resolved): keying off `final.stdenv` here
-          # would force our own key set to compute `final.stdenv`, which recurses.
-          # Values are still built with `final` so consumer overlays/config apply.
-          system = prev.stdenv.hostPlatform.system;
-          sources = final.callPackage ./_sources/generated.nix { };
-          names = builtins.attrNames (packagesBySystem.${system} or { });
-        in
-        nixpkgs.lib.genAttrs names
-          (name: final.callPackage pkgFiles.${name} { inherit sources; });
+        packagesBySystem.${prev.stdenv.hostPlatform.system} or { };
     };
 }
