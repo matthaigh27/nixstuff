@@ -2,7 +2,7 @@
 
 Vendored prebuilt release binaries that aren't in nixpkgs (or that I want
 straight from upstream), packaged as a flake and consumed as an input by my
-[nixfiles](https://github.com/matthaigh27/nixfiles).
+Nix config.
 
 ## Why this exists
 

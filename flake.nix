@@ -1,5 +1,5 @@
 {
-  description = "Matt's vendored prebuilt release binaries (auto-updated by nvfetcher + GitHub Actions), consumed as a flake input by nixfiles";
+  description = "Vendored prebuilt release binaries (auto-updated by nvfetcher + GitHub Actions), consumed as a flake input";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
