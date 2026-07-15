@@ -1,0 +1,50 @@
+name: update-vendored-sources
+
+# Re-resolve every vendored package to its latest upstream release and commit
+# the bumped hashes. Runs daily and on demand. The consuming flake (nixfiles)
+# then picks the bumps up with a normal `nix flake update`.
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily, 06:17 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: update-vendored-sources
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: DeterminateSystems/nix-installer-action@main
+
+      - name: Run nvfetcher
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: nix run nixpkgs#nvfetcher --
+
+      # Build the Linux packages on this Linux runner so a bad bump (e.g. an
+      # autoPatchelf regression on the pi/cli-proxy-api ELFs) fails the job
+      # before it can be committed. The darwin packages can't be built here.
+      - name: Build Linux packages
+        run: |
+          nix build --no-link --print-out-paths \
+            '.#packages.x86_64-linux.pi' \
+            '.#packages.x86_64-linux.cli-proxy-api'
+
+      - name: Commit bumps
+        run: |
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No source changes."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore(sources): update vendored packages to latest upstream"
+          git push

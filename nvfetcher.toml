@@ -1,0 +1,58 @@
+# nvfetcher source manifest for the vendored prebuilt release binaries.
+#
+# One entry per (package, platform): `src.github` tracks the latest release and
+# `src.prefix` strips the tag's `v`/`b` so `$ver` is the bare version used in
+# both the release path and the asset name. `nvfetcher` re-resolves every entry
+# and prefetches each asset's hash into _sources/generated.nix — it fetches by
+# URL, so a single run (on any machine / in CI) refreshes all platforms at once.
+#
+# The package derivations in pkgs/ pick the right entry for the build platform.
+
+# CLIProxyAPI — https://github.com/router-for-me/CLIProxyAPI
+[cli-proxy-api-aarch64-darwin]
+src.github = "router-for-me/CLIProxyAPI"
+src.prefix = "v"
+fetch.url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v$ver/CLIProxyAPI_$ver_darwin_aarch64.tar.gz"
+
+[cli-proxy-api-x86_64-linux]
+src.github = "router-for-me/CLIProxyAPI"
+src.prefix = "v"
+fetch.url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v$ver/CLIProxyAPI_$ver_linux_amd64.tar.gz"
+
+[cli-proxy-api-aarch64-linux]
+src.github = "router-for-me/CLIProxyAPI"
+src.prefix = "v"
+fetch.url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v$ver/CLIProxyAPI_$ver_linux_aarch64.tar.gz"
+
+# pi coding agent — https://github.com/earendil-works/pi
+[pi-aarch64-darwin]
+src.github = "earendil-works/pi"
+src.prefix = "v"
+fetch.url = "https://github.com/earendil-works/pi/releases/download/v$ver/pi-darwin-arm64.tar.gz"
+
+[pi-x86_64-darwin]
+src.github = "earendil-works/pi"
+src.prefix = "v"
+fetch.url = "https://github.com/earendil-works/pi/releases/download/v$ver/pi-darwin-x64.tar.gz"
+
+[pi-aarch64-linux]
+src.github = "earendil-works/pi"
+src.prefix = "v"
+fetch.url = "https://github.com/earendil-works/pi/releases/download/v$ver/pi-linux-arm64.tar.gz"
+
+[pi-x86_64-linux]
+src.github = "earendil-works/pi"
+src.prefix = "v"
+fetch.url = "https://github.com/earendil-works/pi/releases/download/v$ver/pi-linux-x64.tar.gz"
+
+# mise — https://github.com/jdx/mise (darwin-arm64 only; Linux uses nixpkgs)
+[mise-aarch64-darwin]
+src.github = "jdx/mise"
+src.prefix = "v"
+fetch.url = "https://github.com/jdx/mise/releases/download/v$ver/mise-v$ver-macos-arm64.tar.gz"
+
+# llama.cpp — https://github.com/ggml-org/llama.cpp (darwin-arm64 only)
+[llama-cpp-aarch64-darwin]
+src.github = "ggml-org/llama.cpp"
+src.prefix = "b"
+fetch.url = "https://github.com/ggml-org/llama.cpp/releases/download/b$ver/llama-b$ver-bin-macos-arm64.tar.gz"
