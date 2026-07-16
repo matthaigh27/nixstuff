@@ -13,6 +13,7 @@
         cli-proxy-api = ./pkgs/cli-proxy-api.nix;
         claude-code = ./pkgs/claude-code.nix;
         codex = ./pkgs/codex.nix;
+        agentgateway = ./pkgs/agentgateway.nix;
         mise = ./pkgs/mise.nix;
         llama-cpp = ./pkgs/llama-cpp.nix;
         zed-editor-preview = ./pkgs/zed-preview.nix;

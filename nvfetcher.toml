@@ -110,6 +110,24 @@ src.prefix = "rust-v"
 src.include_regex = "[0-9]+\\.[0-9]+\\.[0-9]+"
 fetch.url = "https://github.com/openai/codex/releases/download/rust-v$ver/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz"
 
+# agentgateway — https://github.com/agentgateway/agentgateway (Rust). Releases
+# ship raw binaries (not tarballs); the linux builds are static-pie, so no
+# autoPatchelf is needed. Tags are `v<semver>`.
+[agentgateway-aarch64-darwin]
+src.github = "agentgateway/agentgateway"
+src.prefix = "v"
+fetch.url = "https://github.com/agentgateway/agentgateway/releases/download/v$ver/agentgateway-darwin-arm64"
+
+[agentgateway-aarch64-linux]
+src.github = "agentgateway/agentgateway"
+src.prefix = "v"
+fetch.url = "https://github.com/agentgateway/agentgateway/releases/download/v$ver/agentgateway-linux-arm64"
+
+[agentgateway-x86_64-linux]
+src.github = "agentgateway/agentgateway"
+src.prefix = "v"
+fetch.url = "https://github.com/agentgateway/agentgateway/releases/download/v$ver/agentgateway-linux-amd64"
+
 # Zed (preview channel) — https://github.com/zed-industries/zed. The github
 # source can't see the preview channel (it skips prereleases), so we read the
 # version straight out of the redirect that zed.dev's "latest preview" endpoint

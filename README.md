@@ -33,6 +33,7 @@ To update by hand: `nix run nixpkgs#nvfetcher` then commit.
 | `cli-proxy-api`      | darwin arm64, linux amd64/arm64     | CLIProxyAPI; autoPatchelf on Linux |
 | `claude-code`        | darwin arm64, linux arm64/x64       | official native binary; static musl on Linux |
 | `codex`              | darwin arm64, linux arm64/x64       | OpenAI Codex native binary + code-mode-host companion |
+| `agentgateway`       | darwin arm64, linux arm64/x64       | service/LLM/MCP gateway; native binary, static-pie on Linux |
 | `mise`               | darwin arm64                        | Linux uses nixpkgs |
 | `llama-cpp`          | darwin arm64                        | Metal-4 tensor build; Linux uses nixpkgs |
 | `zed-editor-preview` | linux x86_64                        | Zed preview channel; version from the zed.dev redirect |
