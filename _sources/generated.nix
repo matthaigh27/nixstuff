@@ -128,18 +128,18 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "10091";
+    version = "10092";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10091/llama-b10091-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-D25f0zYpE5eTxwWZfOzAhMSQRc8j9LcbbdSJud5dxw8=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10092/llama-b10092-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-8+wjUeBjIkeOPzjyP1M5zYNMyl43QPM0zivcXelfkOA=";
     };
   };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
-    version = "2026.7.11";
+    version = "2026.7.12";
     src = fetchurl {
-      url = "https://github.com/jdx/mise/releases/download/v2026.7.11/mise-v2026.7.11-macos-arm64.tar.gz";
-      sha256 = "sha256-8bYRKpW4DWFaAKw0mVGm6QpWOKs8IhoBJTBTkRafJ7s=";
+      url = "https://github.com/jdx/mise/releases/download/v2026.7.12/mise-v2026.7.12-macos-arm64.tar.gz";
+      sha256 = "sha256-pz4V60l0q/fFyURTZeic8tjsGK/JfU4WGzF+ZaQE8mE=";
     };
   };
   pi-aarch64-darwin = {
@@ -168,10 +168,10 @@
   };
   zed-preview-x86_64-linux = {
     pname = "zed-preview-x86_64-linux";
-    version = "1.12.0-pre";
+    version = "1.13.0-pre";
     src = fetchurl {
-      url = "https://github.com/zed-industries/zed/releases/download/v1.12.0-pre/zed-linux-x86_64.tar.gz";
-      sha256 = "sha256-KqqXibrYxLzt+HInAJla86wbqgVlDE4PKLha6BOflgc=";
+      url = "https://github.com/zed-industries/zed/releases/download/v1.13.0-pre/zed-linux-x86_64.tar.gz";
+      sha256 = "sha256-5l9IcAsYd/TnYB5y1e8aX4BNU97IeLgXWmfOPdJMMbc=";
     };
   };
 }
