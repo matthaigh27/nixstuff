@@ -233,11 +233,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-uVVKtMn26RGZ9IOHy0qydGb7HXJIgfgUY+8D9jcM+jI=",
+            "sha256": "sha256-87bBOpBWj7d1vx6TZffOTKmcMFfDNQg8Js08vrcnAzw=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10107/llama-b10107-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10144/llama-b10144-bin-macos-arm64.tar.gz"
         },
-        "version": "10107"
+        "version": "10144"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
