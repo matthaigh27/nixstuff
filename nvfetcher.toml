@@ -24,6 +24,13 @@ src.github = "router-for-me/CLIProxyAPI"
 src.prefix = "v"
 fetch.url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v$ver/CLIProxyAPI_$ver_linux_aarch64.tar.gz"
 
+# Buzz desktop — https://github.com/block/buzz (Tauri 2 app). macOS aarch64
+# .dmg only for now; the Linux .AppImage/.deb assets aren't packaged yet.
+[buzz-desktop-aarch64-darwin]
+src.github = "block/buzz"
+src.prefix = "v"
+fetch.url = "https://github.com/block/buzz/releases/download/v$ver/Buzz_$ver_aarch64.dmg"
+
 # pi coding agent — https://github.com/earendil-works/pi
 [pi-aarch64-darwin]
 src.github = "earendil-works/pi"

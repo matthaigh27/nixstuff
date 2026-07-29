@@ -10,6 +10,7 @@
 
       pkgFiles = {
         pi = ./pkgs/pi.nix;
+        buzz-desktop = ./pkgs/buzz-desktop.nix;
         cli-proxy-api = ./pkgs/cli-proxy-api.nix;
         claude-code = ./pkgs/claude-code.nix;
         codex = ./pkgs/codex.nix;

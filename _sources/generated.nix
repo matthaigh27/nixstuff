@@ -30,6 +30,14 @@
       sha256 = "sha256-4Xwtc3veZ4jnoxCae35DFtHA9xC4x0iPghyeGFb9SzI=";
     };
   };
+  buzz-desktop-aarch64-darwin = {
+    pname = "buzz-desktop-aarch64-darwin";
+    version = "0.5.0";
+    src = fetchurl {
+      url = "https://github.com/block/buzz/releases/download/v0.5.0/Buzz_0.5.0_aarch64.dmg";
+      sha256 = "sha256-oJZ2fwj1Uo14AzW1i0vryUi+yqiFXFCTEH7fFuRaSXw=";
+    };
+  };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
     version = "2.1.220";
