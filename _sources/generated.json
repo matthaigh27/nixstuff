@@ -263,11 +263,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-HHr60CFfDjBVZn/rJJu8ajWtC7cigcE7K8FmLxaaQ7k=",
+            "sha256": "sha256-BkcqTPiftbaYuyS1XhQF4eJB5gngUc322nKseVOzdO8=",
             "type": "url",
-            "url": "https://github.com/jdx/mise/releases/download/v2026.7.17/mise-v2026.7.17-macos-arm64.tar.gz"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.7.18/mise-v2026.7.18-macos-arm64.tar.gz"
         },
-        "version": "2026.7.17"
+        "version": "2026.7.18"
     },
     "pi-aarch64-darwin": {
         "cargoLock": null,
