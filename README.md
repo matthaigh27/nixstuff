@@ -21,7 +21,11 @@ kept current by CI — means nixfiles pulls the bumps forward with a plain
   single run refreshes all platforms regardless of the machine it runs on.
 - [`.github/workflows/update.yml`](./.github/workflows/update.yml) runs
   `nvfetcher` daily (and on demand), builds the Linux packages to catch bad
-  bumps, and commits the result.
+  bumps, and commits the result. Failures are isolated per package: `nvfetcher
+  --keep-going` skips any upstream that can't be resolved/fetched (a renamed
+  asset, a changed tag scheme) instead of aborting the whole run, and each Linux
+  package is built on its own so a package that fails to build only has its own
+  bump dropped — the rest still go out.
 
 To update by hand: `nix run nixpkgs#nvfetcher` then commit.
 
@@ -37,6 +41,7 @@ To update by hand: `nix run nixpkgs#nvfetcher` then commit.
 | `mise`               | darwin arm64                        | Linux uses nixpkgs |
 | `llama-cpp`          | darwin arm64                        | Metal-4 tensor build; Linux uses nixpkgs |
 | `zed-editor-preview` | linux x86_64                        | Zed preview channel; version from the zed.dev redirect |
+| `vite-plus`          | darwin arm64, linux arm64/x64       | Vite+ unified web toolchain (`vp`); native binary, static-pie musl on Linux |
 
 `packages.<system>` only exposes the packages with an asset for that system.
 `overlays.default` grafts them over nixpkgs by name (falling back to nixpkgs

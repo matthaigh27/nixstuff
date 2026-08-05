@@ -18,6 +18,7 @@
         mise = ./pkgs/mise.nix;
         llama-cpp = ./pkgs/llama-cpp.nix;
         zed-editor-preview = ./pkgs/zed-preview.nix;
+        vite-plus = ./pkgs/vite-plus.nix;
       };
 
       # The vendored set built against a given pkgs, gated to the packages that

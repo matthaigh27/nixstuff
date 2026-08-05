@@ -27,25 +27,54 @@ jobs:
 
       # nvchecker reads its GitHub token from a keyfile, not $GITHUB_TOKEN, so
       # write one from the Actions token (5000 req/hr vs 60 unauthenticated).
+      # --keep-going means one broken upstream (a renamed asset, a changed tag
+      # scheme, a 404) no longer aborts the whole run: that package is skipped
+      # and every other package still gets its bump. Without it, a single
+      # upstream breakage blocks every update until it's fixed by hand.
       - name: Run nvfetcher
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           umask 077
           printf '[keys]\ngithub = "%s"\n' "$GH_TOKEN" > "$RUNNER_TEMP/keys.toml"
-          nix run nixpkgs#nvfetcher -- --keyfile "$RUNNER_TEMP/keys.toml"
+          nix run nixpkgs#nvfetcher -- --keep-going --keyfile "$RUNNER_TEMP/keys.toml"
 
-      # Build the Linux packages on this Linux runner so a bad bump (e.g. a
-      # renamed/missing asset or an autoPatchelf regression) fails the job before
-      # it can be committed. The darwin packages can't be built here.
-      - name: Build Linux packages
+      # Build each Linux package on this Linux runner so a bad bump (e.g. a
+      # renamed/missing asset or an autoPatchelf regression) is caught before it
+      # can be committed. Each is built independently so one failure doesn't stop
+      # the others from being validated; any package that fails to build has just
+      # its own bump dropped (restore-sources.py reverts that package's entries
+      # to HEAD), so the good bumps still go out. The darwin packages can't be
+      # built here. `<pkg>=<prefix>` maps each build attr to its source keys.
+      - name: Build Linux packages (drop bumps that fail to build)
         run: |
-          nix build --no-link --print-out-paths \
-            '.#packages.x86_64-linux.pi' \
-            '.#packages.x86_64-linux.cli-proxy-api' \
-            '.#packages.x86_64-linux.codex' \
-            '.#packages.x86_64-linux.claude-code' \
-            '.#packages.x86_64-linux.zed-editor-preview'
+          pkgs=(
+            pi=pi-
+            cli-proxy-api=cli-proxy-api-
+            codex=codex-
+            claude-code=claude-code-
+            zed-editor-preview=zed-preview-
+            vite-plus=vite-plus-
+          )
+          failed_prefixes=()
+          failed_names=()
+          for entry in "${pkgs[@]}"; do
+            name=${entry%%=*}
+            prefix=${entry#*=}
+            echo "::group::build $name"
+            if nix build --no-link --print-out-paths ".#packages.x86_64-linux.$name"; then
+              echo "$name: ok"
+            else
+              echo "::warning::$name failed to build on x86_64-linux — dropping its bump"
+              failed_prefixes+=("$prefix")
+              failed_names+=("$name")
+            fi
+            echo "::endgroup::"
+          done
+          if (( ${#failed_prefixes[@]} )); then
+            python3 .github/restore-sources.py "${failed_prefixes[@]}"
+            echo "Dropped bumps for: ${failed_names[*]}"
+          fi
 
       - name: Commit bumps
         run: |
