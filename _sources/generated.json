@@ -53,11 +53,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-o03x5X+AIDImN6jaJ0Z5qCwn5CsrVPqI3qGOPlkiGEY=",
+            "sha256": "sha256-U0lKDRbhkvNKgmj4QX6JHBUw6iGzEJJ5w+4BKqetww4=",
             "type": "url",
-            "url": "https://github.com/block/buzz/releases/download/desktop-v0.5.5/Buzz_0.5.5_aarch64.dmg"
+            "url": "https://github.com/block/buzz/releases/download/desktop-v0.5.6/Buzz_0.5.6_aarch64.dmg"
         },
-        "version": "0.5.5"
+        "version": "0.5.6"
     },
     "claude-code-aarch64-darwin": {
         "cargoLock": null,
@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-4YsiuHPl0X8xdUDoxo2xzm6BUeyF347inZz0yPk3l8Q=",
+            "sha256": "sha256-Z7Ao+YxeQl8+dBDPv1G8aSTU6TI+SgsQc2hCLjuCSa8=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.121/CLIProxyAPI_7.2.121_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.123/CLIProxyAPI_7.2.123_darwin_aarch64.tar.gz"
         },
-        "version": "7.2.121"
+        "version": "7.2.123"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ycGew1vnEr/mC9cn7ogAknByko0ryxx44Lt+MBNKghs=",
+            "sha256": "sha256-V43nCsBYRF+qIGxz8dEGnWNCKpZrix3Tq8kPX/AjcFo=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.121/CLIProxyAPI_7.2.121_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.123/CLIProxyAPI_7.2.123_linux_aarch64.tar.gz"
         },
-        "version": "7.2.121"
+        "version": "7.2.123"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-KpNYQb/MZuGWXdaKrrZSmWM9ad5ZuL4JzlYTZISBK+4=",
+            "sha256": "sha256-wCxw+FY2x8aXHcYOKCrJsxFG2Z6W6CfnrDq1cB+lu0k=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.121/CLIProxyAPI_7.2.121_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.123/CLIProxyAPI_7.2.123_linux_amd64.tar.gz"
         },
-        "version": "7.2.121"
+        "version": "7.2.123"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
@@ -248,11 +248,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-RTl6dRppMaZdYA+tvq3dED7e930LLoRlkz/GSXrrcO8=",
+            "sha256": "sha256-kAQPsxtB1vJtS78es7TI1glRMTMu6aRk4OmHYYLYaTk=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10298/llama-b10298-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10322/llama-b10322-bin-macos-arm64.tar.gz"
         },
-        "version": "10298"
+        "version": "10322"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
@@ -278,11 +278,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-LrY5R0l246CMVgoZe+UHekJ6QSD939XOz4n/h70EOTQ=",
+            "sha256": "sha256-aDyEJh9AuHC0p8zxgaSK1uzXGFOwES0bthdTlTDGEh0=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v0.84.0/pi-darwin-arm64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v0.84.1/pi-darwin-arm64.tar.gz"
         },
-        "version": "0.84.0"
+        "version": "0.84.1"
     },
     "pi-aarch64-linux": {
         "cargoLock": null,
@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-Z+Mxqz4ZHkWiGXwRJ6e0Tpj+BNk9RlTXy6dpAZzxtpQ=",
+            "sha256": "sha256-q5XAWKRlG1/12Mh45STt+3diY8ekRPMlUF8kfAVu7Pw=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v0.84.0/pi-linux-arm64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v0.84.1/pi-linux-arm64.tar.gz"
         },
-        "version": "0.84.0"
+        "version": "0.84.1"
     },
     "pi-x86_64-linux": {
         "cargoLock": null,
@@ -308,11 +308,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-Bh5P0ZGq9XM7cJrsMPzgaTt1dakT6UKZDA3p8x/FxNs=",
+            "sha256": "sha256-VjTX69GCdLY68zcelC80LXS+oBI4lXXB0f8VzmyoDC8=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v0.84.0/pi-linux-x64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v0.84.1/pi-linux-x64.tar.gz"
         },
-        "version": "0.84.0"
+        "version": "0.84.1"
     },
     "vite-plus-aarch64-darwin": {
         "cargoLock": null,
