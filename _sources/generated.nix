@@ -32,34 +32,34 @@
   };
   buzz-desktop-aarch64-darwin = {
     pname = "buzz-desktop-aarch64-darwin";
-    version = "0.5.6";
+    version = "0.5.7";
     src = fetchurl {
-      url = "https://github.com/block/buzz/releases/download/desktop-v0.5.6/Buzz_0.5.6_aarch64.dmg";
-      sha256 = "sha256-U0lKDRbhkvNKgmj4QX6JHBUw6iGzEJJ5w+4BKqetww4=";
+      url = "https://github.com/block/buzz/releases/download/desktop-v0.5.7/Buzz_0.5.7_aarch64.dmg";
+      sha256 = "sha256-myGGxoQ9cm42WQgFSHmiS304O4XH6gLhTEdK1YJL7/k=";
     };
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.224";
+    version = "2.1.226";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.224/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-egIoyVuKXVrAiMA8/jgQ+s2d6JND3EqJLcechBrsFBY=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.226/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-PlmjMPEulVL60q0pC9Rw9U3HpnJkP/8t6m+ZUrQGIvI=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.224";
+    version = "2.1.226";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.224/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-Zn4wpauDLf026GQ0tLlA1c63r3TilFE6Ux8vGuSjhuo=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.226/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-ktLMlL5ooHzNNyRcQlYUHLlAGDGDFniVghJQj8dQBws=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.224";
+    version = "2.1.226";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.224/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-K0WZ/AL7TNLhKbQD8efK6orYx0JhQQ9U6LWfJLamsTw=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.226/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-QnzZ8qnHu75e7OAs4zbwXxbeaOnYKjAGoYdmSDiXcIw=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
@@ -136,18 +136,18 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "10322";
+    version = "10326";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10322/llama-b10322-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-kAQPsxtB1vJtS78es7TI1glRMTMu6aRk4OmHYYLYaTk=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10326/llama-b10326-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-PwlySGuGqDWYWvFMvW1/1gmZwfdDfGcxRprZHi8n8L8=";
     };
   };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
-    version = "2026.8.2";
+    version = "2026.8.3";
     src = fetchurl {
-      url = "https://github.com/jdx/mise/releases/download/v2026.8.2/mise-v2026.8.2-macos-arm64.tar.gz";
-      sha256 = "sha256-bX/zrWcSYEE9fp4TyLTC1hDXwwN1Hh0qzZzaI0++Bs8=";
+      url = "https://github.com/jdx/mise/releases/download/v2026.8.3/mise-v2026.8.3-macos-arm64.tar.gz";
+      sha256 = "sha256-RvL/dyRP18qpYC/bGQ5ds9o9YO1dG1eVEqrZQjA6R3o=";
     };
   };
   pi-aarch64-darwin = {
