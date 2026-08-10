@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-0dJLVZrYnYhcajusOqwmgvoHmNqqBJcYwD3iDrL2iEo=",
+            "sha256": "sha256-Ao9rssoBQicyn+9FmSP8xc7ZtpxvM4t4MXsLX3nfStA=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.126/CLIProxyAPI_7.2.126_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.127/CLIProxyAPI_7.2.127_darwin_aarch64.tar.gz"
         },
-        "version": "7.2.126"
+        "version": "7.2.127"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-CuMpO8+3NePkDwgdwg3g0oX+yuDKEDwXtpLVKawSMNk=",
+            "sha256": "sha256-3IWUbYc2XMdGkngXO66DKwdengZJPLywc3+v2g4gv+U=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.126/CLIProxyAPI_7.2.126_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.127/CLIProxyAPI_7.2.127_linux_aarch64.tar.gz"
         },
-        "version": "7.2.126"
+        "version": "7.2.127"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-z/qtr1msoUotwyMRkUQMg3ie74FERe8QCIH1UU6Qips=",
+            "sha256": "sha256-yCb9JgEvlG6JAWaLRbzto3n7X85aC7ydQ36c2/JDcTE=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.126/CLIProxyAPI_7.2.126_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.127/CLIProxyAPI_7.2.127_linux_amd64.tar.gz"
         },
-        "version": "7.2.126"
+        "version": "7.2.127"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
