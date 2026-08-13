@@ -32,10 +32,10 @@
   };
   buzz-desktop-aarch64-darwin = {
     pname = "buzz-desktop-aarch64-darwin";
-    version = "0.5.10";
+    version = "0.5.11";
     src = fetchurl {
-      url = "https://github.com/block/buzz/releases/download/desktop-v0.5.10/Buzz_0.5.10_aarch64.dmg";
-      sha256 = "sha256-eFx4eUFH0EY5gb3LaNvLnoYZMHjLyUiEoXPm6f3cgbY=";
+      url = "https://github.com/block/buzz/releases/download/desktop-v0.5.11/Buzz_0.5.11_aarch64.dmg";
+      sha256 = "sha256-lwdEM3Y7h46xP6LbbUVrxHNRYcakbIjnn12Prfs+c0o=";
     };
   };
   claude-code-aarch64-darwin = {
