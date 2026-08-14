@@ -40,26 +40,26 @@
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.231";
+    version = "2.1.232";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.231/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-cAFEoLqH73fvTDFCj9OPdYMu4JHtMQ1b4VsdcnZKDXc=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.232/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-Id3FfYXobu7oGhg3vj8pZdbn0yD/8eAob7IP3iPIvpw=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.231";
+    version = "2.1.232";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.231/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-3kHfIqKJg0LpfMnGNpRZf+IUQjdocU07nJ/DycWITWo=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.232/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-F7CFEd3gfmHZLrIR9/5V6TR3tGEdv297U8YyBjwANdA=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.231";
+    version = "2.1.232";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.231/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-mztKf6zlMERbALWqdrdDIsqqxmT10HBOODKc0ppBXrE=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.232/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-QVA09AuEBmrGNfiK1wle8ZTbssBbt17KT/asL9IPaHc=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
@@ -136,10 +136,10 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "10417";
+    version = "10423";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10417/llama-b10417-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-f5uVgt6jGC6KvwvPCI13qUpnxa7jpuzHfJhVjHFt4d0=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10423/llama-b10423-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-g+fVSRTzPp3ZAqYvy3XOlMjX6nwhUR44N13IjOIuBaU=";
     };
   };
   mise-aarch64-darwin = {
