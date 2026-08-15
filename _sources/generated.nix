@@ -64,26 +64,26 @@
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "7.2.132";
+    version = "7.2.133";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.132/CLIProxyAPI_7.2.132_darwin_aarch64.tar.gz";
-      sha256 = "sha256-Ng9BDHow3x3Bl5Sb/S8nKTCpQgzpNXiJwntA2K2fF/k=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.133/CLIProxyAPI_7.2.133_darwin_aarch64.tar.gz";
+      sha256 = "sha256-tTgWTwX8960KEVJuXRlLVWNmII4KfsqnT5zRKKmZBcc=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "7.2.132";
+    version = "7.2.133";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.132/CLIProxyAPI_7.2.132_linux_aarch64.tar.gz";
-      sha256 = "sha256-NqqhpAkWkz1D/6k+vqkXzIzT1o2zCxnCKW/ETdM8Mgg=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.133/CLIProxyAPI_7.2.133_linux_aarch64.tar.gz";
+      sha256 = "sha256-wSzA7Xu0MVIta60KJea32kjmKvWnsgyE/arioJlYfqg=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "7.2.132";
+    version = "7.2.133";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.132/CLIProxyAPI_7.2.132_linux_amd64.tar.gz";
-      sha256 = "sha256-OBPsNj7lO9LsbIdvimrfeUqCJHykGgmU3oUUpAiIhjk=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.133/CLIProxyAPI_7.2.133_linux_amd64.tar.gz";
+      sha256 = "sha256-GJBasmmnvPf4uJr6WK5eKJ8Wqsgqqb2UynUnmQ+wbko=";
     };
   };
   codex-aarch64-darwin = {
@@ -136,10 +136,10 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "10435";
+    version = "10447";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10435/llama-b10435-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-6+QmnOUgkUvISdDT+wRZaf1CAcaX0RfpkzLAYxxPoVk=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10447/llama-b10447-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-Jr7Jt+gkuGVBCk2Oxkk9cXJ3ziR+foPMLEKXA2P4oiI=";
     };
   };
   mise-aarch64-darwin = {
