@@ -23,9 +23,15 @@ stdenv.mkDerivation {
   dontStrip = true;
   dontFixup = true;
 
+  # Vite+ ships a SINGLE binary that self-dispatches on argv[0]: the same `vp`,
+  # invoked under the name `vpx`, becomes the package runner (`vpx <pkg> ...`).
+  # There is no `vp x` subcommand. Upstream exposes `vpx` at runtime via `vp`'s
+  # shim dir on PATH; a static symlink to the same binary is the declarative
+  # equivalent and runs the identical (official, unmodified) code path.
   installPhase = ''
     runHook preInstall
     install -Dm755 vp $out/bin/vp
+    ln -s vp $out/bin/vpx
     runHook postInstall
   '';
 
