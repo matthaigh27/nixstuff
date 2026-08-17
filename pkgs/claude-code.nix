@@ -1,12 +1,14 @@
-{ stdenv, lib, makeBinaryWrapper, procps, ripgrep, bubblewrap, socat, sources
+{ stdenv, lib, makeBinaryWrapper, musl, procps, ripgrep, bubblewrap, socat, sources
 , binName ? "claude"
 }:
 
 # Claude Code — https://github.com/anthropics/claude-code
 #
 # The official native (Bun-compiled) standalone binary from the GitHub release.
-# We take the static musl build on Linux, so — unlike a glibc binary — it needs
-# no autoPatchelf and runs as-is. Version + per-arch hashes come from nvfetcher.
+# We take the musl build on Linux. It is dynamically linked despite the release
+# asset previously being described as static, so invoke it through nixpkgs'
+# musl loader rather than relying on a global /lib/ld-musl-*.so.1. Version and
+# per-arch hashes come from nvfetcher.
 #
 # Wrapping mirrors sadjow/claude-code-nix: disable the self-updater and install
 # checks (the store is read-only), force the vendored ripgrep off in favour of a
@@ -37,8 +39,16 @@ stdenv.mkDerivation {
 
     install -m755 claude $out/bin/.claude-unwrapped
 
-    makeBinaryWrapper $out/bin/.claude-unwrapped $out/bin/${binName} \
-      --inherit-argv0 \
+    makeBinaryWrapper \
+      ${
+        if stdenv.hostPlatform.isLinux then
+          "${musl}/lib/ld-musl-${stdenv.hostPlatform.linuxArch}.so.1"
+        else
+          "$out/bin/.claude-unwrapped"
+      } \
+      $out/bin/${binName} \
+      ${lib.optionalString stdenv.hostPlatform.isLinux "--add-flags $out/bin/.claude-unwrapped"} \
+      ${lib.optionalString (!stdenv.hostPlatform.isLinux) "--inherit-argv0"} \
       --set DISABLE_AUTOUPDATER 1 \
       --set DISABLE_INSTALLATION_CHECKS 1 \
       --set USE_BUILTIN_RIPGREP 0 \
