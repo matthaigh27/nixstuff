@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-0SVLP3hrceYZ0g3YMeNWeM4LO7wW7OV9tvqMy5DFM0k=",
+            "sha256": "sha256-bAsZkj/ETnCKrmiup71WpF4ueyOG4W56RnxfnRALP4Q=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.235/claude-darwin-arm64.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.236/claude-darwin-arm64.tar.gz"
         },
-        "version": "2.1.235"
+        "version": "2.1.236"
     },
     "claude-code-aarch64-linux": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-WUwJu7NM57rz8T3YTVPVMadzmr4Bo3U0Yohy+0rKEm0=",
+            "sha256": "sha256-DEJkn+kL7yHwhsMi+0jLYY/KttX8tmhFFkpPj4ocNEc=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.235/claude-linux-arm64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.236/claude-linux-arm64-musl.tar.gz"
         },
-        "version": "2.1.235"
+        "version": "2.1.236"
     },
     "claude-code-x86_64-linux": {
         "cargoLock": null,
@@ -98,11 +98,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ZOXIZtaxKl7umooCl+kMT6XySoxMAs87t6mtD3uXMe4=",
+            "sha256": "sha256-GdPZ6WI93fR6GQq6JIFoQKG4+WXbMmba9+dkZ6mNtJc=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.235/claude-linux-x64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.236/claude-linux-x64-musl.tar.gz"
         },
-        "version": "2.1.235"
+        "version": "2.1.236"
     },
     "cli-proxy-api-aarch64-darwin": {
         "cargoLock": null,
@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-jZktslk/Z1hmNcFYuQ3N0cWP04gQ3Ov5qivd2DAAfdI=",
+            "sha256": "sha256-FUqNGbOX3BVYs8W8Zg6jQTbOJZHZC6EkNnLA1hCpJo0=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.136/CLIProxyAPI_7.2.136_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.137/CLIProxyAPI_7.2.137_darwin_aarch64.tar.gz"
         },
-        "version": "7.2.136"
+        "version": "7.2.137"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-6L5gfKr3x2/YHNxIOv41Riz09uIJ5bb0G9DHcC6KSxA=",
+            "sha256": "sha256-HAHnOJopzbhl9zxpQIYFN0hBs+ZmPjSiQSbNmV3ZFbY=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.136/CLIProxyAPI_7.2.136_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.137/CLIProxyAPI_7.2.137_linux_aarch64.tar.gz"
         },
-        "version": "7.2.136"
+        "version": "7.2.137"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-j5FgmCvC8mFC97dqc/zFD5VMRTRw1aau+oEyStGNoog=",
+            "sha256": "sha256-rmjHduEk28jIxbhsUB/GkG76GAzF41ODrbJtBcLJFAE=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.136/CLIProxyAPI_7.2.136_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.137/CLIProxyAPI_7.2.137_linux_amd64.tar.gz"
         },
-        "version": "7.2.136"
+        "version": "7.2.137"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
@@ -248,11 +248,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-rakLvEeHyqxJ+7le0kh6A/tLu0VgV6MeMWh44aiVgno=",
+            "sha256": "sha256-z3gV+N3t2a95tevQpFVvdIUuUij+fmG5vjFxZZgxItU=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10488/llama-b10488-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10502/llama-b10502-bin-macos-arm64.tar.gz"
         },
-        "version": "10488"
+        "version": "10502"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
@@ -368,10 +368,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-+EFaK0Gn3K3WclGpO/I45DNmd0TelLgEVj75iI+e+g4=",
+            "sha256": "sha256-TXjuWbp8esZ8X9CFAOdoAgHibK23Pd70ezE8lvRhEwc=",
             "type": "url",
-            "url": "https://github.com/zed-industries/zed/releases/download/v1.16.1-pre/zed-linux-x86_64.tar.gz"
+            "url": "https://github.com/zed-industries/zed/releases/download/v1.17.0-pre/zed-linux-x86_64.tar.gz"
         },
-        "version": "1.16.1-pre"
+        "version": "1.17.0-pre"
     }
 }
