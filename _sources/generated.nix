@@ -40,50 +40,50 @@
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.239";
+    version = "2.1.240";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.239/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-EbA3XRCBN6W0COl8ep9ZMzYlmaQUVyrIhte15fkFyh4=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.240/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-U+qGAtWV1NIEk0NmJUW24in1EVJaO0zG/mIsHfQ1Wyo=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.239";
+    version = "2.1.240";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.239/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-3HQvk0bB4M2rO73BvOaYnonb4tsyDxaWlhaYaWetyP8=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.240/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-GV1KPzLzDFphxCeWaoCg0TihSllC2xufrBTxYjHoEeM=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.239";
+    version = "2.1.240";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.239/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-aH7vUAS5+se9DbLm2UIoBrLj8/nqGHfn5A2eBhn5788=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.240/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-noAcXBO7cD7Tubm5DOYAVNaZAb429wv0uzLt7mw0phw=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "7.2.139";
+    version = "7.2.140";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.139/CLIProxyAPI_7.2.139_darwin_aarch64.tar.gz";
-      sha256 = "sha256-P1hKsdedxfX5EkehoHghd4oM/FceGEMJH7Cx3S+LLn0=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.140/CLIProxyAPI_7.2.140_darwin_aarch64.tar.gz";
+      sha256 = "sha256-R6pSnimnWAQoOtRCBjkOHDWykOLE4ZFzm9gnWUYex+c=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "7.2.139";
+    version = "7.2.140";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.139/CLIProxyAPI_7.2.139_linux_aarch64.tar.gz";
-      sha256 = "sha256-WVqHPY6DW3Mn/rPO5MEHUlWgeo0Xv/1c8vNm16AAiIQ=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.140/CLIProxyAPI_7.2.140_linux_aarch64.tar.gz";
+      sha256 = "sha256-9qlbNL5lj2njJxE6NCFwvrC0ALcm2/C8UrZ1j+uAgdE=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "7.2.139";
+    version = "7.2.140";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.139/CLIProxyAPI_7.2.139_linux_amd64.tar.gz";
-      sha256 = "sha256-HIM6Hv6Bqf4NMXVx2mrjtD0PFxhKXJ9Rm3cmrC/oFyQ=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.140/CLIProxyAPI_7.2.140_linux_amd64.tar.gz";
+      sha256 = "sha256-M0uEF/DCTSdEcA1jwQAjxbXXx8W0OxYJRWQygTznE78=";
     };
   };
   codex-aarch64-darwin = {
