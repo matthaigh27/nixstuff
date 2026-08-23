@@ -248,11 +248,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-rG7VMhXnCr+yIFJK7RIb8C29P71KGTVQMt0cWhCPshI=",
+            "sha256": "sha256-8YdkjSNQtBzuTOvGuxtUHMOjv5FEqRvgKMc3M8cl4Ys=",
             "type": "url",
-            "url": "https://github.com/jdx/mise/releases/download/v2026.8.10/mise-v2026.8.10-macos-arm64.tar.gz"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.8.11/mise-v2026.8.11-macos-arm64.tar.gz"
         },
-        "version": "2026.8.10"
+        "version": "2026.8.11"
     },
     "pi-aarch64-darwin": {
         "cargoLock": null,

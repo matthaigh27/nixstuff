@@ -136,10 +136,10 @@
   };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
-    version = "2026.8.10";
+    version = "2026.8.11";
     src = fetchurl {
-      url = "https://github.com/jdx/mise/releases/download/v2026.8.10/mise-v2026.8.10-macos-arm64.tar.gz";
-      sha256 = "sha256-rG7VMhXnCr+yIFJK7RIb8C29P71KGTVQMt0cWhCPshI=";
+      url = "https://github.com/jdx/mise/releases/download/v2026.8.11/mise-v2026.8.11-macos-arm64.tar.gz";
+      sha256 = "sha256-8YdkjSNQtBzuTOvGuxtUHMOjv5FEqRvgKMc3M8cl4Ys=";
     };
   };
   pi-aarch64-darwin = {
