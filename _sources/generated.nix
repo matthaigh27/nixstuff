@@ -88,50 +88,50 @@
   };
   codex-aarch64-darwin = {
     pname = "codex-aarch64-darwin";
-    version = "0.149.0";
+    version = "0.149.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.149.0/codex-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-DO9Plimve2vMS03irbYzN9HnegCoEeZigdpTVuPnT8Y=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.149.1/codex-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-7WD0dcbdpgRMLAD9fzMnPMPz+YkAzNEgS/3y/pNfNAU=";
     };
   };
   codex-aarch64-linux = {
     pname = "codex-aarch64-linux";
-    version = "0.149.0";
+    version = "0.149.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.149.0/codex-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-HMPrTC+6sEjIr64L67HlR0X4jZHlJJpEh2XTSiorqbs=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.149.1/codex-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-FN9oAuOalW3plOhEuQ1R2CVLzIBXtuZvDz47j34tpbA=";
     };
   };
   codex-code-mode-host-aarch64-darwin = {
     pname = "codex-code-mode-host-aarch64-darwin";
-    version = "0.149.0";
+    version = "0.149.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.149.0/codex-code-mode-host-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-7WpqCJxQ5yfvHwZC7nwGEbphHXbXICkxagUTvpG/skQ=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.149.1/codex-code-mode-host-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-quHAyUWXAKLol62t1kc1EUCueTOtc72NOvZQXGmk8/0=";
     };
   };
   codex-code-mode-host-aarch64-linux = {
     pname = "codex-code-mode-host-aarch64-linux";
-    version = "0.149.0";
+    version = "0.149.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.149.0/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-q/SpowjSxC5vuwSndwSsUJyCzqWqB5hINlvj+2VHSyI=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.149.1/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-li4CnfdytTy5d6AgTsQoTQxpMgeiWkkRBugpSq6N+gQ=";
     };
   };
   codex-code-mode-host-x86_64-linux = {
     pname = "codex-code-mode-host-x86_64-linux";
-    version = "0.149.0";
+    version = "0.149.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.149.0/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-NgCkWsKwn+PJlfT0mGATH+o4i0bECcgqAmb8TQNCoEw=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.149.1/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-YvosPl1LxYcgvXKy7iq4Y24aqp2CNt2uQaHM5ii1mus=";
     };
   };
   codex-x86_64-linux = {
     pname = "codex-x86_64-linux";
-    version = "0.149.0";
+    version = "0.149.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.149.0/codex-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-c2iyBV7QIVf+omlbufWvPuew5AxaO+vIHfxZZwQkTP0=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.149.1/codex-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-4k+3hMfXEUDWevtiD1bpE3SWz39snhkhf6Nmbc8wYng=";
     };
   };
   mise-aarch64-darwin = {
@@ -168,26 +168,26 @@
   };
   vite-plus-aarch64-darwin = {
     pname = "vite-plus-aarch64-darwin";
-    version = "0.2.9";
+    version = "0.3.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.2.9/vp-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-Gp/pHxiq7hU2+nal2WlGHGLM81YrOUMYC7LZz13HsI0=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.3.0/vp-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-0+eh5oK2Qhbj2pOTcdclm4I47CHeQp0DmRwZg6gqlh4=";
     };
   };
   vite-plus-aarch64-linux = {
     pname = "vite-plus-aarch64-linux";
-    version = "0.2.9";
+    version = "0.3.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.2.9/vp-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-JKGARcZ9AQCuGNyz1VP7JoaWDL05AVB26Xri4Dxa1bc=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.3.0/vp-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-tF2wSV70nvU80YuXVnAekFO80hV5YIJtEC3QgEsJa2k=";
     };
   };
   vite-plus-x86_64-linux = {
     pname = "vite-plus-x86_64-linux";
-    version = "0.2.9";
+    version = "0.3.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.2.9/vp-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-cTKKTGzvvEzCyffHKYVe0/fH9Ehlz5ySbGLQ1092zMg=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.3.0/vp-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-VI8pqJrYSsFFhoN309aJAnerAKe4Tv8z+j0hzHw3T5E=";
     };
   };
   zed-preview-x86_64-linux = {
