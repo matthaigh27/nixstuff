@@ -64,26 +64,26 @@
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "7.2.140";
+    version = "7.2.141";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.140/CLIProxyAPI_7.2.140_darwin_aarch64.tar.gz";
-      sha256 = "sha256-R6pSnimnWAQoOtRCBjkOHDWykOLE4ZFzm9gnWUYex+c=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.141/CLIProxyAPI_7.2.141_darwin_aarch64.tar.gz";
+      sha256 = "sha256-co+1ahpF3DWQ3blK2iRzk+4tRksIkXBWJILPWE+ie8I=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "7.2.140";
+    version = "7.2.141";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.140/CLIProxyAPI_7.2.140_linux_aarch64.tar.gz";
-      sha256 = "sha256-9qlbNL5lj2njJxE6NCFwvrC0ALcm2/C8UrZ1j+uAgdE=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.141/CLIProxyAPI_7.2.141_linux_aarch64.tar.gz";
+      sha256 = "sha256-KIHApry8QSxLvbJ5n/vxtLzdknR14eQvYhto6uMU7z8=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "7.2.140";
+    version = "7.2.141";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.140/CLIProxyAPI_7.2.140_linux_amd64.tar.gz";
-      sha256 = "sha256-M0uEF/DCTSdEcA1jwQAjxbXXx8W0OxYJRWQygTznE78=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.141/CLIProxyAPI_7.2.141_linux_amd64.tar.gz";
+      sha256 = "sha256-pwAV7jA1AuJL5kBh3Q1ZhbK0YA8GBaB2uZMyLTt+/7M=";
     };
   };
   codex-aarch64-darwin = {
@@ -136,34 +136,34 @@
   };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
-    version = "2026.8.11";
+    version = "2026.8.12";
     src = fetchurl {
-      url = "https://github.com/jdx/mise/releases/download/v2026.8.11/mise-v2026.8.11-macos-arm64.tar.gz";
-      sha256 = "sha256-8YdkjSNQtBzuTOvGuxtUHMOjv5FEqRvgKMc3M8cl4Ys=";
+      url = "https://github.com/jdx/mise/releases/download/v2026.8.12/mise-v2026.8.12-macos-arm64.tar.gz";
+      sha256 = "sha256-OZw1+nkAjkHdoiu+d5b3LjP5kXS8gLxP8YgcKZm/ykc=";
     };
   };
   pi-aarch64-darwin = {
     pname = "pi-aarch64-darwin";
-    version = "0.84.2";
+    version = "0.84.3";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v0.84.2/pi-darwin-arm64.tar.gz";
-      sha256 = "sha256-yZboiLf33ORLzyT2kXasZGxEE505Fr1JprKOWoxeOmU=";
+      url = "https://github.com/earendil-works/pi/releases/download/v0.84.3/pi-darwin-arm64.tar.gz";
+      sha256 = "sha256-ASDJ+Z6gX+gB5ufCydkd1lY2VjyggDcRs3ufMpINS2M=";
     };
   };
   pi-aarch64-linux = {
     pname = "pi-aarch64-linux";
-    version = "0.84.2";
+    version = "0.84.3";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v0.84.2/pi-linux-arm64.tar.gz";
-      sha256 = "sha256-0VNy2p5LTF/vn9Fb7XbX9fFyDdOf583g7GLltlrWPvE=";
+      url = "https://github.com/earendil-works/pi/releases/download/v0.84.3/pi-linux-arm64.tar.gz";
+      sha256 = "sha256-581IzW9ktwjoRZqJCIKxAHMy9ua4dv4f1cUgOr0K3bc=";
     };
   };
   pi-x86_64-linux = {
     pname = "pi-x86_64-linux";
-    version = "0.84.2";
+    version = "0.84.3";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v0.84.2/pi-linux-x64.tar.gz";
-      sha256 = "sha256-kG++eH/SJcSsYk/n69Wx1Vpg4PXH71F5XSMVZPnuHBM=";
+      url = "https://github.com/earendil-works/pi/releases/download/v0.84.3/pi-linux-x64.tar.gz";
+      sha256 = "sha256-b4u2fCG8a4qKEG01T1bX/UoZCjzYrToy20X20oGl0Ag=";
     };
   };
   vite-plus-aarch64-darwin = {
@@ -192,10 +192,10 @@
   };
   zed-preview-x86_64-linux = {
     pname = "zed-preview-x86_64-linux";
-    version = "1.17.0-pre";
+    version = "1.17.1-pre";
     src = fetchurl {
-      url = "https://github.com/zed-industries/zed/releases/download/v1.17.0-pre/zed-linux-x86_64.tar.gz";
-      sha256 = "sha256-TXjuWbp8esZ8X9CFAOdoAgHibK23Pd70ezE8lvRhEwc=";
+      url = "https://github.com/zed-industries/zed/releases/download/v1.17.1-pre/zed-linux-x86_64.tar.gz";
+      sha256 = "sha256-shKuNLlSs5W4T3sNbFU8zfVTivuuG1oyH8ihNRsrE9Y=";
     };
   };
 }
