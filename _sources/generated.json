@@ -239,6 +239,51 @@
         },
         "version": "0.149.1"
     },
+    "grok-aarch64-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "grok-aarch64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-Pfp/BPu1QnqPvq0oZZFUOq7LR4s6CrIixDKeyho7L4Y=",
+            "type": "url",
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.5-macos-aarch64"
+        },
+        "version": "1.0.5"
+    },
+    "grok-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "grok-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-HB/mfXw1SX+wn0SkUfV6zDeHrdTJrqLFb1x8ddxf/PE=",
+            "type": "url",
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.5-linux-aarch64"
+        },
+        "version": "1.0.5"
+    },
+    "grok-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "grok-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-m6h0ROGBno9hBK279GdqhwwgQ4CqXD4cOKkmxOpncjg=",
+            "type": "url",
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.5-linux-x86_64"
+        },
+        "version": "1.0.5"
+    },
     "llama-cpp-aarch64-darwin": {
         "cargoLock": null,
         "date": null,

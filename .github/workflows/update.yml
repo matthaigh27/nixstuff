@@ -53,6 +53,7 @@ jobs:
             cli-proxy-api=cli-proxy-api-
             codex=codex-
             claude-code=claude-code-
+            grok=grok-
             zed-editor-preview=zed-preview-
             vite-plus=vite-plus-
           )

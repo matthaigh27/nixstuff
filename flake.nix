@@ -14,6 +14,7 @@
         cli-proxy-api = ./pkgs/cli-proxy-api.nix;
         claude-code = ./pkgs/claude-code.nix;
         codex = ./pkgs/codex.nix;
+        grok = ./pkgs/grok.nix;
         agentgateway = ./pkgs/agentgateway.nix;
         mise = ./pkgs/mise.nix;
         llama-cpp = ./pkgs/llama-cpp.nix;

@@ -155,6 +155,31 @@ src.httpheader = "https://zed.dev/api/releases/preview/latest/zed-linux-x86_64.t
 src.regex = "download/v([^/]+)/"
 fetch.url = "https://github.com/zed-industries/zed/releases/download/v$ver/zed-linux-x86_64.tar.gz"
 
+# Grok Build — https://github.com/xai-org/grok-build. SpaceXAI's Rust coding
+# agent / TUI (`grok`). The repo publishes no GitHub releases: binaries ship
+# from x.ai's CDN, fronted by a plain-text channel pointer whose entire body is
+# the current version (e.g. "1.0.5"), so `src.webpage` + `src.regex` reads it.
+# Both the pointer and the artifacts are taken from the GCS bucket that
+# install.sh falls back to — the same objects x.ai/cli serves, but a direct
+# origin rather than the Cloudflare front, so a CI fetch can't be bot-gated.
+# Raw binaries (not tarballs); linux is musl + `crt-static` (static-pie), so no
+# autoPatchelf is needed. Only stable is tracked (there is also an `alpha`
+# pointer, and an `enterprise` one).
+[grok-aarch64-darwin]
+src.webpage = "https://storage.googleapis.com/grok-build-public-artifacts/cli/stable"
+src.regex = "[0-9]+\\.[0-9]+\\.[0-9]+"
+fetch.url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-$ver-macos-aarch64"
+
+[grok-aarch64-linux]
+src.webpage = "https://storage.googleapis.com/grok-build-public-artifacts/cli/stable"
+src.regex = "[0-9]+\\.[0-9]+\\.[0-9]+"
+fetch.url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-$ver-linux-aarch64"
+
+[grok-x86_64-linux]
+src.webpage = "https://storage.googleapis.com/grok-build-public-artifacts/cli/stable"
+src.regex = "[0-9]+\\.[0-9]+\\.[0-9]+"
+fetch.url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-$ver-linux-x86_64"
+
 # Vite+ — https://github.com/voidzero-dev/vite-plus. The unified web-dev
 # toolchain, shipped as a single Rust `vp` binary. The linux builds are
 # static-pie musl, so no autoPatchelf is needed (matching codex/claude-code).

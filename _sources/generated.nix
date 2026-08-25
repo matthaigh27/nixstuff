@@ -134,6 +134,30 @@
       sha256 = "sha256-4k+3hMfXEUDWevtiD1bpE3SWz39snhkhf6Nmbc8wYng=";
     };
   };
+  grok-aarch64-darwin = {
+    pname = "grok-aarch64-darwin";
+    version = "1.0.5";
+    src = fetchurl {
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.5-macos-aarch64";
+      sha256 = "sha256-Pfp/BPu1QnqPvq0oZZFUOq7LR4s6CrIixDKeyho7L4Y=";
+    };
+  };
+  grok-aarch64-linux = {
+    pname = "grok-aarch64-linux";
+    version = "1.0.5";
+    src = fetchurl {
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.5-linux-aarch64";
+      sha256 = "sha256-HB/mfXw1SX+wn0SkUfV6zDeHrdTJrqLFb1x8ddxf/PE=";
+    };
+  };
+  grok-x86_64-linux = {
+    pname = "grok-x86_64-linux";
+    version = "1.0.5";
+    src = fetchurl {
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.5-linux-x86_64";
+      sha256 = "sha256-m6h0ROGBno9hBK279GdqhwwgQ4CqXD4cOKkmxOpncjg=";
+    };
+  };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
     version = "10618";
