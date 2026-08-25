@@ -239,6 +239,21 @@
         },
         "version": "0.149.1"
     },
+    "llama-cpp-aarch64-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "llama-cpp-aarch64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-syubP1uEEvyFjM3nstBQPqNzZX57e7hcFh4FiMo0Eo8=",
+            "type": "url",
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10618/llama-b10618-bin-macos-arm64.tar.gz"
+        },
+        "version": "10618"
+    },
     "mise-aarch64-darwin": {
         "cargoLock": null,
         "date": null,

@@ -57,9 +57,15 @@ src.github = "jdx/mise"
 src.prefix = "v"
 fetch.url = "https://github.com/jdx/mise/releases/download/v$ver/mise-v$ver-macos-arm64.tar.gz"
 
-# llama.cpp — https://github.com/ggml-org/llama.cpp (darwin-arm64 only)
+# llama.cpp — https://github.com/ggml-org/llama.cpp (darwin-arm64 only).
+# Tracked by tag, not by "latest release": upstream now marks a separate
+# versioned release (v0.2.0, which only carries a nightly-tag.txt) as latest,
+# so `src.github` resolved to a tag with no binaries and nvfetcher dropped this
+# package entirely. The b#### builds are still published with the usual assets;
+# the regex keeps us on those and ignores the v-tags.
 [llama-cpp-aarch64-darwin]
-src.github = "ggml-org/llama.cpp"
+src.github_tag = "ggml-org/llama.cpp"
+src.include_regex = "b[0-9]+"
 src.prefix = "b"
 fetch.url = "https://github.com/ggml-org/llama.cpp/releases/download/b$ver/llama-b$ver-bin-macos-arm64.tar.gz"
 

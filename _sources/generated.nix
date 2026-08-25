@@ -134,6 +134,14 @@
       sha256 = "sha256-4k+3hMfXEUDWevtiD1bpE3SWz39snhkhf6Nmbc8wYng=";
     };
   };
+  llama-cpp-aarch64-darwin = {
+    pname = "llama-cpp-aarch64-darwin";
+    version = "10618";
+    src = fetchurl {
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10618/llama-b10618-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-syubP1uEEvyFjM3nstBQPqNzZX57e7hcFh4FiMo0Eo8=";
+    };
+  };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
     version = "2026.8.12";
