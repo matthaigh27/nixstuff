@@ -8,26 +8,26 @@
 {
   agentgateway-aarch64-darwin = {
     pname = "agentgateway-aarch64-darwin";
-    version = "1.4.1";
+    version = "1.5.0";
     src = fetchurl {
-      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.4.1/agentgateway-darwin-arm64";
-      sha256 = "sha256-8P3Elrbf0j90C/RY/zqAxEU9f9I5fwhRu0LF4AtoQdc=";
+      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.5.0/agentgateway-darwin-arm64";
+      sha256 = "sha256-2kMtNb1pbaBWT3sra7x4NUK2ucYW1sDE1MPa7536EaE=";
     };
   };
   agentgateway-aarch64-linux = {
     pname = "agentgateway-aarch64-linux";
-    version = "1.4.1";
+    version = "1.5.0";
     src = fetchurl {
-      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.4.1/agentgateway-linux-arm64";
-      sha256 = "sha256-mDoJGeMNKH7DS6Uaaapnj7gcW4k6Wa4meynZ/TA2XQ4=";
+      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.5.0/agentgateway-linux-arm64";
+      sha256 = "sha256-YfEtu5lmmqS5e4WgBAGD/ksJj6CoKow4lmX+YGUXwT4=";
     };
   };
   agentgateway-x86_64-linux = {
     pname = "agentgateway-x86_64-linux";
-    version = "1.4.1";
+    version = "1.5.0";
     src = fetchurl {
-      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.4.1/agentgateway-linux-amd64";
-      sha256 = "sha256-IPeymODDbu8z59YSsNC5HYfUMST1mwH26bcwR39m2YI=";
+      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.5.0/agentgateway-linux-amd64";
+      sha256 = "sha256-2spc2nboxasMGnWRL+zy1jZQlUA/gQ23ICnEnRSjfns=";
     };
   };
   buzz-desktop-aarch64-darwin = {
@@ -40,50 +40,50 @@
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.247";
+    version = "2.1.250";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.247/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-d3CdxJmlfDEGgxFi/tAvfFIIl7sGHP0bTQYRD4q4cc4=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.250/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-OJo2eMhbS0XQZwm8VjvAxyzjfOzfssaRy2WfIn7eRl0=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.247";
+    version = "2.1.250";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.247/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-zw8xBYFzy/qWKhq6GsMdSZdch0WLFRTiWLxVwBf+fv4=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.250/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-HV/hL1oDA4q9JvARjqXP3v3xiJtJorf0ar3Pgyir500=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.247";
+    version = "2.1.250";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.247/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-x9dN1rydxpEeoKyHfEiDnuMamkMsmN3DNAOtTTpIqEU=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.250/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-qHGOq8D95e/6DNuMt4x+/H6RgPGTw6+SuHEzoc9o1Kw=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "7.2.143";
+    version = "7.2.144";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.143/CLIProxyAPI_7.2.143_darwin_aarch64.tar.gz";
-      sha256 = "sha256-7jx8DdqwXW80jbzOkrwrH2362naqSr9A0SJU7dP9Xm4=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.144/CLIProxyAPI_7.2.144_darwin_aarch64.tar.gz";
+      sha256 = "sha256-mkt9DRFm7loaWpkC2bI6pHcSqWetYSSuUMvuEf59WmU=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "7.2.143";
+    version = "7.2.144";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.143/CLIProxyAPI_7.2.143_linux_aarch64.tar.gz";
-      sha256 = "sha256-KgEGaaZWfGEP0qCZ3jsmEnvHUVHDIhDgVBAqzQaoIH8=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.144/CLIProxyAPI_7.2.144_linux_aarch64.tar.gz";
+      sha256 = "sha256-JIWHHWtoPG7f1asekYgWZiil4Myx7Hb1sfLn77P8gVE=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "7.2.143";
+    version = "7.2.144";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.143/CLIProxyAPI_7.2.143_linux_amd64.tar.gz";
-      sha256 = "sha256-kVT0YKVoSugtdPNkPXs/nIlhZZ0zBYRYye3ARPX3Ybo=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.144/CLIProxyAPI_7.2.144_linux_amd64.tar.gz";
+      sha256 = "sha256-Ar4a2WeR8dK35ldLsPaKPXViLkLLoH/s0BLldbpLKpY=";
     };
   };
   codex-aarch64-darwin = {
@@ -160,10 +160,10 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "10653";
+    version = "10665";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10653/llama-b10653-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-ih0wUMg69Qnczg/y90fPIKeitvcVByLNqFHX8vu2z14=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10665/llama-b10665-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-vqIGdF51HPiVfrcpzI8pUMpeU0DimqqaBVoOQQDavdE=";
     };
   };
   mise-aarch64-darwin = {
