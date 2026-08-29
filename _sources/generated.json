@@ -284,6 +284,21 @@
         },
         "version": "1.0.13"
     },
+    "llama-cpp-aarch64-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "llama-cpp-aarch64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-rR9AfbKyHrY2d575DEk7MnzlW1mrT8Q+2Bl8XGGDmwo=",
+            "type": "url",
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10687/llama-b10687-bin-macos-arm64.tar.gz"
+        },
+        "version": "10687"
+    },
     "mise-aarch64-darwin": {
         "cargoLock": null,
         "date": null,
