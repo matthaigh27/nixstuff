@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-xxFyirbzQMaeoyJUSXD8KxN4Fq26UBQ41XZwNlyOUT0=",
+            "sha256": "sha256-+vTHNbKJy4g0T4f9bXRc+aEdKKIx0AAXPYBFkQUDtUM=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.145/CLIProxyAPI_7.2.145_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.146/CLIProxyAPI_7.2.146_darwin_aarch64.tar.gz"
         },
-        "version": "7.2.145"
+        "version": "7.2.146"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-wDl0sOEPk/gQTEvmoGETXAeSQ5b8MQIVgCsKIqoz7lQ=",
+            "sha256": "sha256-CGrmUTqlIrvRAA9Og+W1Ij32A4vWnxxsrVZhm4TAaUc=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.145/CLIProxyAPI_7.2.145_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.146/CLIProxyAPI_7.2.146_linux_aarch64.tar.gz"
         },
-        "version": "7.2.145"
+        "version": "7.2.146"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-/7WdQGr5uEnskXQVTZZkKh08yzFfhofFasVSAoFumzc=",
+            "sha256": "sha256-Q+ESaGtKW3uBhTEUTNaV7qrN1UxG3O2Hvm+zlnwi4Uk=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.145/CLIProxyAPI_7.2.145_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.146/CLIProxyAPI_7.2.146_linux_amd64.tar.gz"
         },
-        "version": "7.2.145"
+        "version": "7.2.146"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-dFGrGQMLOqLbXeGhjPAlXdcF8VSVTXHRDCF9Sn3m35A=",
+            "sha256": "sha256-CpXpym26SMQHTSR23fZ0/7m6+b2/wWRDCZqd4EejJ3I=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10690/llama-b10690-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10703/llama-b10703-bin-macos-arm64.tar.gz"
         },
-        "version": "10690"
+        "version": "10703"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
