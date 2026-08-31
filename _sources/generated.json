@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-CpXpym26SMQHTSR23fZ0/7m6+b2/wWRDCZqd4EejJ3I=",
+            "sha256": "sha256-lAnbmd0n7FkjCRXN9BP5jSUhoLTSySLdPf15NRFwds0=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10703/llama-b10703-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10714/llama-b10714-bin-macos-arm64.tar.gz"
         },
-        "version": "10703"
+        "version": "10714"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
@@ -308,11 +308,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-47pSa2KcQfp7CRj3jnRspxp6Swx42/rKn7JWdqMYdi4=",
+            "sha256": "sha256-i3cp3HYeMRjdKRD+Qvx09yDKIYqBMcHMmNzWbKERwtU=",
             "type": "url",
-            "url": "https://github.com/jdx/mise/releases/download/v2026.8.14/mise-v2026.8.14-macos-arm64.tar.gz"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.8.15/mise-v2026.8.15-macos-arm64.tar.gz"
         },
-        "version": "2026.8.14"
+        "version": "2026.8.15"
     },
     "pi-aarch64-darwin": {
         "cargoLock": null,
