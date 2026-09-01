@@ -88,50 +88,50 @@
   };
   codex-aarch64-darwin = {
     pname = "codex-aarch64-darwin";
-    version = "0.151.0";
+    version = "0.152.0";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.151.0/codex-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-ZAnixlmU0pSpK8czAUjrxEerI5CL1/XHHnGEJaYiyWU=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.152.0/codex-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-XJrkBsb3PDXpITCMf1o/rHBSisGtXDUj56tDKiI4r8E=";
     };
   };
   codex-aarch64-linux = {
     pname = "codex-aarch64-linux";
-    version = "0.151.0";
+    version = "0.152.0";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.151.0/codex-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-wc8rrzdeJhwUaTgaUtwsj9Bbb7Rc//g/7QmI/WxTabY=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.152.0/codex-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-N9prSGUDyKQsxGBNKj2A04jfiW3SUekiX089SbCMLow=";
     };
   };
   codex-code-mode-host-aarch64-darwin = {
     pname = "codex-code-mode-host-aarch64-darwin";
-    version = "0.151.0";
+    version = "0.152.0";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.151.0/codex-code-mode-host-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-m6uHiI+dezLOz0blw98aC3qBD0QoHI7AzzlTRWncFvI=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.152.0/codex-code-mode-host-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-PRG9THC4Ip7E1woxFJADxBmxhgOzJW4P3V2uFmfgp9w=";
     };
   };
   codex-code-mode-host-aarch64-linux = {
     pname = "codex-code-mode-host-aarch64-linux";
-    version = "0.151.0";
+    version = "0.152.0";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.151.0/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-FVFTlmdXN9lH3LNw2gpbJY5q6ocURmObBlygBLhDpJg=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.152.0/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-E0GDx/W7IkXtS7Fc/PANGmSVCtvdCJ0zwAPIvPEyZ+k=";
     };
   };
   codex-code-mode-host-x86_64-linux = {
     pname = "codex-code-mode-host-x86_64-linux";
-    version = "0.151.0";
+    version = "0.152.0";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.151.0/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-My2mghXwcDIctS6+eS7M6N/WFNAupVQTCdCl3wHhSJQ=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.152.0/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-RJzv41ufNH4/2/Eh6BYzmzeCXrC/7n3oKYoKYbZofLo=";
     };
   };
   codex-x86_64-linux = {
     pname = "codex-x86_64-linux";
-    version = "0.151.0";
+    version = "0.152.0";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.151.0/codex-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-YFtLGD8ixkX13vY6W3GRdnQH+2am/q7E6vELW34AWPY=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.152.0/codex-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-BflC09PFtazZ7a1WzieXtv5y27FGKyTlyb99zsmiihE=";
     };
   };
   grok-aarch64-darwin = {
@@ -160,10 +160,10 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "10729";
+    version = "10731";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10729/llama-b10729-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-Wbvsmnyf1vDHj8EIpF3xi71BWjbC3RCzkNhQLoZTrd8=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10731/llama-b10731-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-cLnYA/Lw9+TnM6zdWFxTcmGuIKg42o4ti5VSWcnc648=";
     };
   };
   mise-aarch64-darwin = {
