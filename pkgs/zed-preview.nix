@@ -5,6 +5,7 @@
   makeWrapper,
   alsa-lib,
   fontconfig,
+  glib,
   vulkan-loader,
   wayland,
   libxkbcommon,
@@ -30,6 +31,7 @@ stdenv.mkDerivation {
   buildInputs = [
     alsa-lib
     fontconfig
+    glib
     openssl
     wayland
     libxkbcommon
