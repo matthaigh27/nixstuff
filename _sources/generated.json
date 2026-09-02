@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-xq1k9BDuTJYu+1WD6+i1zbkcZpWjHes8iR0XimbFhy8=",
+            "sha256": "sha256-CV9/CMKYQ07fcbpUNUcIcUpobHRzoBJ7bL1gGqnGcUE=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10751/llama-b10751-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10754/llama-b10754-bin-macos-arm64.tar.gz"
         },
-        "version": "10751"
+        "version": "10754"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
@@ -413,10 +413,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-fPs45VumJ7XMzwrZIx8jlrrTof5BvzbTPSepzcbgY/A=",
+            "sha256": "sha256-u5OabUENqlOBzKs6i37nwBzxRzVgPSOlzok5mYTGDq0=",
             "type": "url",
-            "url": "https://github.com/zed-industries/zed/releases/download/v1.17.2-pre/zed-linux-x86_64.tar.gz"
+            "url": "https://github.com/zed-industries/zed/releases/download/v1.18.0-pre/zed-linux-x86_64.tar.gz"
         },
-        "version": "1.17.2-pre"
+        "version": "1.18.0-pre"
     }
 }
