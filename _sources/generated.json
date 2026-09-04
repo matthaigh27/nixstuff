@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-LpRA3VbJGfli6IlsK4+JmyXMAg68rXqtcCyF5xAtZCI=",
+            "sha256": "sha256-wzPJm8Trjj0QaFr7O6DFt754ZPG3AldfLG0UW/43Ayk=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.259/claude-darwin-arm64.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.260/claude-darwin-arm64.tar.gz"
         },
-        "version": "2.1.259"
+        "version": "2.1.260"
     },
     "claude-code-aarch64-linux": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-9ZL+Uj8/WoPX14ACwDcRJGPtQGFP+S5os9Elfl9zKUI=",
+            "sha256": "sha256-GieBYYzMZ66juCx1z67FNynIqGmJfOpsffTcsyds2vg=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.259/claude-linux-arm64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.260/claude-linux-arm64-musl.tar.gz"
         },
-        "version": "2.1.259"
+        "version": "2.1.260"
     },
     "claude-code-x86_64-linux": {
         "cargoLock": null,
@@ -98,11 +98,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-309lkglW/5N6Ee1C9E4vvXVxt86a/shINWWHLVb/6Jk=",
+            "sha256": "sha256-uYYTKRMobelhoa+LliQqti8SxIu15mtTY8trQHyDHWQ=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.259/claude-linux-x64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.260/claude-linux-x64-musl.tar.gz"
         },
-        "version": "2.1.259"
+        "version": "2.1.260"
     },
     "cli-proxy-api-aarch64-darwin": {
         "cargoLock": null,
@@ -158,11 +158,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-gY88ZcaXOuVFhrpS+ON8dnPz9bjgnHSFjBniXHRHkiY=",
+            "sha256": "sha256-kd/CcPDfuuwW2BTxqpDU8n503J43hOZABr7zt5/p4Jw=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.1/codex-aarch64-apple-darwin.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.2/codex-aarch64-apple-darwin.tar.gz"
         },
-        "version": "0.153.1"
+        "version": "0.153.2"
     },
     "codex-aarch64-linux": {
         "cargoLock": null,
@@ -173,11 +173,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-fCbp9uQkv2GMM66CY/OzocHMMsgr+/1fJ7bIFAJhhmQ=",
+            "sha256": "sha256-h4aT+bNwMg6iF5P5nqH1aHt9mqHyxzPeaT2ewLqk5io=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.1/codex-aarch64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.2/codex-aarch64-unknown-linux-musl.tar.gz"
         },
-        "version": "0.153.1"
+        "version": "0.153.2"
     },
     "codex-code-mode-host-aarch64-darwin": {
         "cargoLock": null,
@@ -188,11 +188,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-SoeqiaGYl268aKhQF7NiNO3RsSbftj2UwQog/Pq4FHk=",
+            "sha256": "sha256-NHHlSmFB+8vpTOyH0UNwNTZn1A81DvFvqgBevBhUMAs=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.1/codex-code-mode-host-aarch64-apple-darwin.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.2/codex-code-mode-host-aarch64-apple-darwin.tar.gz"
         },
-        "version": "0.153.1"
+        "version": "0.153.2"
     },
     "codex-code-mode-host-aarch64-linux": {
         "cargoLock": null,
@@ -203,11 +203,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-JeIWCBhwbkjFEVUB1ZhvuMPoWsciZ/YZxJRLXhRlzEA=",
+            "sha256": "sha256-cP5IXmkZoDi3X3C+capXgqGaXzbuhVlzAekL0cm8vwc=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.1/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.2/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz"
         },
-        "version": "0.153.1"
+        "version": "0.153.2"
     },
     "codex-code-mode-host-x86_64-linux": {
         "cargoLock": null,
@@ -218,11 +218,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-RTnhBlluIDyfburyD+MoqXUUR9fWVhviWWieoHlfg7A=",
+            "sha256": "sha256-F3pFB7nMf5fxE6wDRpezn2pxqHaovVCP9tf1LzQuvko=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.1/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.2/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz"
         },
-        "version": "0.153.1"
+        "version": "0.153.2"
     },
     "codex-x86_64-linux": {
         "cargoLock": null,
@@ -233,11 +233,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-CBiM3sQMKQnoSznYTtGtAPA6m/4DRv1CLvWQ+n0jSH8=",
+            "sha256": "sha256-6M0RYAcfcl0qEMq4EHPdaBj8iwljchJdJ+9uZv3wl54=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.1/codex-x86_64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.153.2/codex-x86_64-unknown-linux-musl.tar.gz"
         },
-        "version": "0.153.1"
+        "version": "0.153.2"
     },
     "grok-aarch64-darwin": {
         "cargoLock": null,
@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-K5qIF+gcaTZvuz5uMQDeQVjF6o1tQLbNLQYCQuF31yE=",
+            "sha256": "sha256-Qvgue/Y+JCokkmijTlhqgxj7WL/fmHEXjba86R1h9A0=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10793/llama-b10793-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10796/llama-b10796-bin-macos-arm64.tar.gz"
         },
-        "version": "10793"
+        "version": "10796"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
