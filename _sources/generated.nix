@@ -32,10 +32,10 @@
   };
   buzz-desktop-aarch64-darwin = {
     pname = "buzz-desktop-aarch64-darwin";
-    version = "0.5.22";
+    version = "0.5.23";
     src = fetchurl {
-      url = "https://github.com/block/buzz/releases/download/desktop-v0.5.22/Buzz_0.5.22_aarch64.dmg";
-      sha256 = "sha256-aFgZRaTG+TIef5yVQalSnbCsu9fDJHKW0c3Vf5iaLuA=";
+      url = "https://github.com/block/buzz/releases/download/desktop-v0.5.23/Buzz_0.5.23_aarch64.dmg";
+      sha256 = "sha256-kZfd4poJred/Vmd+B8tNap19GmoVfXIS8KBQFEBZxbI=";
     };
   };
   claude-code-aarch64-darwin = {
@@ -158,6 +158,14 @@
       sha256 = "sha256-7feVIVgbtea5Wr74SEkaanQuhg2j4jfr6GooDTDc5ME=";
     };
   };
+  llama-cpp-aarch64-darwin = {
+    pname = "llama-cpp-aarch64-darwin";
+    version = "10819";
+    src = fetchurl {
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10819/llama-b10819-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-iTPnNklerf7wcxrjIFSs+qdWmb9KbMunfNhHXbCF7GY=";
+    };
+  };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
     version = "2026.9.1";
@@ -168,26 +176,26 @@
   };
   pi-aarch64-darwin = {
     pname = "pi-aarch64-darwin";
-    version = "0.85.0";
+    version = "0.85.1";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v0.85.0/pi-darwin-arm64.tar.gz";
-      sha256 = "sha256-sKGjq5cIBH4xt2onkR6LRFs+Sjji9GoItmNd9180mcA=";
+      url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-darwin-arm64.tar.gz";
+      sha256 = "sha256-1fcOPAz3OY6sI5/QJh7gdNmLe6f2tD/jYX8FLtW3nQY=";
     };
   };
   pi-aarch64-linux = {
     pname = "pi-aarch64-linux";
-    version = "0.85.0";
+    version = "0.85.1";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v0.85.0/pi-linux-arm64.tar.gz";
-      sha256 = "sha256-ghdQ4Kxr9uEMNbk92riKRPLQ74QRr56k6P/mIPYhMN8=";
+      url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-linux-arm64.tar.gz";
+      sha256 = "sha256-BC0grohe5POxAoFfMoC5YsN3sun7RN5AN5CMxTDq5NQ=";
     };
   };
   pi-x86_64-linux = {
     pname = "pi-x86_64-linux";
-    version = "0.85.0";
+    version = "0.85.1";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v0.85.0/pi-linux-x64.tar.gz";
-      sha256 = "sha256-p+fGXx3FKNLhfn2UatK2HfDisPmVL67neAfCSEtGTW4=";
+      url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-linux-x64.tar.gz";
+      sha256 = "sha256-SU5Jj0fXTSH0CzOG9qXpIaPUlTGhacq1W72soOof4lo=";
     };
   };
   vite-plus-aarch64-darwin = {
