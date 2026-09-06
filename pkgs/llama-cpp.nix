@@ -26,6 +26,10 @@ stdenvNoCC.mkDerivation {
   # signatures, so `dontFixup` leaves the signed mach-o binaries untouched.
   installPhase = ''
     runHook preInstall
+    # Fail during packaging if upstream changes its archive layout.
+    for program in llama-cli llama-server llama-bench; do
+      test -x "$program" || { echo "Missing release executable: $program" >&2; exit 1; }
+    done
     mkdir -p $out/bin
     cp -R ./* $out/bin/
     runHook postInstall

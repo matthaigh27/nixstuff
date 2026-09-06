@@ -12,26 +12,28 @@ Usage: restore-sources.py <prefix> [<prefix> ...]
 import json
 import re
 import subprocess
-import sys
 
 NIX = "_sources/generated.nix"
 JSON = "_sources/generated.json"
 
 
+BASE = "HEAD"
+
+
 def head(path):
-    r = subprocess.run(["git", "show", f"HEAD:{path}"], capture_output=True, text=True)
-    return r.stdout if r.returncode == 0 else None
+    # A missing baseline is an error, never permission to delete source entries.
+    return subprocess.check_output(["git", "show", f"{BASE}:{path}"], text=True)
 
 
-def matches(key, prefixes):
-    return any(key.startswith(p) for p in prefixes)
+def matches(key, prefixes, exact=False):
+    return key in prefixes if exact else any(key.startswith(p) for p in prefixes)
 
 
-def restore_json(prefixes):
-    cur = json.load(open(JSON))
-    old_text = head(JSON)
-    old = json.loads(old_text) if old_text else {}
-    for key in [k for k in cur if matches(k, prefixes)]:
+def restore_json(prefixes, *, exact=False):
+    with open(JSON) as f:
+        cur = json.load(f)
+    old = json.loads(head(JSON))
+    for key in [k for k in cur.keys() | old.keys() if matches(k, prefixes, exact)]:
         if key in old:
             cur[key] = old[key]
         else:
@@ -49,7 +51,7 @@ def split_nix(text):
     """Return (header, [(key, block)], footer)."""
     lines = text.splitlines(keepends=True)
     entries, header, footer, i = [], [], [], 0
-    while i < len(lines) and not ENTRY.match(lines[i]):
+    while i < len(lines) and not ENTRY.match(lines[i]) and lines[i].strip() != "}":
         header.append(lines[i])
         i += 1
     while i < len(lines):
@@ -62,24 +64,28 @@ def split_nix(text):
         while i < len(lines) and lines[i] != "  };\n":
             block.append(lines[i])
             i += 1
+        if i == len(lines):
+            raise ValueError(f"unterminated source entry: {m.group(1)}")
         block.append(lines[i])  # the `  };` line
         i += 1
         entries.append((m.group(1), "".join(block)))
     return "".join(header), entries, "".join(footer)
 
 
-def restore_nix(prefixes):
-    _, old_entries, _ = split_nix(head(NIX) or "")
+def restore_nix(prefixes, *, exact=False):
+    _, old_entries, _ = split_nix(head(NIX))
     old = dict(old_entries)
-    header, entries, footer = split_nix(open(NIX).read())
+    with open(NIX) as f:
+        header, entries, footer = split_nix(f.read())
+    cur = dict(entries)
     out = []
-    for key, block in entries:
-        if matches(key, prefixes):
+    for key in sorted(cur.keys() | old.keys()):
+        if matches(key, prefixes, exact):
             if key in old:
                 out.append((key, old[key]))  # revert to committed block
             # else: drop the entry entirely
-        else:
-            out.append((key, block))
+        elif key in cur:
+            out.append((key, cur[key]))
     with open(NIX, "w") as f:
         f.write(header)
         for _, block in out:
@@ -88,9 +94,15 @@ def restore_nix(prefixes):
 
 
 def main():
-    prefixes = sys.argv[1:]
-    if not prefixes:
-        sys.exit("usage: restore-sources.py <prefix> [<prefix> ...]")
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--base", default="HEAD")
+    parser.add_argument("prefixes", nargs="+")
+    args = parser.parse_args()
+    global BASE
+    BASE = args.base
+    prefixes = args.prefixes
     restore_json(prefixes)
     restore_nix(prefixes)
 

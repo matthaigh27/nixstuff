@@ -104,6 +104,51 @@
         },
         "version": "2.1.263"
     },
+    "cli-proxy-api-aarch64-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "cli-proxy-api-aarch64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-kRW5aRzv8HFzXsE2XCiF3KXUCEEF3gmHf1r9tnXx+BU=",
+            "type": "url",
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.151/CLIProxyAPI_7.2.151_darwin_aarch64.tar.gz"
+        },
+        "version": "7.2.151"
+    },
+    "cli-proxy-api-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "cli-proxy-api-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-FMA/zGmSPAEr0NrOGJeQzxrRWG8Xu2TYwJeEoKI61Yc=",
+            "type": "url",
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.151/CLIProxyAPI_7.2.151_linux_aarch64.tar.gz"
+        },
+        "version": "7.2.151"
+    },
+    "cli-proxy-api-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "cli-proxy-api-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-GU84rUC7pcsHzcFSGwhTvg+YaMU63kDGd/MrIQBcM/k=",
+            "type": "url",
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.2.151/CLIProxyAPI_7.2.151_linux_amd64.tar.gz"
+        },
+        "version": "7.2.151"
+    },
     "codex-aarch64-darwin": {
         "cargoLock": null,
         "date": null,
@@ -238,6 +283,21 @@
             "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.13-linux-x86_64"
         },
         "version": "1.0.13"
+    },
+    "llama-cpp-aarch64-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "llama-cpp-aarch64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-iTPnNklerf7wcxrjIFSs+qdWmb9KbMunfNhHXbCF7GY=",
+            "type": "url",
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10819/llama-b10819-bin-macos-arm64.tar.gz"
+        },
+        "version": "10819"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,

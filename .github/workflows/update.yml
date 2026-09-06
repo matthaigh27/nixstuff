@@ -1,90 +1,115 @@
 name: update-vendored-sources
 
-# Re-resolve every vendored package to its latest upstream release and commit
-# the bumped hashes. Runs daily and on demand. The consuming flake (nixfiles)
-# then picks the bumps up with a normal `nix flake update`.
 on:
   schedule:
-    # Times are UTC. AEST = UTC+10 year-round (no daylight saving here).
+    # AEST = UTC+10 year-round.
     - cron: "17 20 * * *" # 06:17 AEST
     - cron: "17 3 * * *"  # 13:17 AEST
   workflow_dispatch:
 
 concurrency:
   group: update-vendored-sources
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  update:
-    runs-on: ubuntu-latest
+  prepare:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-
       - uses: DeterminateSystems/nix-installer-action@main
-
-      # nvchecker reads its GitHub token from a keyfile, not $GITHUB_TOKEN, so
-      # write one from the Actions token (5000 req/hr vs 60 unauthenticated).
-      # --keep-going means one broken upstream (a renamed asset, a changed tag
-      # scheme, a 404) no longer aborts the whole run: that package is skipped
-      # and every other package still gets its bump. Without it, a single
-      # upstream breakage blocks every update until it's fixed by hand.
-      - name: Run nvfetcher
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test update safeguards and check baseline
+        run: |
+          python3 -m unittest discover -s .github/tests -v
+          python3 .github/source-guard.py
+      - name: Resolve candidate sources
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           umask 077
           printf '[keys]\ngithub = "%s"\n' "$GH_TOKEN" > "$RUNNER_TEMP/keys.toml"
-          nix run nixpkgs#nvfetcher -- --keep-going --keyfile "$RUNNER_TEMP/keys.toml"
+          trap 'rm -f "$RUNNER_TEMP/keys.toml"' EXIT
+          nix run .#update-sources -- --keep-going --keyfile "$RUNNER_TEMP/keys.toml"
+      - name: Restore incomplete or inconsistent package groups
+        run: python3 .github/source-guard.py --restore
+      - uses: actions/upload-artifact@v4
+        with:
+          name: candidate-sources
+          path: _sources/
+          if-no-files-found: error
 
-      # Build each Linux package on this Linux runner so a bad bump (e.g. a
-      # renamed/missing asset or an autoPatchelf regression) is caught before it
-      # can be committed. Each is built independently so one failure doesn't stop
-      # the others from being validated; any package that fails to build has just
-      # its own bump dropped (restore-sources.py reverts that package's entries
-      # to HEAD), so the good bumps still go out. The darwin packages can't be
-      # built here. `<pkg>=<prefix>` maps each build attr to its source keys.
-      - name: Build Linux packages (drop bumps that fail to build)
-        run: |
-          pkgs=(
-            pi=pi-
-            cli-proxy-api=cli-proxy-api-
-            codex=codex-
-            claude-code=claude-code-
-            grok=grok-
-            zed-editor-preview=zed-preview-
-            vite-plus=vite-plus-
-          )
-          failed_prefixes=()
-          failed_names=()
-          for entry in "${pkgs[@]}"; do
-            name=${entry%%=*}
-            prefix=${entry#*=}
-            echo "::group::build $name"
-            if nix build --no-link --print-out-paths ".#packages.x86_64-linux.$name"; then
-              echo "$name: ok"
-            else
-              echo "::warning::$name failed to build on x86_64-linux — dropping its bump"
-              failed_prefixes+=("$prefix")
-              failed_names+=("$name")
-            fi
-            echo "::endgroup::"
-          done
-          if (( ${#failed_prefixes[@]} )); then
-            python3 .github/restore-sources.py "${failed_prefixes[@]}"
-            echo "Dropped bumps for: ${failed_names[*]}"
-          fi
+  validate:
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - system: x86_64-linux
+            runner: ubuntu-24.04
+          - system: aarch64-linux
+            runner: ubuntu-24.04-arm
+          - system: aarch64-darwin
+            runner: macos-26
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: candidate-sources
+          path: _sources/
+      - name: Build and smoke-test every supported package
+        run: python3 .github/validate-packages.py '${{ matrix.system }}' --report 'reports/${{ matrix.system }}.json'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: results-${{ matrix.system }}
+          path: reports/
+          if-no-files-found: error
 
-      - name: Commit bumps
+  commit:
+    needs: [prepare, validate]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: candidate-sources
+          path: _sources/
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: results-*
+          path: reports/
+          merge-multiple: true
+      - name: Keep only updates passing every native platform
         run: |
-          if [[ -z "$(git status --porcelain)" ]]; then
-            echo "No source changes."
+          python3 .github/source-guard.py --reports reports
+          nix flake check --all-systems --no-build
+      - name: Commit validated bumps
+        run: |
+          git add -- _sources/generated.nix _sources/generated.json _sources/update-status.json
+          if git diff --cached --quiet; then
+            echo "No validated source changes."
             exit 0
           fi
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
           git commit -m "chore(sources): update vendored packages to latest upstream"
-          git push
+          # A concurrent change must reject this push; do not rebase untested sources.
+          git push origin HEAD:"${GITHUB_REF_NAME}"

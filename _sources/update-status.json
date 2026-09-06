@@ -1,0 +1,10 @@
+{
+  "cli-proxy-api": {
+    "reason": "release assets unavailable during the last update",
+    "version": "7.2.151"
+  },
+  "llama-cpp": {
+    "reason": "release asset unavailable during the last update",
+    "version": "10819"
+  }
+}

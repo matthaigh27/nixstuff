@@ -21,6 +21,8 @@ let
   codexSrc = sources."codex-${system}" or (throw "codex: no release binary for ${system}");
   hostSrc = sources."codex-code-mode-host-${system}";
 in
+assert lib.assertMsg (codexSrc.version == hostSrc.version)
+  "codex: CLI and code-mode-host must come from the same release";
 stdenv.mkDerivation {
   pname = "codex";
   inherit (codexSrc) version;

@@ -37,14 +37,64 @@
       # consumer) so `nix build .#claude-code` works without --impure, and so the
       # overlay can read the per-system package NAMES from here without forcing
       # anything against the consumer's `final` (which would recurse).
-      packagesBySystem = forAllSystems (system:
-        packagesFor (import nixpkgs {
+      pkgsBySystem = forAllSystems (system:
+        import nixpkgs {
           inherit system;
           config.allowUnfree = true;
-        }));
+        });
+      packagesBySystem = builtins.mapAttrs (_: packagesFor) pkgsBySystem;
+      updateStatus = builtins.fromJSON (builtins.readFile ./_sources/update-status.json);
+      # Trace at consumption time so a skipped CI update is visible on the
+      # machine doing the rebuild, even when the old derivation is cached.
+      # Keep this outside packagesFor's platform filtering: evaluating metadata
+      # must not emit warnings for every unused/unsupported package.
+      warnedPackagesBySystem = builtins.mapAttrs (_: packages:
+        builtins.mapAttrs (name: package:
+          let status = updateStatus.${name} or null; in
+          if status != null && status.version == package.version then
+            builtins.trace
+              "warning: nixstuff: ${name} update skipped; keeping version ${status.version}. ${status.reason}."
+              package
+          else package
+        ) packages
+      ) packagesBySystem;
     in
     {
-      packages = packagesBySystem;
+      packages = warnedPackagesBySystem;
+
+      # Every exported package gets a native build + installed-entrypoint check.
+      # These run after fixup, catching missing dylibs/interpreters and damaged
+      # signatures that a successful copy-only derivation would otherwise miss.
+      checks = forAllSystems (system:
+        let pkgs = pkgsBySystem.${system}; in
+        builtins.mapAttrs (name: package:
+          pkgs.runCommand "${name}-smoke-${package.version}" { } ''
+            export HOME="$TMPDIR/smoke-home"
+            mkdir -p "$HOME"
+            ${if name == "buzz-desktop" then ''
+              # A GUI cannot be launched in a headless Nix build sandbox.
+              test -x ${pkgs.lib.getExe package}
+              test -f ${package}/Applications/Buzz.app/Contents/Info.plist
+            '' else if name == "llama-cpp" then ''
+              ${package}/bin/llama-cli --version
+              ${package}/bin/llama-server --version
+              ${package}/bin/llama-bench --help
+            '' else if name == "cli-proxy-api" then ''
+              ${pkgs.lib.getExe package} -h
+            '' else ''
+              ${pkgs.lib.getExe package} --version
+            ''}
+            touch "$out"
+          ''
+        ) packagesBySystem.${system});
+
+      # Resolve update tooling through flake.lock as well as package dependencies.
+      apps = forAllSystems (system: {
+        update-sources = {
+          type = "app";
+          program = "${pkgsBySystem.${system}.nvfetcher}/bin/nvfetcher";
+        };
+      });
 
       # Grafts the vendored packages over nixpkgs by name. These are the same
       # derivations as `packages` (pre-built here against nixpkgs with
@@ -56,6 +106,6 @@
       # mise/llama-cpp fall back to nixpkgs off aarch64-darwin and
       # zed-editor-preview only appears on x86_64-linux.
       overlays.default = final: prev:
-        packagesBySystem.${prev.stdenv.hostPlatform.system} or { };
+        warnedPackagesBySystem.${prev.stdenv.hostPlatform.system} or { };
     };
 }

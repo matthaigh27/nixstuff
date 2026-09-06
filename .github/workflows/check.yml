@@ -1,0 +1,38 @@
+name: check-packages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - system: x86_64-linux
+            runner: ubuntu-24.04
+          - system: aarch64-linux
+            runner: ubuntu-24.04-arm
+          - system: aarch64-darwin
+            runner: macos-26
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test safeguards and evaluate all systems
+        run: |
+          python3 -m unittest discover -s .github/tests -v
+          python3 .github/source-guard.py
+          nix flake check --all-systems --no-build
+      - name: Build and smoke-test every supported package
+        run: python3 .github/validate-packages.py '${{ matrix.system }}' --report 'reports/${{ matrix.system }}.json' --strict
