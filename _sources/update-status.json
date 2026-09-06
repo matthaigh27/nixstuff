@@ -1,10 +1,10 @@
 {
-  "cli-proxy-api": {
-    "reason": "release assets unavailable during the last update",
-    "version": "7.2.151"
+  "claude-code": {
+    "reason": "native build or smoke check failed",
+    "version": "2.1.263"
   },
-  "llama-cpp": {
-    "reason": "release asset unavailable during the last update",
-    "version": "10819"
+  "zed-editor-preview": {
+    "reason": "native build or smoke check failed",
+    "version": "1.19.1-pre"
   }
 }
