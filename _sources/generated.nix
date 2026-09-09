@@ -136,42 +136,42 @@
   };
   grok-aarch64-darwin = {
     pname = "grok-aarch64-darwin";
-    version = "1.0.24";
+    version = "1.0.25";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.24-macos-aarch64";
-      sha256 = "sha256-QpECHBVwp8hhAnej1lSQpeVLUDEeIixrRhQmTwKiFbM=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.25-macos-aarch64";
+      sha256 = "sha256-nvSkCtYMalF4plyvOcKhSOapjQ0tNQsQMp3uNNkZXZw=";
     };
   };
   grok-aarch64-linux = {
     pname = "grok-aarch64-linux";
-    version = "1.0.24";
+    version = "1.0.25";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.24-linux-aarch64";
-      sha256 = "sha256-+D9w+nRs7iuVSvJ2G9EOLcX96hxRNVvnUECrq0hqVBA=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.25-linux-aarch64";
+      sha256 = "sha256-7AR6uKUvKXspWcSnR/gNQvYRseNgg1K3hKzVT20b7mY=";
     };
   };
   grok-x86_64-linux = {
     pname = "grok-x86_64-linux";
-    version = "1.0.24";
+    version = "1.0.25";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.24-linux-x86_64";
-      sha256 = "sha256-oxocJwJGvrjhjx/OkRIaXoPZuo9RqLJDRrvHX+cnvfU=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.25-linux-x86_64";
+      sha256 = "sha256-pG0XvNYCxGE1tb4tppoIFEf4xRTF6nM8W+EmW8+2K4A=";
     };
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "10872";
+    version = "10883";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10872/llama-b10872-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-iVreSZE/6gdtO/NkDTE2cQv8rbvK0zySk4gZE2eSeJ8=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10883/llama-b10883-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-qDqIW/L6T/t8EbPIxu1+f/j3vWFzOx1Pos6Ox8tYdYg=";
     };
   };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
-    version = "2026.9.3";
+    version = "2026.9.4";
     src = fetchurl {
-      url = "https://github.com/jdx/mise/releases/download/v2026.9.3/mise-v2026.9.3-macos-arm64.tar.gz";
-      sha256 = "sha256-WbdbvIs5T+t1PepXnXekNoYR2XjZuPkaAafmIZc0Gh0=";
+      url = "https://github.com/jdx/mise/releases/download/v2026.9.4/mise-v2026.9.4-macos-arm64.tar.gz";
+      sha256 = "sha256-mJ+pbyyeuoDgzDWwiH1puPWyXBf1S8hnaqUg6TRQQl8=";
     };
   };
   pi-aarch64-darwin = {

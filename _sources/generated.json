@@ -248,11 +248,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-QpECHBVwp8hhAnej1lSQpeVLUDEeIixrRhQmTwKiFbM=",
+            "sha256": "sha256-nvSkCtYMalF4plyvOcKhSOapjQ0tNQsQMp3uNNkZXZw=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.24-macos-aarch64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.25-macos-aarch64"
         },
-        "version": "1.0.24"
+        "version": "1.0.25"
     },
     "grok-aarch64-linux": {
         "cargoLock": null,
@@ -263,11 +263,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-+D9w+nRs7iuVSvJ2G9EOLcX96hxRNVvnUECrq0hqVBA=",
+            "sha256": "sha256-7AR6uKUvKXspWcSnR/gNQvYRseNgg1K3hKzVT20b7mY=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.24-linux-aarch64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.25-linux-aarch64"
         },
-        "version": "1.0.24"
+        "version": "1.0.25"
     },
     "grok-x86_64-linux": {
         "cargoLock": null,
@@ -278,11 +278,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-oxocJwJGvrjhjx/OkRIaXoPZuo9RqLJDRrvHX+cnvfU=",
+            "sha256": "sha256-pG0XvNYCxGE1tb4tppoIFEf4xRTF6nM8W+EmW8+2K4A=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.24-linux-x86_64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.25-linux-x86_64"
         },
-        "version": "1.0.24"
+        "version": "1.0.25"
     },
     "llama-cpp-aarch64-darwin": {
         "cargoLock": null,
@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-iVreSZE/6gdtO/NkDTE2cQv8rbvK0zySk4gZE2eSeJ8=",
+            "sha256": "sha256-qDqIW/L6T/t8EbPIxu1+f/j3vWFzOx1Pos6Ox8tYdYg=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10872/llama-b10872-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10883/llama-b10883-bin-macos-arm64.tar.gz"
         },
-        "version": "10872"
+        "version": "10883"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
@@ -308,11 +308,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-WbdbvIs5T+t1PepXnXekNoYR2XjZuPkaAafmIZc0Gh0=",
+            "sha256": "sha256-mJ+pbyyeuoDgzDWwiH1puPWyXBf1S8hnaqUg6TRQQl8=",
             "type": "url",
-            "url": "https://github.com/jdx/mise/releases/download/v2026.9.3/mise-v2026.9.3-macos-arm64.tar.gz"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.9.4/mise-v2026.9.4-macos-arm64.tar.gz"
         },
-        "version": "2026.9.3"
+        "version": "2026.9.4"
     },
     "pi-aarch64-darwin": {
         "cargoLock": null,
