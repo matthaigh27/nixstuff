@@ -136,34 +136,34 @@
   };
   grok-aarch64-darwin = {
     pname = "grok-aarch64-darwin";
-    version = "1.0.13";
+    version = "1.0.24";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.13-macos-aarch64";
-      sha256 = "sha256-hmng/a3O7CW4wVnDVfQn/72CWDUl13S2qxUiGX6oO4A=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.24-macos-aarch64";
+      sha256 = "sha256-QpECHBVwp8hhAnej1lSQpeVLUDEeIixrRhQmTwKiFbM=";
     };
   };
   grok-aarch64-linux = {
     pname = "grok-aarch64-linux";
-    version = "1.0.13";
+    version = "1.0.24";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.13-linux-aarch64";
-      sha256 = "sha256-uSb8Uwg3Q5biYOfvvWEHIxqNrhPAhN2vD+ibfrs+3SU=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.24-linux-aarch64";
+      sha256 = "sha256-+D9w+nRs7iuVSvJ2G9EOLcX96hxRNVvnUECrq0hqVBA=";
     };
   };
   grok-x86_64-linux = {
     pname = "grok-x86_64-linux";
-    version = "1.0.13";
+    version = "1.0.24";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.13-linux-x86_64";
-      sha256 = "sha256-7feVIVgbtea5Wr74SEkaanQuhg2j4jfr6GooDTDc5ME=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.24-linux-x86_64";
+      sha256 = "sha256-oxocJwJGvrjhjx/OkRIaXoPZuo9RqLJDRrvHX+cnvfU=";
     };
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "10867";
+    version = "10872";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10867/llama-b10867-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-JRi/LeqzADW8TjcZy95Ja7yyvOLorDr+mOX4sVzQoEw=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b10872/llama-b10872-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-iVreSZE/6gdtO/NkDTE2cQv8rbvK0zySk4gZE2eSeJ8=";
     };
   };
   mise-aarch64-darwin = {
