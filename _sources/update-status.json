@@ -3,6 +3,10 @@
     "reason": "native build or smoke check failed",
     "version": "2.1.263"
   },
+  "llama-cpp": {
+    "reason": "missing sources: llama-cpp-aarch64-darwin",
+    "version": "10920"
+  },
   "zed-editor-preview": {
     "reason": "native build or smoke check failed",
     "version": "1.19.1-pre"
