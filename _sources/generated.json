@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-NDdrxYIygWaIWaez42iLuQ7rJn2PGXokdgWUekeK9Ow=",
+            "sha256": "sha256-8UJ0RYGpeIhCXC4tco3D3BR4oC6sMUkT7AZ64UT3rng=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.3.2/CLIProxyAPI_7.3.2_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.3.3/CLIProxyAPI_7.3.3_darwin_aarch64.tar.gz"
         },
-        "version": "7.3.2"
+        "version": "7.3.3"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-sAxZ630RN5sQAOCAYXEZo8lsXrG2idZgs1/7JioWVBU=",
+            "sha256": "sha256-XzIOP65SrwDwe3ggExHp0JazbnWUQdlI3kihD0nnGIM=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.3.2/CLIProxyAPI_7.3.2_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.3.3/CLIProxyAPI_7.3.3_linux_aarch64.tar.gz"
         },
-        "version": "7.3.2"
+        "version": "7.3.3"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-D9R7dgYS6YlulQA4J0Le7ebwJtaQPecH754zFrZq5jU=",
+            "sha256": "sha256-evjJnNCO7jzMgdFZbooxeFZ0095r1+xhQW1ZST3Y/AE=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.3.2/CLIProxyAPI_7.3.2_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v7.3.3/CLIProxyAPI_7.3.3_linux_amd64.tar.gz"
         },
-        "version": "7.3.2"
+        "version": "7.3.3"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-kBKB0q1zoJIsSwUfrEatQko4W3+LJPNuwdtgqZhLzrI=",
+            "sha256": "sha256-f6J4pwuQr648Pl3TNVPU0R6/3mJyWgP/L+bw09Him1k=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10952/llama-b10952-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b10970/llama-b10970-bin-macos-arm64.tar.gz"
         },
-        "version": "10952"
+        "version": "10970"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
@@ -308,11 +308,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-9oEKoWCaR1zn8/3IPrHgkKzmIx07G1qurZRGY8S0t/E=",
+            "sha256": "sha256-oG9+DUJYSKCSeK89pItGNJHbKqcOSiNuBkdrJcXrlbw=",
             "type": "url",
-            "url": "https://github.com/jdx/mise/releases/download/v2026.9.7/mise-v2026.9.7-macos-arm64.tar.gz"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.9.8/mise-v2026.9.8-macos-arm64.tar.gz"
         },
-        "version": "2026.9.7"
+        "version": "2026.9.8"
     },
     "pi-aarch64-darwin": {
         "cargoLock": null,

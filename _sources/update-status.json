@@ -3,6 +3,10 @@
     "reason": "native build or smoke check failed",
     "version": "2.1.263"
   },
+  "vite-plus": {
+    "reason": "native build or smoke check failed",
+    "version": "0.3.1"
+  },
   "zed-editor-preview": {
     "reason": "native build or smoke check failed",
     "version": "1.19.1-pre"
