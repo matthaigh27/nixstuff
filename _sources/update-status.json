@@ -3,6 +3,10 @@
     "reason": "native build or smoke check failed",
     "version": "2.1.263"
   },
+  "pi": {
+    "reason": "native build or smoke check failed",
+    "version": "0.85.1"
+  },
   "vite-plus": {
     "reason": "native build or smoke check failed",
     "version": "0.3.1"
