@@ -201,3 +201,21 @@ src.github = "voidzero-dev/vite-plus"
 src.prefix = "v"
 src.include_regex = "[0-9]+\\.[0-9]+\\.[0-9]+"
 fetch.url = "https://github.com/voidzero-dev/vite-plus/releases/download/v$ver/vp-x86_64-unknown-linux-musl.tar.gz"
+
+# T3 Code — https://github.com/pingdotgg/t3code (homepage https://t3.codes).
+# The `t3` npm package is just a launcher shim that execs a prebuilt per-platform
+# build; the same builds ship as GitHub release tarballs (`v<ver>`), which is
+# what we vendor. Linux only for now (workbox runs `t3 serve` headless); the
+# darwin .tar.gz / .dmg aren't packaged. Each archive is a `t3-<ver>-<arch>/`
+# tree — the `t3` executable plus client/ assets, a resource-monitor helper and
+# a node_modules/ with native glibc .so's — so the Linux build is dynamically
+# linked and needs autoPatchelf (see pkgs/t3.nix).
+[t3-x86_64-linux]
+src.github = "pingdotgg/t3code"
+src.prefix = "v"
+fetch.url = "https://github.com/pingdotgg/t3code/releases/download/v$ver/t3-$ver-linux-x64.tar.gz"
+
+[t3-aarch64-linux]
+src.github = "pingdotgg/t3code"
+src.prefix = "v"
+fetch.url = "https://github.com/pingdotgg/t3code/releases/download/v$ver/t3-$ver-linux-arm64.tar.gz"

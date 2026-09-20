@@ -198,6 +198,22 @@
       sha256 = "sha256-SU5Jj0fXTSH0CzOG9qXpIaPUlTGhacq1W72soOof4lo=";
     };
   };
+  t3-aarch64-linux = {
+    pname = "t3-aarch64-linux";
+    version = "0.0.42";
+    src = fetchurl {
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.0.42/t3-0.0.42-linux-arm64.tar.gz";
+      sha256 = "sha256-feR+Znk8kbAe4/swTZ0tyacBmqqPhcVbU11tjKPhQBM=";
+    };
+  };
+  t3-x86_64-linux = {
+    pname = "t3-x86_64-linux";
+    version = "0.0.42";
+    src = fetchurl {
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.0.42/t3-0.0.42-linux-x64.tar.gz";
+      sha256 = "sha256-9QTpMe5EBr/nZ1QUfLDioPMA11xsUFoOF0oeefZc7qM=";
+    };
+  };
   vite-plus-aarch64-darwin = {
     pname = "vite-plus-aarch64-darwin";
     version = "0.3.1";

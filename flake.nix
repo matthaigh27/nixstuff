@@ -20,6 +20,7 @@
         llama-cpp = ./pkgs/llama-cpp.nix;
         zed-editor-preview = ./pkgs/zed-preview.nix;
         vite-plus = ./pkgs/vite-plus.nix;
+        t3 = ./pkgs/t3.nix;
       };
 
       # The vendored set built against a given pkgs, gated to the packages that
@@ -81,6 +82,14 @@
               ${package}/bin/llama-bench --help
             '' else if name == "cli-proxy-api" then ''
               ${pkgs.lib.getExe package} -h
+            '' else if name == "t3" then ''
+              # t3 is a Node SEA; assert the embedded version actually PRINTS,
+              # not just exit 0. A patchelf-corrupted blob still exits 0 on
+              # --version while producing no output, so an exit-code-only check
+              # would miss it (see pkgs/t3.nix).
+              v="$(${pkgs.lib.getExe package} --version)"
+              echo "$v"
+              echo "$v" | grep -qF "${package.version}"
             '' else ''
               ${pkgs.lib.getExe package} --version
             ''}
