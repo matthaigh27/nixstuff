@@ -43,14 +43,14 @@ stdenv.mkDerivation {
       # also keeps the wrapper self-contained and lets us set the required mode.
       mkdir -p $out/lib
       install -m755 \
-        ${musl}/lib/ld-musl-${stdenv.hostPlatform.linuxArch}.so.1 \
-        $out/lib/ld-musl-${stdenv.hostPlatform.linuxArch}.so.1
+        ${musl}/lib/ld-musl-${stdenv.hostPlatform.parsed.cpu.name}.so.1 \
+        $out/lib/ld-musl-${stdenv.hostPlatform.parsed.cpu.name}.so.1
     ''}
 
     makeBinaryWrapper \
       ${
         if stdenv.hostPlatform.isLinux then
-          "$out/lib/ld-musl-${stdenv.hostPlatform.linuxArch}.so.1"
+          "$out/lib/ld-musl-${stdenv.hostPlatform.parsed.cpu.name}.so.1"
         else
           "$out/bin/.claude-unwrapped"
       } \
