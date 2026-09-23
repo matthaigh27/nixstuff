@@ -23,14 +23,16 @@ stdenv.mkDerivation {
   dontStrip = true;
   dontFixup = true;
 
-  # Vite+ ships a SINGLE binary that self-dispatches on argv[0]: the same `vp`,
-  # invoked under the name `vpx`, becomes the package runner (`vpx <pkg> ...`).
-  # There is no `vp x` subcommand. Upstream exposes `vpx` at runtime via `vp`'s
-  # shim dir on PATH; a static symlink to the same binary is the declarative
-  # equivalent and runs the identical (official, unmodified) code path.
+  # Keep the support files beside the binary, matching the release archive.
+  # Since Nix has already installed the payload, add upstream's setup-complete
+  # marker to prevent the first launch from trying to copy itself into HOME and
+  # download dependencies. The binary self-dispatches as vpx from argv[0].
   installPhase = ''
     runHook preInstall
     install -Dm755 vp $out/bin/vp
+    install -Dm644 toolchain.json $out/bin/toolchain.json
+    install -Dm644 sync-versions/bin.mjs $out/bin/sync-versions/bin.mjs
+    touch $out/bin/.vp-setup-complete
     ln -s vp $out/bin/vpx
     runHook postInstall
   '';

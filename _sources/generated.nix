@@ -176,26 +176,26 @@
   };
   pi-aarch64-darwin = {
     pname = "pi-aarch64-darwin";
-    version = "0.85.1";
+    version = "0.87.1";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-darwin-arm64.tar.gz";
-      sha256 = "sha256-1fcOPAz3OY6sI5/QJh7gdNmLe6f2tD/jYX8FLtW3nQY=";
+      url = "https://github.com/earendil-works/pi/releases/download/v0.87.1/pi-darwin-arm64.tar.gz";
+      sha256 = "sha256-T40oi3jJdo06Ssb2HwbNNDlLgqwX1bQtHkSkN63UAbc=";
     };
   };
   pi-aarch64-linux = {
     pname = "pi-aarch64-linux";
-    version = "0.85.1";
+    version = "0.87.1";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-linux-arm64.tar.gz";
-      sha256 = "sha256-BC0grohe5POxAoFfMoC5YsN3sun7RN5AN5CMxTDq5NQ=";
+      url = "https://github.com/earendil-works/pi/releases/download/v0.87.1/pi-linux-arm64.tar.gz";
+      sha256 = "sha256-NktKn4SRRQsnpIV9Tjx4Dbr2lnkIIcF2qHPoYMu8O4k=";
     };
   };
   pi-x86_64-linux = {
     pname = "pi-x86_64-linux";
-    version = "0.85.1";
+    version = "0.87.1";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v0.85.1/pi-linux-x64.tar.gz";
-      sha256 = "sha256-SU5Jj0fXTSH0CzOG9qXpIaPUlTGhacq1W72soOof4lo=";
+      url = "https://github.com/earendil-works/pi/releases/download/v0.87.1/pi-linux-x64.tar.gz";
+      sha256 = "sha256-gNeN1i1QBJoAa5gdmUxhJVvMEOcwsMJ41OoKdVkJdkw=";
     };
   };
   t3-aarch64-linux = {
@@ -216,34 +216,34 @@
   };
   vite-plus-aarch64-darwin = {
     pname = "vite-plus-aarch64-darwin";
-    version = "0.3.1";
+    version = "0.3.3";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.3.1/vp-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-JfRWhnuTkxqWh5ACJdIhU26W+jC511W555bx9vaS1Gc=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.3.3/vp-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-hWcToxjxzDszyd+s58ou8Gbxjt6BUPN7f1SQYNRwmDQ=";
     };
   };
   vite-plus-aarch64-linux = {
     pname = "vite-plus-aarch64-linux";
-    version = "0.3.1";
+    version = "0.3.3";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.3.1/vp-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-ePdoTTNrm9safMoLtGwxmIA9bFijUB7o8hIQ8udUOFU=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.3.3/vp-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-+32rB+RL5J1+/Hhsrug+g0WpkR3iIJlNoLuFFlU4KrU=";
     };
   };
   vite-plus-x86_64-linux = {
     pname = "vite-plus-x86_64-linux";
-    version = "0.3.1";
+    version = "0.3.3";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.3.1/vp-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-DB97lARTTY1ixgaegcp74jwLSFRPb9fsFTIabDklVnc=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v0.3.3/vp-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-kQWt4gIA6a7L+dKKUGQNrO97WjOFfFOoOEuAB9So9LQ=";
     };
   };
   zed-preview-x86_64-linux = {
     pname = "zed-preview-x86_64-linux";
-    version = "1.19.1-pre";
+    version = "1.21.0-pre";
     src = fetchurl {
-      url = "https://github.com/zed-industries/zed/releases/download/v1.19.1-pre/zed-linux-x86_64.tar.gz";
-      sha256 = "sha256-lWTKyMZDdg+U+MIg9Qy66VyHeFJCie2W50SvLH0J4EM=";
+      url = "https://github.com/zed-industries/zed/releases/download/v1.21.0-pre/zed-linux-x86_64.tar.gz";
+      sha256 = "sha256-6twwCYGWoKISmIpepNGT54ZB4XtFnkJ13ddnUXVEm0Q=";
     };
   };
 }
