@@ -38,11 +38,19 @@ stdenv.mkDerivation {
     mkdir -p $out/bin
 
     install -m755 claude $out/bin/.claude-unwrapped
+    ${lib.optionalString stdenv.hostPlatform.isLinux ''
+      # musl's loader is not executable in recent nixpkgs outputs. Copying it
+      # also keeps the wrapper self-contained and lets us set the required mode.
+      mkdir -p $out/lib
+      install -m755 \
+        ${musl}/lib/ld-musl-${stdenv.hostPlatform.linuxArch}.so.1 \
+        $out/lib/ld-musl-${stdenv.hostPlatform.linuxArch}.so.1
+    ''}
 
     makeBinaryWrapper \
       ${
         if stdenv.hostPlatform.isLinux then
-          "${musl}/lib/ld-musl-${stdenv.hostPlatform.linuxArch}.so.1"
+          "$out/lib/ld-musl-${stdenv.hostPlatform.linuxArch}.so.1"
         else
           "$out/bin/.claude-unwrapped"
       } \

@@ -185,21 +185,21 @@ fetch.url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok
 # static-pie musl, so no autoPatchelf is needed (matching codex/claude-code).
 # Tags are `v<semver>`; include_regex keeps stable releases (skips -alpha).
 [vite-plus-aarch64-darwin]
-src.github = "voidzero-dev/vite-plus"
+src.github_tag = "voidzero-dev/vite-plus"
 src.prefix = "v"
-src.include_regex = "[0-9]+\\.[0-9]+\\.[0-9]+"
+src.include_regex = "^v[0-9]+\\.[0-9]+\\.[0-9]+$"
 fetch.url = "https://github.com/voidzero-dev/vite-plus/releases/download/v$ver/vp-aarch64-apple-darwin.tar.gz"
 
 [vite-plus-aarch64-linux]
-src.github = "voidzero-dev/vite-plus"
+src.github_tag = "voidzero-dev/vite-plus"
 src.prefix = "v"
-src.include_regex = "[0-9]+\\.[0-9]+\\.[0-9]+"
+src.include_regex = "^v[0-9]+\\.[0-9]+\\.[0-9]+$"
 fetch.url = "https://github.com/voidzero-dev/vite-plus/releases/download/v$ver/vp-aarch64-unknown-linux-musl.tar.gz"
 
 [vite-plus-x86_64-linux]
-src.github = "voidzero-dev/vite-plus"
+src.github_tag = "voidzero-dev/vite-plus"
 src.prefix = "v"
-src.include_regex = "[0-9]+\\.[0-9]+\\.[0-9]+"
+src.include_regex = "^v[0-9]+\\.[0-9]+\\.[0-9]+$"
 fetch.url = "https://github.com/voidzero-dev/vite-plus/releases/download/v$ver/vp-x86_64-unknown-linux-musl.tar.gz"
 
 # T3 Code — https://github.com/pingdotgg/t3code (homepage https://t3.codes).

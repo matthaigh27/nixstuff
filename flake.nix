@@ -86,6 +86,9 @@
               ${package}/bin/llama-bench --help
             '' else if name == "cli-proxy-api" then ''
               ${pkgs.lib.getExe package} -h
+            '' else if name == "zed-editor-preview" then ''
+              # Recent Zed previews no longer expose a --version flag.
+              ${pkgs.lib.getExe package} --help
             '' else if name == "t3" then ''
               # t3 is a Node SEA; assert the embedded version actually PRINTS,
               # not just exit 0. A patchelf-corrupted blob still exits 0 on

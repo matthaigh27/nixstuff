@@ -1,4 +1,4 @@
-{ stdenv, lib, autoPatchelfHook, sources }:
+{ stdenv, lib, autoPatchelfHook, libxcb, sources }:
 
 # Pi, the coding agent from https://pi.dev/ (earendil-works/pi).
 #
@@ -30,7 +30,10 @@ stdenv.mkDerivation {
   sourceRoot = "pi";
 
   nativeBuildInputs = lib.optionals stdenv.hostPlatform.isLinux [ autoPatchelfHook ];
-  buildInputs = lib.optionals stdenv.hostPlatform.isLinux [ stdenv.cc.cc.lib ];
+  buildInputs = lib.optionals stdenv.hostPlatform.isLinux [
+    libxcb
+    stdenv.cc.cc.lib
+  ];
 
   installPhase = ''
     runHook preInstall
