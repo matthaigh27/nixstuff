@@ -40,26 +40,26 @@
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.280";
+    version = "2.1.281";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.280/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-hyofofdwFlICv6DhdxqLAs4KE7X23k9EiexP8miUa1Y=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.281/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-h0qd8ztEoEAnPM4M1O1hWnE0kbHlGuHs5u5sO/+pjhY=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.280";
+    version = "2.1.281";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.280/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-Ol6+QbeNlOor+v7lOd3kyaU6/JZYq7xy2RjEVHdSSyg=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.281/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-5rQyFdo6yMJ5BN9k0CessVC3AVkgugioB/0/9nik88c=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.280";
+    version = "2.1.281";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.280/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-NeNDUwXlYIq6xybKLO0fGmUZgN/0MJlgZijBCkTQUQE=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.281/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-8/V7efHNcLftFZ3obszP6lHFHlVPBr/sBUuG35/iFVA=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
@@ -160,10 +160,10 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "11122";
+    version = "11149";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b11122/llama-b11122-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-asS4ZCaC0mgZ/EYFBjuER2JHXs4lSw1ic5qOJ92K29s=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b11149/llama-b11149-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-eR6wIAp8hGypJbYnT8IfDyH1N/2ikkzFpHQCZVgW9W4=";
     };
   };
   mise-aarch64-darwin = {
@@ -240,10 +240,10 @@
   };
   zed-preview-x86_64-linux = {
     pname = "zed-preview-x86_64-linux";
-    version = "1.21.0-pre";
+    version = "1.22.0-pre";
     src = fetchurl {
-      url = "https://github.com/zed-industries/zed/releases/download/v1.21.0-pre/zed-linux-x86_64.tar.gz";
-      sha256 = "sha256-6twwCYGWoKISmIpepNGT54ZB4XtFnkJ13ddnUXVEm0Q=";
+      url = "https://github.com/zed-industries/zed/releases/download/v1.22.0-pre/zed-linux-x86_64.tar.gz";
+      sha256 = "sha256-IPH7UZzogQBRG7CcpMPT3X0ImLTOoK3QP7VZZtsU8zI=";
     };
   };
 }
