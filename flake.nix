@@ -45,7 +45,11 @@
         });
       packagesBySystem = builtins.mapAttrs (_: packagesFor) pkgsBySystem;
       updateStatus = builtins.fromJSON (builtins.readFile ./_sources/update-status.json);
-      # Trace at consumption time so a skipped CI update is visible on the
+      # Use Nix's warning event where available so terminal frontends can colour
+      # and otherwise style these messages. Older Nix releases only have trace.
+      warn = if builtins ? warn then builtins.warn else message: value:
+        builtins.trace "warning: ${message}" value;
+      # Warn at consumption time so a skipped CI update is visible on the
       # machine doing the rebuild, even when the old derivation is cached.
       # Keep this outside packagesFor's platform filtering: evaluating metadata
       # must not emit warnings for every unused/unsupported package.
@@ -53,8 +57,8 @@
         builtins.mapAttrs (name: package:
           let status = updateStatus.${name} or null; in
           if status != null && status.version == package.version then
-            builtins.trace
-              "warning: nixstuff: ${name} update skipped; keeping version ${status.version}. ${status.reason}."
+            warn
+              "nixstuff: ${name} update skipped; keeping version ${status.version}. ${status.reason}."
               package
           else package
         ) packages
