@@ -1,6 +1,1 @@
-{
-  "agentgateway": {
-    "reason": "missing sources: agentgateway-aarch64-darwin",
-    "version": "1.5.0"
-  }
-}
+{}
