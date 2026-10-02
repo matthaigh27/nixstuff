@@ -64,26 +64,26 @@
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "8.0.9";
+    version = "8.0.10";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.9/CLIProxyAPI_8.0.9_darwin_aarch64.tar.gz";
-      sha256 = "sha256-9pbuKjUqbp4EiMLJRa4N+SQw9cX2VVo7FOnbF03LEcU=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.10/CLIProxyAPI_8.0.10_darwin_aarch64.tar.gz";
+      sha256 = "sha256-4ggPVO5NeUDHc0VECVbOWS7vNNopEL2GXUkot1rM0SI=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "8.0.9";
+    version = "8.0.10";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.9/CLIProxyAPI_8.0.9_linux_aarch64.tar.gz";
-      sha256 = "sha256-Hcxok6Rw0RGwdcDyuF2JOwNpbl2tlq/GZOU0nO1Prh8=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.10/CLIProxyAPI_8.0.10_linux_aarch64.tar.gz";
+      sha256 = "sha256-gKoGFdXVOMGYhUKrmbwtmntGNggUwPjJPbnjASfiSf8=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "8.0.9";
+    version = "8.0.10";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.9/CLIProxyAPI_8.0.9_linux_amd64.tar.gz";
-      sha256 = "sha256-Pi/DcDd8iV0+K0ZlzPapi60WXble9sY9bJQ/tMr+Y/I=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.10/CLIProxyAPI_8.0.10_linux_amd64.tar.gz";
+      sha256 = "sha256-YhHgWZUeg6z/7awJitRKi8YLR6U5iMjTTUQ5e/q79Xg=";
     };
   };
   codex-aarch64-darwin = {
@@ -168,10 +168,10 @@
   };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
-    version = "2026.9.18";
+    version = "2026.10.0";
     src = fetchurl {
-      url = "https://github.com/jdx/mise/releases/download/v2026.9.18/mise-v2026.9.18-macos-arm64.tar.gz";
-      sha256 = "sha256-s1Od4amCNQUmlIG3HQmpz4bhQcY+v8YQGzz1YXZqg+g=";
+      url = "https://github.com/jdx/mise/releases/download/v2026.10.0/mise-v2026.10.0-macos-arm64.tar.gz";
+      sha256 = "sha256-5qlm5E+HFAPfkF1QAZym97hGJN3+HVwJX1vD8YcJJZ4=";
     };
   };
   pi-aarch64-darwin = {
