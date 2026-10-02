@@ -8,26 +8,26 @@
 {
   agentgateway-aarch64-darwin = {
     pname = "agentgateway-aarch64-darwin";
-    version = "1.5.0";
+    version = "1.6.0";
     src = fetchurl {
-      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.5.0/agentgateway-darwin-arm64";
-      sha256 = "sha256-2kMtNb1pbaBWT3sra7x4NUK2ucYW1sDE1MPa7536EaE=";
+      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.6.0/agentgateway-darwin-arm64";
+      sha256 = "sha256-bOvovVcmLtziOmWjdtL1onuXzf72CXQGQu2+deHpxoU=";
     };
   };
   agentgateway-aarch64-linux = {
     pname = "agentgateway-aarch64-linux";
-    version = "1.5.0";
+    version = "1.6.0";
     src = fetchurl {
-      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.5.0/agentgateway-linux-arm64";
-      sha256 = "sha256-YfEtu5lmmqS5e4WgBAGD/ksJj6CoKow4lmX+YGUXwT4=";
+      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.6.0/agentgateway-linux-arm64";
+      sha256 = "sha256-tZ7KwxEDuzF9E3f9QrDLJc2aIfjD8dnuFMP/BfP5Gr8=";
     };
   };
   agentgateway-x86_64-linux = {
     pname = "agentgateway-x86_64-linux";
-    version = "1.5.0";
+    version = "1.6.0";
     src = fetchurl {
-      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.5.0/agentgateway-linux-amd64";
-      sha256 = "sha256-2spc2nboxasMGnWRL+zy1jZQlUA/gQ23ICnEnRSjfns=";
+      url = "https://github.com/agentgateway/agentgateway/releases/download/v1.6.0/agentgateway-linux-amd64";
+      sha256 = "sha256-SW7SfmqWtVqa18q+XCvnFyUR9Eo8sRPlM9Ir+Tp/B50=";
     };
   };
   buzz-desktop-aarch64-darwin = {
@@ -40,50 +40,50 @@
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.287";
+    version = "2.1.288";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.287/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-Q7g+S/CZ9H7+WQyNoNtDszEJxViugbjRx7HQJNuG1u8=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.288/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-hmFsG9stNYE0O0G/FnS5NpkddNFLbVzyBRlM19LhBP4=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.287";
+    version = "2.1.288";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.287/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-a1KoJQflpx4h/B5wtjutTLTZObQSGMwNQHeQWIN+kUo=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.288/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-Md9kYcL4+WhK6w5s08TQQRqtIWg4J+Gr2a2T7GntQYY=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.287";
+    version = "2.1.288";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.287/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-9kV4Ivp1+yJGAxswsraMASbe1+PFQ3x3uoYW80STw1s=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.288/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-iJl5I5vhjUcEfYj0/L89im/q0oGQUSxCwxo0sj5IAPs=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "8.0.10";
+    version = "8.0.12";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.10/CLIProxyAPI_8.0.10_darwin_aarch64.tar.gz";
-      sha256 = "sha256-4ggPVO5NeUDHc0VECVbOWS7vNNopEL2GXUkot1rM0SI=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.12/CLIProxyAPI_8.0.12_darwin_aarch64.tar.gz";
+      sha256 = "sha256-QcMsOxRI9logTDl7YvlLwSiUmYtICotYUq9J2ruDl80=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "8.0.10";
+    version = "8.0.12";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.10/CLIProxyAPI_8.0.10_linux_aarch64.tar.gz";
-      sha256 = "sha256-gKoGFdXVOMGYhUKrmbwtmntGNggUwPjJPbnjASfiSf8=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.12/CLIProxyAPI_8.0.12_linux_aarch64.tar.gz";
+      sha256 = "sha256-Sc1uz1dCpQO7UQiioW1j4mgDfEjrjishx9MrCRcaYcI=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "8.0.10";
+    version = "8.0.12";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.10/CLIProxyAPI_8.0.10_linux_amd64.tar.gz";
-      sha256 = "sha256-YhHgWZUeg6z/7awJitRKi8YLR6U5iMjTTUQ5e/q79Xg=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.12/CLIProxyAPI_8.0.12_linux_amd64.tar.gz";
+      sha256 = "sha256-QzzqLGCM2xm7ItIupAQe5pHb7qzzhpXzhacCtrhoL30=";
     };
   };
   codex-aarch64-darwin = {
@@ -160,10 +160,10 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "11327";
+    version = "11355";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b11327/llama-b11327-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-TwwgnxdlNtcgxc655HXvulg95eeD/AsoOJ5dxVTdyOc=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b11355/llama-b11355-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-CIDDSiU9wjW1N0H/rCcRIjiJ1zLzaaQ7PxZL3Y+34Kg=";
     };
   };
   mise-aarch64-darwin = {
@@ -200,18 +200,18 @@
   };
   t3-aarch64-linux = {
     pname = "t3-aarch64-linux";
-    version = "0.0.44";
+    version = "0.0.45";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.0.44/t3-0.0.44-linux-arm64.tar.gz";
-      sha256 = "sha256-M/78ca81jkiJqydya4piIx2kjJM2IQN/LfLb5Vwze2Q=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.0.45/t3-0.0.45-linux-arm64.tar.gz";
+      sha256 = "sha256-kTNZEBfn1HdSX9pmGkbMlSj9YqDEImgHnkNf+zW5Wsk=";
     };
   };
   t3-x86_64-linux = {
     pname = "t3-x86_64-linux";
-    version = "0.0.44";
+    version = "0.0.45";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.0.44/t3-0.0.44-linux-x64.tar.gz";
-      sha256 = "sha256-PxXa/QN9vNzRQjYwbRYM1ty6Mn8oia56qjUcPVxQOVY=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.0.45/t3-0.0.45-linux-x64.tar.gz";
+      sha256 = "sha256-EFBa50vGpDz6sP3gvwag4NaGL3QDBZG+mUpkDUig1r0=";
     };
   };
   vite-plus-aarch64-darwin = {

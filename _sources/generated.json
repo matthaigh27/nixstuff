@@ -8,11 +8,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-2kMtNb1pbaBWT3sra7x4NUK2ucYW1sDE1MPa7536EaE=",
+            "sha256": "sha256-bOvovVcmLtziOmWjdtL1onuXzf72CXQGQu2+deHpxoU=",
             "type": "url",
-            "url": "https://github.com/agentgateway/agentgateway/releases/download/v1.5.0/agentgateway-darwin-arm64"
+            "url": "https://github.com/agentgateway/agentgateway/releases/download/v1.6.0/agentgateway-darwin-arm64"
         },
-        "version": "1.5.0"
+        "version": "1.6.0"
     },
     "agentgateway-aarch64-linux": {
         "cargoLock": null,
@@ -23,11 +23,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-YfEtu5lmmqS5e4WgBAGD/ksJj6CoKow4lmX+YGUXwT4=",
+            "sha256": "sha256-tZ7KwxEDuzF9E3f9QrDLJc2aIfjD8dnuFMP/BfP5Gr8=",
             "type": "url",
-            "url": "https://github.com/agentgateway/agentgateway/releases/download/v1.5.0/agentgateway-linux-arm64"
+            "url": "https://github.com/agentgateway/agentgateway/releases/download/v1.6.0/agentgateway-linux-arm64"
         },
-        "version": "1.5.0"
+        "version": "1.6.0"
     },
     "agentgateway-x86_64-linux": {
         "cargoLock": null,
@@ -38,11 +38,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-2spc2nboxasMGnWRL+zy1jZQlUA/gQ23ICnEnRSjfns=",
+            "sha256": "sha256-SW7SfmqWtVqa18q+XCvnFyUR9Eo8sRPlM9Ir+Tp/B50=",
             "type": "url",
-            "url": "https://github.com/agentgateway/agentgateway/releases/download/v1.5.0/agentgateway-linux-amd64"
+            "url": "https://github.com/agentgateway/agentgateway/releases/download/v1.6.0/agentgateway-linux-amd64"
         },
-        "version": "1.5.0"
+        "version": "1.6.0"
     },
     "buzz-desktop-aarch64-darwin": {
         "cargoLock": null,
@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-Q7g+S/CZ9H7+WQyNoNtDszEJxViugbjRx7HQJNuG1u8=",
+            "sha256": "sha256-hmFsG9stNYE0O0G/FnS5NpkddNFLbVzyBRlM19LhBP4=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.287/claude-darwin-arm64.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.288/claude-darwin-arm64.tar.gz"
         },
-        "version": "2.1.287"
+        "version": "2.1.288"
     },
     "claude-code-aarch64-linux": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-a1KoJQflpx4h/B5wtjutTLTZObQSGMwNQHeQWIN+kUo=",
+            "sha256": "sha256-Md9kYcL4+WhK6w5s08TQQRqtIWg4J+Gr2a2T7GntQYY=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.287/claude-linux-arm64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.288/claude-linux-arm64-musl.tar.gz"
         },
-        "version": "2.1.287"
+        "version": "2.1.288"
     },
     "claude-code-x86_64-linux": {
         "cargoLock": null,
@@ -98,11 +98,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-9kV4Ivp1+yJGAxswsraMASbe1+PFQ3x3uoYW80STw1s=",
+            "sha256": "sha256-iJl5I5vhjUcEfYj0/L89im/q0oGQUSxCwxo0sj5IAPs=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.287/claude-linux-x64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.288/claude-linux-x64-musl.tar.gz"
         },
-        "version": "2.1.287"
+        "version": "2.1.288"
     },
     "cli-proxy-api-aarch64-darwin": {
         "cargoLock": null,
@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-4ggPVO5NeUDHc0VECVbOWS7vNNopEL2GXUkot1rM0SI=",
+            "sha256": "sha256-QcMsOxRI9logTDl7YvlLwSiUmYtICotYUq9J2ruDl80=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.10/CLIProxyAPI_8.0.10_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.12/CLIProxyAPI_8.0.12_darwin_aarch64.tar.gz"
         },
-        "version": "8.0.10"
+        "version": "8.0.12"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-gKoGFdXVOMGYhUKrmbwtmntGNggUwPjJPbnjASfiSf8=",
+            "sha256": "sha256-Sc1uz1dCpQO7UQiioW1j4mgDfEjrjishx9MrCRcaYcI=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.10/CLIProxyAPI_8.0.10_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.12/CLIProxyAPI_8.0.12_linux_aarch64.tar.gz"
         },
-        "version": "8.0.10"
+        "version": "8.0.12"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-YhHgWZUeg6z/7awJitRKi8YLR6U5iMjTTUQ5e/q79Xg=",
+            "sha256": "sha256-QzzqLGCM2xm7ItIupAQe5pHb7qzzhpXzhacCtrhoL30=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.10/CLIProxyAPI_8.0.10_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.12/CLIProxyAPI_8.0.12_linux_amd64.tar.gz"
         },
-        "version": "8.0.10"
+        "version": "8.0.12"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-TwwgnxdlNtcgxc655HXvulg95eeD/AsoOJ5dxVTdyOc=",
+            "sha256": "sha256-CIDDSiU9wjW1N0H/rCcRIjiJ1zLzaaQ7PxZL3Y+34Kg=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11327/llama-b11327-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11355/llama-b11355-bin-macos-arm64.tar.gz"
         },
-        "version": "11327"
+        "version": "11355"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
@@ -368,11 +368,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-M/78ca81jkiJqydya4piIx2kjJM2IQN/LfLb5Vwze2Q=",
+            "sha256": "sha256-kTNZEBfn1HdSX9pmGkbMlSj9YqDEImgHnkNf+zW5Wsk=",
             "type": "url",
-            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.0.44/t3-0.0.44-linux-arm64.tar.gz"
+            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.0.45/t3-0.0.45-linux-arm64.tar.gz"
         },
-        "version": "0.0.44"
+        "version": "0.0.45"
     },
     "t3-x86_64-linux": {
         "cargoLock": null,
@@ -383,11 +383,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-PxXa/QN9vNzRQjYwbRYM1ty6Mn8oia56qjUcPVxQOVY=",
+            "sha256": "sha256-EFBa50vGpDz6sP3gvwag4NaGL3QDBZG+mUpkDUig1r0=",
             "type": "url",
-            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.0.44/t3-0.0.44-linux-x64.tar.gz"
+            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.0.45/t3-0.0.45-linux-x64.tar.gz"
         },
-        "version": "0.0.44"
+        "version": "0.0.45"
     },
     "vite-plus-aarch64-darwin": {
         "cargoLock": null,
