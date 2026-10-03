@@ -160,42 +160,42 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "11371";
+    version = "11381";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b11371/llama-b11371-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-ktd0N3WWS/7NV22yokxB/FijSHe9PDb2zPfovXNajEw=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b11381/llama-b11381-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-6pL4OQShoddnUlgay7h8cJmuGjrDfMamNLFkjXB9w0E=";
     };
   };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
-    version = "2026.10.0";
+    version = "2026.10.1";
     src = fetchurl {
-      url = "https://github.com/jdx/mise/releases/download/v2026.10.0/mise-v2026.10.0-macos-arm64.tar.gz";
-      sha256 = "sha256-5qlm5E+HFAPfkF1QAZym97hGJN3+HVwJX1vD8YcJJZ4=";
+      url = "https://github.com/jdx/mise/releases/download/v2026.10.1/mise-v2026.10.1-macos-arm64.tar.gz";
+      sha256 = "sha256-GbCs4v/kIFVdJ3wiP27vJS3zkJ8BjE+vGt9KF5tnw1o=";
     };
   };
   pi-aarch64-darwin = {
     pname = "pi-aarch64-darwin";
-    version = "1.0.0";
+    version = "1.0.1";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.0/pi-darwin-arm64.tar.gz";
-      sha256 = "sha256-lykefS6y19lasfZ9Jt55AjAiAbyHhsEyu7yeU/qFJsw=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.1/pi-darwin-arm64.tar.gz";
+      sha256 = "sha256-3jXgAlsTbrN2kwVMpljAELYyehKq/0OK6HxNHJT5nmw=";
     };
   };
   pi-aarch64-linux = {
     pname = "pi-aarch64-linux";
-    version = "1.0.0";
+    version = "1.0.1";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.0/pi-linux-arm64.tar.gz";
-      sha256 = "sha256-tgs/2oMKQ8HcP17bX8e2gfIqCpMLSM2sE7l1cMYEWBk=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.1/pi-linux-arm64.tar.gz";
+      sha256 = "sha256-PgBGe+N2lesuNMBqlUQOIWMRWfM2f3/jliN/tvn0vQo=";
     };
   };
   pi-x86_64-linux = {
     pname = "pi-x86_64-linux";
-    version = "1.0.0";
+    version = "1.0.1";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.0/pi-linux-x64.tar.gz";
-      sha256 = "sha256-j9VUOlKoidYK1XzL9slp5zx1xSQKrhisQLUGlHpj3Dg=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.1/pi-linux-x64.tar.gz";
+      sha256 = "sha256-GUDsq8vVTd0aeN0tWHwYnFztg+d1qBeFWp9dHdeZxfI=";
     };
   };
   t3-aarch64-linux = {

@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ktd0N3WWS/7NV22yokxB/FijSHe9PDb2zPfovXNajEw=",
+            "sha256": "sha256-6pL4OQShoddnUlgay7h8cJmuGjrDfMamNLFkjXB9w0E=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11371/llama-b11371-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11381/llama-b11381-bin-macos-arm64.tar.gz"
         },
-        "version": "11371"
+        "version": "11381"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
@@ -308,11 +308,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-5qlm5E+HFAPfkF1QAZym97hGJN3+HVwJX1vD8YcJJZ4=",
+            "sha256": "sha256-GbCs4v/kIFVdJ3wiP27vJS3zkJ8BjE+vGt9KF5tnw1o=",
             "type": "url",
-            "url": "https://github.com/jdx/mise/releases/download/v2026.10.0/mise-v2026.10.0-macos-arm64.tar.gz"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.10.1/mise-v2026.10.1-macos-arm64.tar.gz"
         },
-        "version": "2026.10.0"
+        "version": "2026.10.1"
     },
     "pi-aarch64-darwin": {
         "cargoLock": null,
@@ -323,11 +323,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-lykefS6y19lasfZ9Jt55AjAiAbyHhsEyu7yeU/qFJsw=",
+            "sha256": "sha256-3jXgAlsTbrN2kwVMpljAELYyehKq/0OK6HxNHJT5nmw=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v1.0.0/pi-darwin-arm64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v1.0.1/pi-darwin-arm64.tar.gz"
         },
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "pi-aarch64-linux": {
         "cargoLock": null,
@@ -338,11 +338,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-tgs/2oMKQ8HcP17bX8e2gfIqCpMLSM2sE7l1cMYEWBk=",
+            "sha256": "sha256-PgBGe+N2lesuNMBqlUQOIWMRWfM2f3/jliN/tvn0vQo=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v1.0.0/pi-linux-arm64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v1.0.1/pi-linux-arm64.tar.gz"
         },
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "pi-x86_64-linux": {
         "cargoLock": null,
@@ -353,11 +353,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-j9VUOlKoidYK1XzL9slp5zx1xSQKrhisQLUGlHpj3Dg=",
+            "sha256": "sha256-GUDsq8vVTd0aeN0tWHwYnFztg+d1qBeFWp9dHdeZxfI=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v1.0.0/pi-linux-x64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v1.0.1/pi-linux-x64.tar.gz"
         },
-        "version": "1.0.0"
+        "version": "1.0.1"
     },
     "t3-aarch64-linux": {
         "cargoLock": null,
