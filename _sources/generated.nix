@@ -40,26 +40,26 @@
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.288";
+    version = "2.1.289";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.288/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-hmFsG9stNYE0O0G/FnS5NpkddNFLbVzyBRlM19LhBP4=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.289/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-IKz8iaMu1yYLY/0vP9caM957LXS4LHJNJZQa1z0uDpY=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.288";
+    version = "2.1.289";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.288/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-Md9kYcL4+WhK6w5s08TQQRqtIWg4J+Gr2a2T7GntQYY=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.289/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-f+gneuz46sHU8QppZ4Y+5G0qX3HJXfuyd8/TsuoKCwk=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.288";
+    version = "2.1.289";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.288/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-iJl5I5vhjUcEfYj0/L89im/q0oGQUSxCwxo0sj5IAPs=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.289/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-Z03zBq9JvQLwpkL8T60brywYVRbDY4EF9wbTPgwRHN8=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
@@ -176,26 +176,26 @@
   };
   pi-aarch64-darwin = {
     pname = "pi-aarch64-darwin";
-    version = "1.0.1";
+    version = "1.0.2";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.1/pi-darwin-arm64.tar.gz";
-      sha256 = "sha256-3jXgAlsTbrN2kwVMpljAELYyehKq/0OK6HxNHJT5nmw=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.2/pi-darwin-arm64.tar.gz";
+      sha256 = "sha256-wvA16krbqHkW8AXJlRXjyRZ0sR0WunXZXQiB5Hgao7s=";
     };
   };
   pi-aarch64-linux = {
     pname = "pi-aarch64-linux";
-    version = "1.0.1";
+    version = "1.0.2";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.1/pi-linux-arm64.tar.gz";
-      sha256 = "sha256-PgBGe+N2lesuNMBqlUQOIWMRWfM2f3/jliN/tvn0vQo=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.2/pi-linux-arm64.tar.gz";
+      sha256 = "sha256-MyHM3D/zjWxSJ0vasoJG4GQ0YY0ZiKVOmczkXlNaATw=";
     };
   };
   pi-x86_64-linux = {
     pname = "pi-x86_64-linux";
-    version = "1.0.1";
+    version = "1.0.2";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.1/pi-linux-x64.tar.gz";
-      sha256 = "sha256-GUDsq8vVTd0aeN0tWHwYnFztg+d1qBeFWp9dHdeZxfI=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.2/pi-linux-x64.tar.gz";
+      sha256 = "sha256-DXaHpqn8uqiP9mTLayhoPOnuPgKJMbVetIpwrpooXRg=";
     };
   };
   t3-aarch64-linux = {
