@@ -176,26 +176,26 @@
   };
   pi-aarch64-darwin = {
     pname = "pi-aarch64-darwin";
-    version = "1.0.2";
+    version = "1.0.3";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.2/pi-darwin-arm64.tar.gz";
-      sha256 = "sha256-wvA16krbqHkW8AXJlRXjyRZ0sR0WunXZXQiB5Hgao7s=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.3/pi-darwin-arm64.tar.gz";
+      sha256 = "sha256-exqom6E1QvGsph69Y0htBBe10v79XEHt7djQg6txmyM=";
     };
   };
   pi-aarch64-linux = {
     pname = "pi-aarch64-linux";
-    version = "1.0.2";
+    version = "1.0.3";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.2/pi-linux-arm64.tar.gz";
-      sha256 = "sha256-MyHM3D/zjWxSJ0vasoJG4GQ0YY0ZiKVOmczkXlNaATw=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.3/pi-linux-arm64.tar.gz";
+      sha256 = "sha256-0wk6eayeIu9DDipz4AKj3etFHeB7cis6pTqmqU6qntw=";
     };
   };
   pi-x86_64-linux = {
     pname = "pi-x86_64-linux";
-    version = "1.0.2";
+    version = "1.0.3";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.2/pi-linux-x64.tar.gz";
-      sha256 = "sha256-DXaHpqn8uqiP9mTLayhoPOnuPgKJMbVetIpwrpooXRg=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.3/pi-linux-x64.tar.gz";
+      sha256 = "sha256-m4x/9SO9kIgdHBUFFo8LnessA1c5a5K2L3mVUKSP8e0=";
     };
   };
   t3-aarch64-linux = {
