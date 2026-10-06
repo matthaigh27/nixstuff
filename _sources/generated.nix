@@ -40,98 +40,98 @@
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.289";
+    version = "2.1.290";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.289/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-IKz8iaMu1yYLY/0vP9caM957LXS4LHJNJZQa1z0uDpY=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.290/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-9TFcoLjYfYkCLg9OU8MMi+Ormtc3MVTvVjE96txj1rw=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.289";
+    version = "2.1.290";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.289/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-f+gneuz46sHU8QppZ4Y+5G0qX3HJXfuyd8/TsuoKCwk=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.290/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-lF0eyKp59501IQks3B76V5O1fzflHuBnXOGHEAslrUQ=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.289";
+    version = "2.1.290";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.289/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-Z03zBq9JvQLwpkL8T60brywYVRbDY4EF9wbTPgwRHN8=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.290/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-e0VS2dFj4S9eKL8ydWwsUgL6bnhWHYKPm6K1F9SDnS4=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "8.0.15";
+    version = "8.0.16";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.15/CLIProxyAPI_8.0.15_darwin_aarch64.tar.gz";
-      sha256 = "sha256-kP5tMJYTszUgufCHRoKd1sT9+7uzU/QawB5OlPFo98Q=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.16/CLIProxyAPI_8.0.16_darwin_aarch64.tar.gz";
+      sha256 = "sha256-ssSOJ7YryUxxOH5Dvih8dCsDNvIeL+IDVoIzWTmD1JU=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "8.0.15";
+    version = "8.0.16";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.15/CLIProxyAPI_8.0.15_linux_aarch64.tar.gz";
-      sha256 = "sha256-Fy8fcdwDgVOMCfRKZcaHtVA1xh/2P1Baa37dT8e2nJU=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.16/CLIProxyAPI_8.0.16_linux_aarch64.tar.gz";
+      sha256 = "sha256-6E83ySv0igV+XC/z4qMIUaTkPGTvz0Qkc+oEpDud3rs=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "8.0.15";
+    version = "8.0.16";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.15/CLIProxyAPI_8.0.15_linux_amd64.tar.gz";
-      sha256 = "sha256-Osyi2Xi6FAtLZkvPt0rOqPbJoywk+m4tWBMPbBEo06g=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.16/CLIProxyAPI_8.0.16_linux_amd64.tar.gz";
+      sha256 = "sha256-r/taGJGE5BtDNVSeSY329PHH8V3Q0EooKGvswt+nhXk=";
     };
   };
   codex-aarch64-darwin = {
     pname = "codex-aarch64-darwin";
-    version = "0.160.0";
+    version = "0.160.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.160.0/codex-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-B8PHyjdqj3kRFTQvUxON2jfpfPopuBJdBlLZN4SJS10=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.160.1/codex-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-ZwrysEnZyVr7dNfaOF8wxQM9E6BxdQAd2JWMUZRJhNA=";
     };
   };
   codex-aarch64-linux = {
     pname = "codex-aarch64-linux";
-    version = "0.160.0";
+    version = "0.160.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.160.0/codex-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-iDYgE5kl9nfloSyVuoeh1/QhOI67eXscEKukKgTt6dc=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.160.1/codex-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-9U3FhSBCRFv0HaOqMRVvPLAvUsWhoEB03nPcVZj34fc=";
     };
   };
   codex-code-mode-host-aarch64-darwin = {
     pname = "codex-code-mode-host-aarch64-darwin";
-    version = "0.160.0";
+    version = "0.160.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.160.0/codex-code-mode-host-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-3HD7x26dyuWuPVQkgIyOfC314NtKyCfd1PvjOQFarXU=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.160.1/codex-code-mode-host-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-blAt9p2SIPowWww8fBe6jzGrHUWR/BQAhNu4I+gAx9s=";
     };
   };
   codex-code-mode-host-aarch64-linux = {
     pname = "codex-code-mode-host-aarch64-linux";
-    version = "0.160.0";
+    version = "0.160.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.160.0/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-lAZv3xP/7NL1h3bsXLj8MEAoOmQuPW/yXF2CBIxBA44=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.160.1/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-5eAn5mie/aLjVwqmABefDrsYYygDNQ4VLtbJuX3Pl0E=";
     };
   };
   codex-code-mode-host-x86_64-linux = {
     pname = "codex-code-mode-host-x86_64-linux";
-    version = "0.160.0";
+    version = "0.160.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.160.0/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-rGzWKI8OOfRqM+uhz9N3EWUfFPM9vHPWobgutF4DjKw=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.160.1/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-imkgfZdUWsdTtlhZdOHmekxRrl3qzwZRfbUSuyXg48I=";
     };
   };
   codex-x86_64-linux = {
     pname = "codex-x86_64-linux";
-    version = "0.160.0";
+    version = "0.160.1";
     src = fetchurl {
-      url = "https://github.com/openai/codex/releases/download/rust-v0.160.0/codex-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-MGhlQX1O56kneFhSkQpSf0Hh4Vmt05CsWuOsy2fUShM=";
+      url = "https://github.com/openai/codex/releases/download/rust-v0.160.1/codex-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-kiZYG+WS0Y9+f3QKNS/bY6ph5F459+ubCdOIjIS7oz8=";
     };
   };
   grok-aarch64-darwin = {
@@ -168,34 +168,34 @@
   };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
-    version = "2026.10.2";
+    version = "2026.10.3";
     src = fetchurl {
-      url = "https://github.com/jdx/mise/releases/download/v2026.10.2/mise-v2026.10.2-macos-arm64.tar.gz";
-      sha256 = "sha256-o/Z/8AnxQ2AT7uN4ZMHBhV2dmp5JgqZgtklViWNThOc=";
+      url = "https://github.com/jdx/mise/releases/download/v2026.10.3/mise-v2026.10.3-macos-arm64.tar.gz";
+      sha256 = "sha256-KOzIZAsKKNq1KBd2bzf+z9iY8d/4LgPzb8sHLpcfkkY=";
     };
   };
   pi-aarch64-darwin = {
     pname = "pi-aarch64-darwin";
-    version = "1.0.3";
+    version = "1.0.4";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.3/pi-darwin-arm64.tar.gz";
-      sha256 = "sha256-exqom6E1QvGsph69Y0htBBe10v79XEHt7djQg6txmyM=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.4/pi-darwin-arm64.tar.gz";
+      sha256 = "sha256-cX3NOKA4SekZ+d7J2qlvXKEC4V6jPYBOXbV7HUflE7w=";
     };
   };
   pi-aarch64-linux = {
     pname = "pi-aarch64-linux";
-    version = "1.0.3";
+    version = "1.0.4";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.3/pi-linux-arm64.tar.gz";
-      sha256 = "sha256-0wk6eayeIu9DDipz4AKj3etFHeB7cis6pTqmqU6qntw=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.4/pi-linux-arm64.tar.gz";
+      sha256 = "sha256-amvGamrCdQvXzNfyEJCQRj9WTUR/7vsQpZZfa2rtIhE=";
     };
   };
   pi-x86_64-linux = {
     pname = "pi-x86_64-linux";
-    version = "1.0.3";
+    version = "1.0.4";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.0.3/pi-linux-x64.tar.gz";
-      sha256 = "sha256-m4x/9SO9kIgdHBUFFo8LnessA1c5a5K2L3mVUKSP8e0=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.0.4/pi-linux-x64.tar.gz";
+      sha256 = "sha256-KExF3SjPl1oTz/avNHQd0KDNymY06L38AIOufUUuhtY=";
     };
   };
   t3-aarch64-linux = {
