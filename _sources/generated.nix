@@ -32,34 +32,34 @@
   };
   buzz-desktop-aarch64-darwin = {
     pname = "buzz-desktop-aarch64-darwin";
-    version = "0.5.26";
+    version = "0.5.27";
     src = fetchurl {
-      url = "https://github.com/block/buzz/releases/download/desktop-v0.5.26/Buzz_0.5.26_aarch64.dmg";
-      sha256 = "sha256-gTD4nGFj6ySmv/H9d9SZkhQiHwGPHLjQwtMZ8WBTdWk=";
+      url = "https://github.com/block/buzz/releases/download/desktop-v0.5.27/Buzz_0.5.27_aarch64.dmg";
+      sha256 = "sha256-ehoIZIIhnFDNa+UTSMxXH2JD8Ntkg7ljgm8JzT3gttk=";
     };
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.291";
+    version = "2.1.292";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.291/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-YHxdefj2hkE7Yq/OFHo9DqL87Y7WRLVaz8k6CQ4+H2Y=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.292/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-en3MUIaWogk9/GkDmLhiF/ErB4Cbe9U0wv3k9BeIFVY=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.291";
+    version = "2.1.292";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.291/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-68WJ8U/LsfiIUdBSEJvhvmICEORgbhfIzD8yBdiv7i8=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.292/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-GF1TOd+9SQzBR3iy8696S/hxyWddLUVK4mhEsASORWc=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.291";
+    version = "2.1.292";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.291/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-l1JcyirOXZ/Nnx+2skHdjL2u2LhJkhq8mEgRdLFhOfk=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.292/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-NjqYsIVtxcVASmS7F++U1BZQiDyL86lAM+5Ir96u8vE=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
