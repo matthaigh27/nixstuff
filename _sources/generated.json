@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ssSOJ7YryUxxOH5Dvih8dCsDNvIeL+IDVoIzWTmD1JU=",
+            "sha256": "sha256-1JUgaMQTBg46jAgsxhb+5wfHAaAb6+xZxFkDvOQCvp0=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.16/CLIProxyAPI_8.0.16_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.17/CLIProxyAPI_8.0.17_darwin_aarch64.tar.gz"
         },
-        "version": "8.0.16"
+        "version": "8.0.17"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-6E83ySv0igV+XC/z4qMIUaTkPGTvz0Qkc+oEpDud3rs=",
+            "sha256": "sha256-uQ460IaMxFYk3Qolmh68wj6nx7qHQmZWuv60vXON1/Q=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.16/CLIProxyAPI_8.0.16_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.17/CLIProxyAPI_8.0.17_linux_aarch64.tar.gz"
         },
-        "version": "8.0.16"
+        "version": "8.0.17"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-r/taGJGE5BtDNVSeSY329PHH8V3Q0EooKGvswt+nhXk=",
+            "sha256": "sha256-sSGljuZDp6drG/P3V773WplmDRf+Wv4Im/ilwa/NkNM=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.16/CLIProxyAPI_8.0.16_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.17/CLIProxyAPI_8.0.17_linux_amd64.tar.gz"
         },
-        "version": "8.0.16"
+        "version": "8.0.17"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
@@ -398,11 +398,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-MJ1CVQNIqhVuNKmi626eixxYhhJrFM2aiPQtFYqUSzU=",
+            "sha256": "sha256-m1qx83UPW4BqJb3zLpJscjtSBUAE10hyNAj4TmgfVnU=",
             "type": "url",
-            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.0.0/vp-aarch64-apple-darwin.tar.gz"
+            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.1.0/vp-aarch64-apple-darwin.tar.gz"
         },
-        "version": "1.0.0"
+        "version": "1.1.0"
     },
     "vite-plus-aarch64-linux": {
         "cargoLock": null,
@@ -413,11 +413,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-EP2GU5EOLgBZCr49Pkuy2282vWrvJLgcTYqcT5SUACM=",
+            "sha256": "sha256-B1xbkz3st9KfR6EEGjbgM/9rzvqfnNYn2fjvGVeYMqY=",
             "type": "url",
-            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.0.0/vp-aarch64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.1.0/vp-aarch64-unknown-linux-musl.tar.gz"
         },
-        "version": "1.0.0"
+        "version": "1.1.0"
     },
     "vite-plus-x86_64-linux": {
         "cargoLock": null,
@@ -428,11 +428,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-dy4Fc6/H5d+UAccDga6eN0nBUiD+QlJ2UbwZtvUwEHE=",
+            "sha256": "sha256-aoPFTo2XF5I77o7P/uoYlFB+/U6fV/C6Jovl5lOTqmY=",
             "type": "url",
-            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.0.0/vp-x86_64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.1.0/vp-x86_64-unknown-linux-musl.tar.gz"
         },
-        "version": "1.0.0"
+        "version": "1.1.0"
     },
     "zed-preview-x86_64-linux": {
         "cargoLock": null,
