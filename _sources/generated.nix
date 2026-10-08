@@ -40,26 +40,26 @@
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.293";
+    version = "2.1.294";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.293/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-lXyvClnrerb4Ob0RU/k9x3CytC+lb9GIdm7fsQVC+nw=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.294/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-KtrF908jbUNNQuHiSn1oWRJp8inJh6/xnZ735h7uQFs=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.293";
+    version = "2.1.294";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.293/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-PgGbSy4U4fKXzzGKEcUtbH3FwLxjcT6i4FBi1R5rstI=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.294/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-W9JOmqebqLW2IGx1Q19N17lLTRavN+u2dDPq4f/Par4=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.293";
+    version = "2.1.294";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.293/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-98E6FYn8Qm3r2y3dytqY6yPyD91MzaVOD9XLMsGMXX4=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.294/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-tv8H5h+wasYgGcut3tx2FH2FmgBIyzBBdZXIfrFSdlY=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
