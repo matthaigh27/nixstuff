@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-KtrF908jbUNNQuHiSn1oWRJp8inJh6/xnZ735h7uQFs=",
+            "sha256": "sha256-37vpYAfGnXvIYxxfTXWW6WDLCWL40T7+p9Qjn0yqORc=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.294/claude-darwin-arm64.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.295/claude-darwin-arm64.tar.gz"
         },
-        "version": "2.1.294"
+        "version": "2.1.295"
     },
     "claude-code-aarch64-linux": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-W9JOmqebqLW2IGx1Q19N17lLTRavN+u2dDPq4f/Par4=",
+            "sha256": "sha256-zMCj4XNhxPc4g5gyRgfbjoBtU+Fy1+2uv4o/GSReRt4=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.294/claude-linux-arm64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.295/claude-linux-arm64-musl.tar.gz"
         },
-        "version": "2.1.294"
+        "version": "2.1.295"
     },
     "claude-code-x86_64-linux": {
         "cargoLock": null,
@@ -98,11 +98,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-tv8H5h+wasYgGcut3tx2FH2FmgBIyzBBdZXIfrFSdlY=",
+            "sha256": "sha256-GcAlpxa5aEGjnJ3aPY+vuDv/SJXGWTVAGNFl8YCP2Kc=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.294/claude-linux-x64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.295/claude-linux-x64-musl.tar.gz"
         },
-        "version": "2.1.294"
+        "version": "2.1.295"
     },
     "cli-proxy-api-aarch64-darwin": {
         "cargoLock": null,
@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-q7aAUVKFBgdlYSmK48TzeXw2Dx03EnwuRZr97M5FTfA=",
+            "sha256": "sha256-LMuUsDzk/u+iuDn3oOqukJUdQTFXLAdQmfVslNFaf1A=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.20/CLIProxyAPI_8.0.20_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.22/CLIProxyAPI_8.0.22_darwin_aarch64.tar.gz"
         },
-        "version": "8.0.20"
+        "version": "8.0.22"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-j1jQsFKBXWdS7PgB75LufIPILDzTOPsNkJqEEPWak38=",
+            "sha256": "sha256-rE8p42i1ZzhwBEaj5hMZSvkQo8u6KuZFoRw+ywB1L0M=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.20/CLIProxyAPI_8.0.20_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.22/CLIProxyAPI_8.0.22_linux_aarch64.tar.gz"
         },
-        "version": "8.0.20"
+        "version": "8.0.22"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-uHx8diGOt7tA68LVeKfWkPsLyZKK9Ce5oY2s1zQUdag=",
+            "sha256": "sha256-sbw+FL0kLEs1UYqekJButbk4krF1Fq+Ac3a6BuGIIUI=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.20/CLIProxyAPI_8.0.20_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.22/CLIProxyAPI_8.0.22_linux_amd64.tar.gz"
         },
-        "version": "8.0.20"
+        "version": "8.0.22"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
@@ -158,11 +158,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-vYNHnzriFHTEB+whZPvCpj+nY/evu9Ej+2ppxSAc/Tg=",
+            "sha256": "sha256-mOlBOhvRZ65XNyOTn/F45tRPG7IdXNqWDb6y+mX0kQQ=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.161.0/codex-aarch64-apple-darwin.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.162.0/codex-aarch64-apple-darwin.tar.gz"
         },
-        "version": "0.161.0"
+        "version": "0.162.0"
     },
     "codex-aarch64-linux": {
         "cargoLock": null,
@@ -173,11 +173,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-XJC/S+PJf8Yvyvso7CM17jGObsszLh6O49LGOBSlomo=",
+            "sha256": "sha256-FRYqm1nt+OUSsnQU7At9si5kJKEmKw7uhmZkPg0pXC8=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.161.0/codex-aarch64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.162.0/codex-aarch64-unknown-linux-musl.tar.gz"
         },
-        "version": "0.161.0"
+        "version": "0.162.0"
     },
     "codex-code-mode-host-aarch64-darwin": {
         "cargoLock": null,
@@ -188,11 +188,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ghIkFYxRMEyz8Zr28/qFykVm2KEr4Hh2BM8Q8HDExkQ=",
+            "sha256": "sha256-lFXBf6m6bon47CTr/TQZgl4sZRxW+L2N9xQUEebezcI=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.161.0/codex-code-mode-host-aarch64-apple-darwin.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.162.0/codex-code-mode-host-aarch64-apple-darwin.tar.gz"
         },
-        "version": "0.161.0"
+        "version": "0.162.0"
     },
     "codex-code-mode-host-aarch64-linux": {
         "cargoLock": null,
@@ -203,11 +203,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-qvkCyFhs6CwgG1RnBCmU7+iZdKcY1gec1//DVKtDhK0=",
+            "sha256": "sha256-GNmbBV0u9KKvUfEUSRm9iiCPT3ms44m3d1NB1pA89+k=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.161.0/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.162.0/codex-code-mode-host-aarch64-unknown-linux-musl.tar.gz"
         },
-        "version": "0.161.0"
+        "version": "0.162.0"
     },
     "codex-code-mode-host-x86_64-linux": {
         "cargoLock": null,
@@ -218,11 +218,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-MMyUX3ez7tFe44XML4RKM78dfEIv86lxYfcBv/5Pd/g=",
+            "sha256": "sha256-3ui/PfY3xo4Ulbko1kO3bUrUT5Tk8O15/oSC+nniPZc=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.161.0/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.162.0/codex-code-mode-host-x86_64-unknown-linux-musl.tar.gz"
         },
-        "version": "0.161.0"
+        "version": "0.162.0"
     },
     "codex-x86_64-linux": {
         "cargoLock": null,
@@ -233,11 +233,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-se+5UJdmDX8uWjiHYYoj8uobDVSAeL+SsPel0imgzvI=",
+            "sha256": "sha256-ja9n9iYRYapZOdjUKlFgMtdgQGIWd5185gQPJCFA/3M=",
             "type": "url",
-            "url": "https://github.com/openai/codex/releases/download/rust-v0.161.0/codex-x86_64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/openai/codex/releases/download/rust-v0.162.0/codex-x86_64-unknown-linux-musl.tar.gz"
         },
-        "version": "0.161.0"
+        "version": "0.162.0"
     },
     "grok-aarch64-darwin": {
         "cargoLock": null,
@@ -248,11 +248,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-6NqjAjZMnDtqVUbVEc+9GrXl1AepsEKC9mBmXqQF+fM=",
+            "sha256": "sha256-r0Gx1l1BFv9kmmia2dBw1MKr4lVzfUa6Cz6BYTRWluY=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.46-macos-aarch64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.50-macos-aarch64"
         },
-        "version": "1.0.46"
+        "version": "1.0.50"
     },
     "grok-aarch64-linux": {
         "cargoLock": null,
@@ -263,11 +263,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-RbCUPnNvAKJJuc8Cryvp4HSdl8Cab1XPzzApoag28j4=",
+            "sha256": "sha256-lH7qY+Ujk+AHeNZR0i4NrSLTDp7lsq95RO/D/UQ47MA=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.46-linux-aarch64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.50-linux-aarch64"
         },
-        "version": "1.0.46"
+        "version": "1.0.50"
     },
     "grok-x86_64-linux": {
         "cargoLock": null,
@@ -278,11 +278,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-QWJqUykjJBQLklVrnUL/VULj3NBK/4Xq+4aJ3UrbRPw=",
+            "sha256": "sha256-yA3gFVcG/y2ZViOIexAvLQq9LGKyZD3qOgzrr33XJNU=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.46-linux-x86_64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.50-linux-x86_64"
         },
-        "version": "1.0.46"
+        "version": "1.0.50"
     },
     "llama-cpp-aarch64-darwin": {
         "cargoLock": null,
@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-u9SPT3/CDJQmNfDY2cabnmBaNNYQCt1u0Eqmij3z8lQ=",
+            "sha256": "sha256-4Wq65cBIt34OhghyixYtiClb2mq75EmouoXJX6c07iQ=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11399/llama-b11399-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11514/llama-b11514-bin-macos-arm64.tar.gz"
         },
-        "version": "11399"
+        "version": "11514"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
@@ -308,11 +308,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-dErkX5t8KkQ636Yd9IOXkw6IsTxUGDS3vSLKMdTfz80=",
+            "sha256": "sha256-xjhSPzv9OcfstsJMZ8bdg9cpMsX823eNPorUsHDuX9o=",
             "type": "url",
-            "url": "https://github.com/jdx/mise/releases/download/v2026.10.4/mise-v2026.10.4-macos-arm64.tar.gz"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.10.5/mise-v2026.10.5-macos-arm64.tar.gz"
         },
-        "version": "2026.10.4"
+        "version": "2026.10.5"
     },
     "pi-aarch64-darwin": {
         "cargoLock": null,
