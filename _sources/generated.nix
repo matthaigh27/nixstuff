@@ -160,10 +160,10 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "11577";
+    version = "11642";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b11577/llama-b11577-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-+mUmr+CHKTrINwn+ZSn6CH5wcPYG4w3UUhc8Fszr7Yw=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b11642/llama-b11642-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-mwjYWXHK/U/EHzoHcn56fr8FwlxCOtVWvjALy3zw3x0=";
     };
   };
   mise-aarch64-darwin = {
