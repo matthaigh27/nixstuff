@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-YiAgUo48XJgia8t9foNpRbJTkZfYiFX/G187hGpvojc=",
+            "sha256": "sha256-pvJXTkmW10+Tvcwy4hOVObJ24U7fujOIzaWl6eu8RFo=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11716/llama-b11716-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11718/llama-b11718-bin-macos-arm64.tar.gz"
         },
-        "version": "11716"
+        "version": "11718"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
