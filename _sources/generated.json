@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-pvrWjJjd38TidQJss9iyuCoJ/NdoFtB/BtWn7Uk4N40=",
+            "sha256": "sha256-4FAAwvUZQgg3mwJd8UHk8oatqLMVH9fBh20qM57Pj6M=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.307/claude-darwin-arm64.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.308/claude-darwin-arm64.tar.gz"
         },
-        "version": "2.1.307"
+        "version": "2.1.308"
     },
     "claude-code-aarch64-linux": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-08ineJ2FsXLUT4gB/dkHrFdj5NnsBS+TkhtJdiC0C28=",
+            "sha256": "sha256-brb0mYJbUZIN5Y0PMsz84OYhnZHqT9rURYiajZLGEOE=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.307/claude-linux-arm64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.308/claude-linux-arm64-musl.tar.gz"
         },
-        "version": "2.1.307"
+        "version": "2.1.308"
     },
     "claude-code-x86_64-linux": {
         "cargoLock": null,
@@ -98,11 +98,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-nnsbQ9XuUmNDv8setweOUjN5aie1TlZviXC61Ii/6gc=",
+            "sha256": "sha256-YUWtUiO+fWlZrDuQhWDNGp38Mar0yP1M2UUbCz0wUJY=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.307/claude-linux-x64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.308/claude-linux-x64-musl.tar.gz"
         },
-        "version": "2.1.307"
+        "version": "2.1.308"
     },
     "cli-proxy-api-aarch64-darwin": {
         "cargoLock": null,
@@ -248,11 +248,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-7ENOgxr9z86HeA8oFf1zKx34pKjelqSRcWrXXRNgWk4=",
+            "sha256": "sha256-A2pHzimHra4E3oJ/eAO/DMRgvxabZA2xaPGOx6y3NNs=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.62-macos-aarch64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.67-macos-aarch64"
         },
-        "version": "1.0.62"
+        "version": "1.0.67"
     },
     "grok-aarch64-linux": {
         "cargoLock": null,
@@ -263,11 +263,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-C4CKIglyh4jS43w06hhG1GC0FSip/H7cdpi5597BL+E=",
+            "sha256": "sha256-CJoKzCwbVw7815HFzQ+KoHT26KuCwAq3ivC5NKzbY4Y=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.62-linux-aarch64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.67-linux-aarch64"
         },
-        "version": "1.0.62"
+        "version": "1.0.67"
     },
     "grok-x86_64-linux": {
         "cargoLock": null,
@@ -278,11 +278,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-KkbZ5Nfr16nP9/lXFnFLGdrV8h3SpJeCJACx+xKJaao=",
+            "sha256": "sha256-zjOxop43kB9W/lmRbNp6EUnm/TdxGPkY6Q2J+au1KlE=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.62-linux-x86_64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.67-linux-x86_64"
         },
-        "version": "1.0.62"
+        "version": "1.0.67"
     },
     "llama-cpp-aarch64-darwin": {
         "cargoLock": null,
