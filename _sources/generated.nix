@@ -200,18 +200,18 @@
   };
   t3-aarch64-linux = {
     pname = "t3-aarch64-linux";
-    version = "0.1.2";
+    version = "0.1.3";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.2/t3-0.1.2-linux-arm64.tar.gz";
-      sha256 = "sha256-3xEuHxl3K0BVooyXsDLrbQONXXGCAV8cr9MlStb6vQ8=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.3/t3-0.1.3-linux-arm64.tar.gz";
+      sha256 = "sha256-Vt+HzLN9RqD2U3Szh5mKCKpz8SP9jADBE5yLTHvUOdU=";
     };
   };
   t3-x86_64-linux = {
     pname = "t3-x86_64-linux";
-    version = "0.1.2";
+    version = "0.1.3";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.2/t3-0.1.2-linux-x64.tar.gz";
-      sha256 = "sha256-eu1iXLlhk43xdMGgZ8DwUjU2CUC1PogqFkMSa3VNoWw=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.3/t3-0.1.3-linux-x64.tar.gz";
+      sha256 = "sha256-Y80PBUfu9iu07OJ/p3m7+eK6hTHMaFQlaLqeeIONxoQ=";
     };
   };
   vite-plus-aarch64-darwin = {
