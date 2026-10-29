@@ -64,26 +64,26 @@
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "8.0.46";
+    version = "8.0.47";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.46/CLIProxyAPI_8.0.46_darwin_aarch64.tar.gz";
-      sha256 = "sha256-+c24XM1wYCzghK0KqFdqBXpefdj/Y6ZLIpzRRcXmZSs=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.47/CLIProxyAPI_8.0.47_darwin_aarch64.tar.gz";
+      sha256 = "sha256-pbJg7A+EPSKRSIrNduVZUjLajzuOwtM0FU8VcPXzygg=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "8.0.46";
+    version = "8.0.47";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.46/CLIProxyAPI_8.0.46_linux_aarch64.tar.gz";
-      sha256 = "sha256-B7eS4NLu20b8tsnR7akTtMU0EwdqAxmTRqhaVz/QDec=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.47/CLIProxyAPI_8.0.47_linux_aarch64.tar.gz";
+      sha256 = "sha256-2hMm7UQ0+2yWCZJ/MXwJP5pLtIKmHlRR6b6pmg3HxL8=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "8.0.46";
+    version = "8.0.47";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.46/CLIProxyAPI_8.0.46_linux_amd64.tar.gz";
-      sha256 = "sha256-Rx9SNcUBwZ097IXAbnYS8P5c4/gj73UzHCCXqtjtPGI=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.47/CLIProxyAPI_8.0.47_linux_amd64.tar.gz";
+      sha256 = "sha256-K1ER3GoN/g1gdFd4f3lDMNG0d7ydqmM3wmsM0DKngn4=";
     };
   };
   codex-aarch64-darwin = {
@@ -200,18 +200,18 @@
   };
   t3-aarch64-linux = {
     pname = "t3-aarch64-linux";
-    version = "0.1.3";
+    version = "0.1.4";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.3/t3-0.1.3-linux-arm64.tar.gz";
-      sha256 = "sha256-Vt+HzLN9RqD2U3Szh5mKCKpz8SP9jADBE5yLTHvUOdU=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.4/t3-0.1.4-linux-arm64.tar.gz";
+      sha256 = "sha256-ZyezM87b859m0/MnLR2AK2NyWeF/nu9OiWo39GNvgSU=";
     };
   };
   t3-x86_64-linux = {
     pname = "t3-x86_64-linux";
-    version = "0.1.3";
+    version = "0.1.4";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.3/t3-0.1.3-linux-x64.tar.gz";
-      sha256 = "sha256-Y80PBUfu9iu07OJ/p3m7+eK6hTHMaFQlaLqeeIONxoQ=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.4/t3-0.1.4-linux-x64.tar.gz";
+      sha256 = "sha256-jXWa/4sg8G/S9NIGU7CbO9/6uI3ud1KGZYIAXLTwMbk=";
     };
   };
   vite-plus-aarch64-darwin = {
