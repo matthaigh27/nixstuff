@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-tf9BE555tv/avk35PAnuYosTBqeL5kWROf18fxdchaw=",
+            "sha256": "sha256-yBklP6hMRu534Ur7GqsMONf9skDZFNFo6a0uIc47obQ=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-darwin-arm64.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-darwin-arm64.tar.gz"
         },
-        "version": "2.1.312"
+        "version": "2.1.314"
     },
     "claude-code-aarch64-linux": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-j3YVpyWdhn72HnB8TLYz+AaGsgE8zSWLNCsLvbgasOQ=",
+            "sha256": "sha256-ktjKYjj5YZFOMg37lYYxkyga/mqmqlhRWY5jtPsCvRo=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-linux-arm64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-linux-arm64-musl.tar.gz"
         },
-        "version": "2.1.312"
+        "version": "2.1.314"
     },
     "claude-code-x86_64-linux": {
         "cargoLock": null,
@@ -98,11 +98,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-E4fBX5u8bnZBeRsPpQLSUlS+YzuKJlONSpiQ5uU0V5U=",
+            "sha256": "sha256-efurrQem86lQ/u4334O1hRTaehGZQoAl/pg11J5THPw=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-linux-x64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-linux-x64-musl.tar.gz"
         },
-        "version": "2.1.312"
+        "version": "2.1.314"
     },
     "cli-proxy-api-aarch64-darwin": {
         "cargoLock": null,
