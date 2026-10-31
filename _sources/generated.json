@@ -308,11 +308,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-qi/FkkLbEI+X6p+y0uLLQv8UZ/yv48keSNUchBumemU=",
+            "sha256": "sha256-d0I24yR+SNeAeMC8555TJ9TkR58alMhIeCfxeBl+45s=",
             "type": "url",
-            "url": "https://github.com/jdx/mise/releases/download/v2026.10.24/mise-v2026.10.24-macos-arm64.tar.gz"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.10.25/mise-v2026.10.25-macos-arm64.tar.gz"
         },
-        "version": "2026.10.24"
+        "version": "2026.10.25"
     },
     "pi-aarch64-darwin": {
         "cargoLock": null,
@@ -368,11 +368,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-OJNi4qNJ6mKzjZvHCPT8ojgZNszLLTJrX8XQdLByrvE=",
+            "sha256": "sha256-twjwWSAHdvUGI6dmhUhB5A7aC7Z2FCEc+LaQkpXOINo=",
             "type": "url",
-            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.1.5/t3-0.1.5-linux-arm64.tar.gz"
+            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.1.6/t3-0.1.6-linux-arm64.tar.gz"
         },
-        "version": "0.1.5"
+        "version": "0.1.6"
     },
     "t3-x86_64-linux": {
         "cargoLock": null,
@@ -383,11 +383,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-IdUNzJxjQiGxG1jWqUNQ0sbuNpBXN7BUsR+k66KVqYs=",
+            "sha256": "sha256-fPMdqQ3uQfUk3VtnnrttQEY3yl2dxv2LwBlRHVe7d+Y=",
             "type": "url",
-            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.1.5/t3-0.1.5-linux-x64.tar.gz"
+            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.1.6/t3-0.1.6-linux-x64.tar.gz"
         },
-        "version": "0.1.5"
+        "version": "0.1.6"
     },
     "vite-plus-aarch64-darwin": {
         "cargoLock": null,

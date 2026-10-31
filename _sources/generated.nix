@@ -168,10 +168,10 @@
   };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
-    version = "2026.10.24";
+    version = "2026.10.25";
     src = fetchurl {
-      url = "https://github.com/jdx/mise/releases/download/v2026.10.24/mise-v2026.10.24-macos-arm64.tar.gz";
-      sha256 = "sha256-qi/FkkLbEI+X6p+y0uLLQv8UZ/yv48keSNUchBumemU=";
+      url = "https://github.com/jdx/mise/releases/download/v2026.10.25/mise-v2026.10.25-macos-arm64.tar.gz";
+      sha256 = "sha256-d0I24yR+SNeAeMC8555TJ9TkR58alMhIeCfxeBl+45s=";
     };
   };
   pi-aarch64-darwin = {
@@ -200,18 +200,18 @@
   };
   t3-aarch64-linux = {
     pname = "t3-aarch64-linux";
-    version = "0.1.5";
+    version = "0.1.6";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.5/t3-0.1.5-linux-arm64.tar.gz";
-      sha256 = "sha256-OJNi4qNJ6mKzjZvHCPT8ojgZNszLLTJrX8XQdLByrvE=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.6/t3-0.1.6-linux-arm64.tar.gz";
+      sha256 = "sha256-twjwWSAHdvUGI6dmhUhB5A7aC7Z2FCEc+LaQkpXOINo=";
     };
   };
   t3-x86_64-linux = {
     pname = "t3-x86_64-linux";
-    version = "0.1.5";
+    version = "0.1.6";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.5/t3-0.1.5-linux-x64.tar.gz";
-      sha256 = "sha256-IdUNzJxjQiGxG1jWqUNQ0sbuNpBXN7BUsR+k66KVqYs=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.6/t3-0.1.6-linux-x64.tar.gz";
+      sha256 = "sha256-fPMdqQ3uQfUk3VtnnrttQEY3yl2dxv2LwBlRHVe7d+Y=";
     };
   };
   vite-plus-aarch64-darwin = {
