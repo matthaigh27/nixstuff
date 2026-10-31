@@ -40,26 +40,26 @@
   };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
-    version = "2.1.314";
+    version = "2.1.316";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-darwin-arm64.tar.gz";
-      sha256 = "sha256-yBklP6hMRu534Ur7GqsMONf9skDZFNFo6a0uIc47obQ=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.316/claude-darwin-arm64.tar.gz";
+      sha256 = "sha256-6JVgZLHFBVwceZRap3FPrvmLKQYKBlxpMOiVaVPQus4=";
     };
   };
   claude-code-aarch64-linux = {
     pname = "claude-code-aarch64-linux";
-    version = "2.1.314";
+    version = "2.1.316";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-linux-arm64-musl.tar.gz";
-      sha256 = "sha256-ktjKYjj5YZFOMg37lYYxkyga/mqmqlhRWY5jtPsCvRo=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.316/claude-linux-arm64-musl.tar.gz";
+      sha256 = "sha256-ckH3k1SFvUlCHOXrsuC6nR2atqaWdC38Pm2ae7GLY+k=";
     };
   };
   claude-code-x86_64-linux = {
     pname = "claude-code-x86_64-linux";
-    version = "2.1.314";
+    version = "2.1.316";
     src = fetchurl {
-      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-linux-x64-musl.tar.gz";
-      sha256 = "sha256-efurrQem86lQ/u4334O1hRTaehGZQoAl/pg11J5THPw=";
+      url = "https://github.com/anthropics/claude-code/releases/download/v2.1.316/claude-linux-x64-musl.tar.gz";
+      sha256 = "sha256-f4J3lXx9Bq7vED2oz0tU+87PuaTMZnXWA3zaVeum6uU=";
     };
   };
   cli-proxy-api-aarch64-darwin = {
@@ -160,10 +160,10 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "12017";
+    version = "12020";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b12017/llama-b12017-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-TPpRUBzDxgK0BPQ2gucTQFtLlGhHh2xQgdCj+T/yaRQ=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b12020/llama-b12020-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-tjDr1do0sC6G9ylN1XQ6uoQqCgLLAjEw3r1kWZchxUE=";
     };
   };
   mise-aarch64-darwin = {
