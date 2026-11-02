@@ -323,11 +323,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-edmXnXaipa23wo4n6bRGKZKMzQ3J+7aucheGC9Xovl0=",
+            "sha256": "sha256-qb8NgtWNKn0zf0rkFxtfyev/5CUJUnqDE2TEtlrfLN8=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v1.4.0/pi-darwin-arm64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v1.5.0/pi-darwin-arm64.tar.gz"
         },
-        "version": "1.4.0"
+        "version": "1.5.0"
     },
     "pi-aarch64-linux": {
         "cargoLock": null,
@@ -338,11 +338,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-+lgpx++D/+rrugFXFcgwYiD4myqooAFU77upjdVEAVY=",
+            "sha256": "sha256-XVcRtIYAdWRzaC6GNgsCaxGr91keXREutBHU2iwQDZo=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v1.4.0/pi-linux-arm64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v1.5.0/pi-linux-arm64.tar.gz"
         },
-        "version": "1.4.0"
+        "version": "1.5.0"
     },
     "pi-x86_64-linux": {
         "cargoLock": null,
@@ -353,11 +353,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-8uTkMpYDIj0DJgzbi9UDPb3B9zuliriTnbLlZUbhFdI=",
+            "sha256": "sha256-34cLoONEy3szWNjY8ZOXuLjSJahml4RzataKXCFp1Ts=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v1.4.0/pi-linux-x64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v1.5.0/pi-linux-x64.tar.gz"
         },
-        "version": "1.4.0"
+        "version": "1.5.0"
     },
     "t3-aarch64-linux": {
         "cargoLock": null,
