@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-1VDLJr+723kFJDVUT37cCQwrAvX9mzBDG/uY0HpLsxg=",
+            "sha256": "sha256-zX+piNYOeu9+1FOEdlAlUThECyKdCBSWuO0Kt1g2YDs=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.317/claude-darwin-arm64.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.318/claude-darwin-arm64.tar.gz"
         },
-        "version": "2.1.317"
+        "version": "2.1.318"
     },
     "claude-code-aarch64-linux": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ncaVfYawajqEPAg500PG1hc90mTjouj5RWb6I4iaDnk=",
+            "sha256": "sha256-GY4jJRl1K09ko5JSUHzWk7FushB6NuzEoreJcdGtNu8=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.317/claude-linux-arm64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.318/claude-linux-arm64-musl.tar.gz"
         },
-        "version": "2.1.317"
+        "version": "2.1.318"
     },
     "claude-code-x86_64-linux": {
         "cargoLock": null,
@@ -98,11 +98,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-/h3Q1ttjhSCsxJLfWsjPWpQTcHFr9qaciUTu4V1pNNc=",
+            "sha256": "sha256-b22Ftvrz9e0mVemu/VIonKMGR+1FA2R8K/00LhpUMfk=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.317/claude-linux-x64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.318/claude-linux-x64-musl.tar.gz"
         },
-        "version": "2.1.317"
+        "version": "2.1.318"
     },
     "cli-proxy-api-aarch64-darwin": {
         "cargoLock": null,
@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-IpR5fEDKDf+4mYTojvskI3jNU48whqswGtczx8DBUck=",
+            "sha256": "sha256-JKkRapvkWenR31qXkuyhfwTAu4UFWE1AxbJVVl0HGG8=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.52/CLIProxyAPI_8.0.52_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.53/CLIProxyAPI_8.0.53_darwin_aarch64.tar.gz"
         },
-        "version": "8.0.52"
+        "version": "8.0.53"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-HyMeanbxMktI+XEgZriOgfbeP+IbKc6JcGnDYkJRDrc=",
+            "sha256": "sha256-to7P74mgzldjMnQq5UNTU/tk3CjZP50cqT1QOFqUKYk=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.52/CLIProxyAPI_8.0.52_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.53/CLIProxyAPI_8.0.53_linux_aarch64.tar.gz"
         },
-        "version": "8.0.52"
+        "version": "8.0.53"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-T4hVZHsxB7g+a0otlBj5XYxTxXgnt/CRDPXunISf+Is=",
+            "sha256": "sha256-lr3B7Bla3CO6rm6wQTqdzi/czwPA0/0pDpGqiBLipw0=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.52/CLIProxyAPI_8.0.52_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.53/CLIProxyAPI_8.0.53_linux_amd64.tar.gz"
         },
-        "version": "8.0.52"
+        "version": "8.0.53"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
@@ -308,11 +308,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-d0I24yR+SNeAeMC8555TJ9TkR58alMhIeCfxeBl+45s=",
+            "sha256": "sha256-nDZ4sgUV8JEgizoqmQC7xat/IoocWJOEnw8pObGCnfM=",
             "type": "url",
-            "url": "https://github.com/jdx/mise/releases/download/v2026.10.25/mise-v2026.10.25-macos-arm64.tar.gz"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.11.0/mise-v2026.11.0-macos-arm64.tar.gz"
         },
-        "version": "2026.10.25"
+        "version": "2026.11.0"
     },
     "pi-aarch64-darwin": {
         "cargoLock": null,
