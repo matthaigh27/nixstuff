@@ -219,3 +219,12 @@ fetch.url = "https://github.com/pingdotgg/t3code/releases/download/v$ver/t3-$ver
 src.github = "pingdotgg/t3code"
 src.prefix = "v"
 fetch.url = "https://github.com/pingdotgg/t3code/releases/download/v$ver/t3-$ver-linux-arm64.tar.gz"
+
+# Chrome for Testing — https://github.com/GoogleChromeLabs/chrome-for-testing
+# Same build as stable Chrome, but its own bundle id, so automation (chrome-
+# devtools-mcp) never hijacks the user's real Chrome. Not on GitHub releases:
+# the current stable comes from Google's last-known-good JSON. macOS arm64 only.
+[chrome-for-testing-aarch64-darwin]
+src.webpage = "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions.json"
+src.regex = '"Stable":\{"channel":"Stable","version":"([0-9.]+)"'
+fetch.url = "https://storage.googleapis.com/chrome-for-testing-public/$ver/mac-arm64/chrome-mac-arm64.zip"

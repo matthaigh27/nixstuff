@@ -38,6 +38,14 @@
       sha256 = "sha256-6u2bHrBruQdSJ3zi95of2sUZL9mcl7xJ8DVz5+gTWyU=";
     };
   };
+  chrome-for-testing-aarch64-darwin = {
+    pname = "chrome-for-testing-aarch64-darwin";
+    version = "157.0.8103.38";
+    src = fetchurl {
+      url = "https://storage.googleapis.com/chrome-for-testing-public/157.0.8103.38/mac-arm64/chrome-mac-arm64.zip";
+      sha256 = "sha256-NAazi1K300HXRFDrezab4DjJ/smJTIuKnp6flzM8ry8=";
+    };
+  };
   claude-code-aarch64-darwin = {
     pname = "claude-code-aarch64-darwin";
     version = "2.1.318";

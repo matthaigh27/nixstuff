@@ -59,6 +59,21 @@
         },
         "version": "0.5.28"
     },
+    "chrome-for-testing-aarch64-darwin": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "chrome-for-testing-aarch64-darwin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-NAazi1K300HXRFDrezab4DjJ/smJTIuKnp6flzM8ry8=",
+            "type": "url",
+            "url": "https://storage.googleapis.com/chrome-for-testing-public/157.0.8103.38/mac-arm64/chrome-mac-arm64.zip"
+        },
+        "version": "157.0.8103.38"
+    },
     "claude-code-aarch64-darwin": {
         "cargoLock": null,
         "date": null,

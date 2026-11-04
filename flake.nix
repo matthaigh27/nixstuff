@@ -21,6 +21,7 @@
         zed-editor-preview = ./pkgs/zed-preview.nix;
         vite-plus = ./pkgs/vite-plus.nix;
         t3 = ./pkgs/t3.nix;
+        chrome-for-testing = ./pkgs/chrome-for-testing.nix;
       };
 
       # The vendored set built against a given pkgs, gated to the packages that
