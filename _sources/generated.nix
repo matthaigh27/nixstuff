@@ -208,42 +208,42 @@
   };
   t3-aarch64-linux = {
     pname = "t3-aarch64-linux";
-    version = "0.1.6";
+    version = "0.1.7";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.6/t3-0.1.6-linux-arm64.tar.gz";
-      sha256 = "sha256-twjwWSAHdvUGI6dmhUhB5A7aC7Z2FCEc+LaQkpXOINo=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.7/t3-0.1.7-linux-arm64.tar.gz";
+      sha256 = "sha256-WlKOI685TMbzWQNtPLhEH9oUEp1HdjD8bFPk9KECW8g=";
     };
   };
   t3-x86_64-linux = {
     pname = "t3-x86_64-linux";
-    version = "0.1.6";
+    version = "0.1.7";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.6/t3-0.1.6-linux-x64.tar.gz";
-      sha256 = "sha256-fPMdqQ3uQfUk3VtnnrttQEY3yl2dxv2LwBlRHVe7d+Y=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.7/t3-0.1.7-linux-x64.tar.gz";
+      sha256 = "sha256-wImJK/eSLi5zxvRKXR6hJcmfcON4wYNhy77S+6GSDmw=";
     };
   };
   vite-plus-aarch64-darwin = {
     pname = "vite-plus-aarch64-darwin";
-    version = "1.4.0";
+    version = "1.5.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.4.0/vp-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-1U0ljOZ9Q8De/7CTKYJSQdsZfC8g5yhxEhIn8D+0AxI=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.5.0/vp-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-obcC0izi59/2ENYpPbxH9ysXOHysKa94XXUznudyBCY=";
     };
   };
   vite-plus-aarch64-linux = {
     pname = "vite-plus-aarch64-linux";
-    version = "1.4.0";
+    version = "1.5.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.4.0/vp-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-cP5aMYoif5Bji1WwA3IvQ1ZyqQ0qgK7vPVykdzNzJz4=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.5.0/vp-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-N8bsUYBAS52Jp0rw6M7vh/qmFExL6t3x1btmGjsuKtw=";
     };
   };
   vite-plus-x86_64-linux = {
     pname = "vite-plus-x86_64-linux";
-    version = "1.4.0";
+    version = "1.5.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.4.0/vp-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-cBXpOql/zZ3U3YAAZPQeRsqCEXnviSG1eqv3hXwCFVM=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.5.0/vp-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-ai49sDGOVoCYSwPYeoLBeCPX6VTO7anB+fnEvesdjfk=";
     };
   };
   zed-preview-x86_64-linux = {
