@@ -72,26 +72,26 @@
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "8.0.56";
+    version = "8.0.57";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.56/CLIProxyAPI_8.0.56_darwin_aarch64.tar.gz";
-      sha256 = "sha256-NWu0xk0+8COBkkgb4dDv3m1JW7p0ve/mC628Xc5ph5k=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.57/CLIProxyAPI_8.0.57_darwin_aarch64.tar.gz";
+      sha256 = "sha256-3WIMDSTgAP/pCNDY7rSmxzFaMdN3b6CfGYhWsJ/Xgh8=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "8.0.56";
+    version = "8.0.57";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.56/CLIProxyAPI_8.0.56_linux_aarch64.tar.gz";
-      sha256 = "sha256-G74pEjKEnxcHYw2BfXDJlM0enaQMBwA1tS0RNoNVf2g=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.57/CLIProxyAPI_8.0.57_linux_aarch64.tar.gz";
+      sha256 = "sha256-YuwInnFK+IaxUuXq+QEKql/rF7KpZNF7M4sDMW7SIUQ=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "8.0.56";
+    version = "8.0.57";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.56/CLIProxyAPI_8.0.56_linux_amd64.tar.gz";
-      sha256 = "sha256-bzE9/fu2IVTel6RGz8R9WjQZcjSE6p87wfsKMBXRlec=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.57/CLIProxyAPI_8.0.57_linux_amd64.tar.gz";
+      sha256 = "sha256-HnsxxL2/65GUf7toaTPDYjT/qEwb63gcfAIMA1djVF4=";
     };
   };
   codex-aarch64-darwin = {
@@ -144,26 +144,26 @@
   };
   grok-aarch64-darwin = {
     pname = "grok-aarch64-darwin";
-    version = "1.0.70";
+    version = "1.0.77";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.70-macos-aarch64";
-      sha256 = "sha256-XIpoglG/YeNTcLgotqNTsKIPzD9kAA3oqR1CYDnynOw=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.77-macos-aarch64";
+      sha256 = "sha256-GXxmpj5axG4HRQsMoh0UHOZlBQpBIYDxhdrfrhx6Wyo=";
     };
   };
   grok-aarch64-linux = {
     pname = "grok-aarch64-linux";
-    version = "1.0.70";
+    version = "1.0.77";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.70-linux-aarch64";
-      sha256 = "sha256-OqNog1dLJjCI5a3f/iQfVUMOjaruGgxJNLAhgAB6l2E=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.77-linux-aarch64";
+      sha256 = "sha256-sw7uFKZWEk7zydqFd7Xng+8s/6vrK2ecXEljPnfu1XQ=";
     };
   };
   grok-x86_64-linux = {
     pname = "grok-x86_64-linux";
-    version = "1.0.70";
+    version = "1.0.77";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.70-linux-x86_64";
-      sha256 = "sha256-ItKBxZZMVEQUcygJa6KiIfPwh0xoWOJ8glZWqA9uWOk=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.77-linux-x86_64";
+      sha256 = "sha256-twKVCqWCfYVeSTJ4q2IVpOD1vOtbumxiQ6n1XN0UOwo=";
     };
   };
   llama-cpp-aarch64-darwin = {
@@ -176,10 +176,10 @@
   };
   mise-aarch64-darwin = {
     pname = "mise-aarch64-darwin";
-    version = "2026.11.1";
+    version = "2026.11.2";
     src = fetchurl {
-      url = "https://github.com/jdx/mise/releases/download/v2026.11.1/mise-v2026.11.1-macos-arm64.tar.gz";
-      sha256 = "sha256-4eryBGnlhvZYSSVqC+aljdej6Tro22i8dN169coP5/Y=";
+      url = "https://github.com/jdx/mise/releases/download/v2026.11.2/mise-v2026.11.2-macos-arm64.tar.gz";
+      sha256 = "sha256-ZYIpNwNWs0vhYaKe2drxNCI5t0GpPhqS1xzgQLe7Pgw=";
     };
   };
   pi-aarch64-darwin = {
