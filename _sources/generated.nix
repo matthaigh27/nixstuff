@@ -72,26 +72,26 @@
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "8.0.58";
+    version = "8.0.59";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.58/CLIProxyAPI_8.0.58_darwin_aarch64.tar.gz";
-      sha256 = "sha256-SsKSDU0Kq6CgtswHCKNfecR5okaEy805u+K4VGStSL0=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.59/CLIProxyAPI_8.0.59_darwin_aarch64.tar.gz";
+      sha256 = "sha256-cK268hDY5XbEgak3gjrMfcv3oeN7iV8HDAu4HIIx/zg=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "8.0.58";
+    version = "8.0.59";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.58/CLIProxyAPI_8.0.58_linux_aarch64.tar.gz";
-      sha256 = "sha256-OTU4VhNaXtrhuaI8l+WWT3350QJZu7moW5/vP269MCU=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.59/CLIProxyAPI_8.0.59_linux_aarch64.tar.gz";
+      sha256 = "sha256-nMVKUvIxmpqrS5AhF/zUz9Wcu4dI2FhzJwBvTIwZ79w=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "8.0.58";
+    version = "8.0.59";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.58/CLIProxyAPI_8.0.58_linux_amd64.tar.gz";
-      sha256 = "sha256-VGRpCXje49Xx8deXXzYw4DZFc7EDOCn0dtywnfrYknI=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.59/CLIProxyAPI_8.0.59_linux_amd64.tar.gz";
+      sha256 = "sha256-VCfkE0So1XUZFWrhKwFlTCrvNs7Tn0k+MnNi4VYn40w=";
     };
   };
   codex-aarch64-darwin = {
