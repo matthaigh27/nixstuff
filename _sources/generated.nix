@@ -72,26 +72,26 @@
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "8.0.64";
+    version = "8.0.67";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.64/CLIProxyAPI_8.0.64_darwin_aarch64.tar.gz";
-      sha256 = "sha256-w9xBRYz1ooNfgzssdFF9TeeNlfio0rU2e96pXLYx5ao=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.67/CLIProxyAPI_8.0.67_darwin_aarch64.tar.gz";
+      sha256 = "sha256-6lvBTodPQisASa2lvMBVJjY0D6sPrHkdfdpq9P5w/M8=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "8.0.64";
+    version = "8.0.67";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.64/CLIProxyAPI_8.0.64_linux_aarch64.tar.gz";
-      sha256 = "sha256-bQPNU1lCoCq5nqz+Q6kO+KP9+s8tG4LRpxFqveYa+xM=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.67/CLIProxyAPI_8.0.67_linux_aarch64.tar.gz";
+      sha256 = "sha256-cWdEyOQXYuRiHuqEETi+kIwP++Nzox1WdDMd741wCtc=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "8.0.64";
+    version = "8.0.67";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.64/CLIProxyAPI_8.0.64_linux_amd64.tar.gz";
-      sha256 = "sha256-55O7Rp15+KCP+2Ye7YLcBpwy+fxOc49iWGVvTYSvGwU=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.0.67/CLIProxyAPI_8.0.67_linux_amd64.tar.gz";
+      sha256 = "sha256-Xtr1GAvn0aoxoKquD8EV1xW0MAG3VyxpcJ7RVfOn2HY=";
     };
   };
   codex-aarch64-darwin = {
@@ -224,26 +224,26 @@
   };
   vite-plus-aarch64-darwin = {
     pname = "vite-plus-aarch64-darwin";
-    version = "1.5.1";
+    version = "1.6.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.5.1/vp-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-q7J07z9tKr8LhfGamajDY+E3UsI7nzInl0FrRVbLYOA=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.6.0/vp-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-0IHE7CZbulhivqmtPrmpvswbRsiPRPELM09lFQj5qoY=";
     };
   };
   vite-plus-aarch64-linux = {
     pname = "vite-plus-aarch64-linux";
-    version = "1.5.1";
+    version = "1.6.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.5.1/vp-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-TZWpLtZPMMhoIxqegM1iuctmD7UJK4Vwb7XlMCzkSCs=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.6.0/vp-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-P3hB2oPwRoqaS2bGY0kfRAdD0O+YIDZvi8vpSSefmQk=";
     };
   };
   vite-plus-x86_64-linux = {
     pname = "vite-plus-x86_64-linux";
-    version = "1.5.1";
+    version = "1.6.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.5.1/vp-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-ejCIRx6RYFGzf/+sCMOacYlfWsFti9xZdLmv2BRYIXc=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.6.0/vp-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-D6LN428rin0//ILY2qXTSLSSaymYcvTTGs3FstctnHY=";
     };
   };
   zed-preview-x86_64-linux = {
