@@ -53,11 +53,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-6u2bHrBruQdSJ3zi95of2sUZL9mcl7xJ8DVz5+gTWyU=",
+            "sha256": "sha256-fTdGbfSdeJnEnc1YiHylnjBx6RgGt/nRfKkkphvBTwc=",
             "type": "url",
-            "url": "https://github.com/block/buzz/releases/download/desktop-v0.5.28/Buzz_0.5.28_aarch64.dmg"
+            "url": "https://github.com/block/buzz/releases/download/desktop-v0.5.30/Buzz_0.5.30_aarch64.dmg"
         },
-        "version": "0.5.28"
+        "version": "0.5.30"
     },
     "chrome-for-testing-aarch64-darwin": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-iaRn7C77WzS9m60amdnCntqATeA95eL2XXh7crFQI2E=",
+            "sha256": "sha256-sNwj8tjD71Wysi8D7yBOmLBrIrbFGhW2bSY7E0QsTgM=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.323/claude-darwin-arm64.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.325/claude-darwin-arm64.tar.gz"
         },
-        "version": "2.1.323"
+        "version": "2.1.325"
     },
     "claude-code-aarch64-linux": {
         "cargoLock": null,
@@ -98,11 +98,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-TqXCa+hxPPPw5Hl6WP2Z7V7AnCpuYvaMwr3/zrpV57Q=",
+            "sha256": "sha256-4uWE1XyA3hY7TzH43YIQnM4cP33Pm1Qs3ccFrSHZhzc=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.323/claude-linux-arm64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.325/claude-linux-arm64-musl.tar.gz"
         },
-        "version": "2.1.323"
+        "version": "2.1.325"
     },
     "claude-code-x86_64-linux": {
         "cargoLock": null,
@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-mFIfMUI+cY9zUXOOXDQtiNYdLFnyx6RpuIwoHMwFGWo=",
+            "sha256": "sha256-unmMvtN7exCMxYmN7icyAyHrfkcXCBt+phHJB9K6s/8=",
             "type": "url",
-            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.323/claude-linux-x64-musl.tar.gz"
+            "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.325/claude-linux-x64-musl.tar.gz"
         },
-        "version": "2.1.323"
+        "version": "2.1.325"
     },
     "cli-proxy-api-aarch64-darwin": {
         "cargoLock": null,
@@ -308,11 +308,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-6BVWHpYhxgY4jUU4EB1W/PMXzexs6PK70b8U8N8pkl4=",
+            "sha256": "sha256-lS7q9j/2Eu7DegD5vyd1ot5AxPIXJGMsMU+sEphXgeg=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12360/llama-b12360-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12374/llama-b12374-bin-macos-arm64.tar.gz"
         },
-        "version": "12360"
+        "version": "12374"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
@@ -323,11 +323,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-kvG59otgMan3eTig/439enf+nNkYxbCdDtQ08G670/I=",
+            "sha256": "sha256-en+TQlWcxMpnAFQzfs9JfmnYMqBfZuUxYoOB3JK4j0g=",
             "type": "url",
-            "url": "https://github.com/jdx/mise/releases/download/v2026.11.7/mise-v2026.11.7-macos-arm64.tar.gz"
+            "url": "https://github.com/jdx/mise/releases/download/v2026.11.8/mise-v2026.11.8-macos-arm64.tar.gz"
         },
-        "version": "2026.11.7"
+        "version": "2026.11.8"
     },
     "pi-aarch64-darwin": {
         "cargoLock": null,
