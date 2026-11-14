@@ -308,11 +308,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-lS7q9j/2Eu7DegD5vyd1ot5AxPIXJGMsMU+sEphXgeg=",
+            "sha256": "sha256-q/HpG3YazdcHzI5mq+kw5H/hpkzLHmNmK91n966+MwY=",
             "type": "url",
-            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12374/llama-b12374-bin-macos-arm64.tar.gz"
+            "url": "https://github.com/ggml-org/llama.cpp/releases/download/b12377/llama-b12377-bin-macos-arm64.tar.gz"
         },
-        "version": "12374"
+        "version": "12377"
     },
     "mise-aarch64-darwin": {
         "cargoLock": null,
