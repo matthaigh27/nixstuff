@@ -144,26 +144,26 @@
   };
   grok-aarch64-darwin = {
     pname = "grok-aarch64-darwin";
-    version = "1.0.77";
+    version = "1.0.88";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.77-macos-aarch64";
-      sha256 = "sha256-GXxmpj5axG4HRQsMoh0UHOZlBQpBIYDxhdrfrhx6Wyo=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.88-macos-aarch64";
+      sha256 = "sha256-sBhRM7M2LEBgaWU+QMmGSHY0L9bWZ1VeBDj38mofeF4=";
     };
   };
   grok-aarch64-linux = {
     pname = "grok-aarch64-linux";
-    version = "1.0.77";
+    version = "1.0.88";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.77-linux-aarch64";
-      sha256 = "sha256-sw7uFKZWEk7zydqFd7Xng+8s/6vrK2ecXEljPnfu1XQ=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.88-linux-aarch64";
+      sha256 = "sha256-VfKFr0to/lPML0WwCkOSyMSHFQlnHgGF4CN4BBlMzyk=";
     };
   };
   grok-x86_64-linux = {
     pname = "grok-x86_64-linux";
-    version = "1.0.77";
+    version = "1.0.88";
     src = fetchurl {
-      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.77-linux-x86_64";
-      sha256 = "sha256-twKVCqWCfYVeSTJ4q2IVpOD1vOtbumxiQ6n1XN0UOwo=";
+      url = "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.88-linux-x86_64";
+      sha256 = "sha256-ozAT/nPqY9LxjfY2+Q+EBgqIcS+ZMrd82gRH3YO0v+U=";
     };
   };
   llama-cpp-aarch64-darwin = {
@@ -224,26 +224,26 @@
   };
   vite-plus-aarch64-darwin = {
     pname = "vite-plus-aarch64-darwin";
-    version = "1.6.0";
+    version = "1.7.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.6.0/vp-aarch64-apple-darwin.tar.gz";
-      sha256 = "sha256-0IHE7CZbulhivqmtPrmpvswbRsiPRPELM09lFQj5qoY=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.7.0/vp-aarch64-apple-darwin.tar.gz";
+      sha256 = "sha256-poB2ofV0Zt4cPgwKnMQ/mYoFkkpXNeh+IiCakitnCoo=";
     };
   };
   vite-plus-aarch64-linux = {
     pname = "vite-plus-aarch64-linux";
-    version = "1.6.0";
+    version = "1.7.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.6.0/vp-aarch64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-P3hB2oPwRoqaS2bGY0kfRAdD0O+YIDZvi8vpSSefmQk=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.7.0/vp-aarch64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-rE0i1FGtUAhoXcN8m43Qgxw3YB1ZAzjAj5OXC8QmcIQ=";
     };
   };
   vite-plus-x86_64-linux = {
     pname = "vite-plus-x86_64-linux";
-    version = "1.6.0";
+    version = "1.7.0";
     src = fetchurl {
-      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.6.0/vp-x86_64-unknown-linux-musl.tar.gz";
-      sha256 = "sha256-D6LN428rin0//ILY2qXTSLSSaymYcvTTGs3FstctnHY=";
+      url = "https://github.com/voidzero-dev/vite-plus/releases/download/v1.7.0/vp-x86_64-unknown-linux-musl.tar.gz";
+      sha256 = "sha256-Mg1rEfizbYHPaUk660f47r45PS2p9iHC2r2nDRrp0Xc=";
     };
   };
   zed-preview-x86_64-linux = {

@@ -263,11 +263,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-GXxmpj5axG4HRQsMoh0UHOZlBQpBIYDxhdrfrhx6Wyo=",
+            "sha256": "sha256-sBhRM7M2LEBgaWU+QMmGSHY0L9bWZ1VeBDj38mofeF4=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.77-macos-aarch64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.88-macos-aarch64"
         },
-        "version": "1.0.77"
+        "version": "1.0.88"
     },
     "grok-aarch64-linux": {
         "cargoLock": null,
@@ -278,11 +278,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-sw7uFKZWEk7zydqFd7Xng+8s/6vrK2ecXEljPnfu1XQ=",
+            "sha256": "sha256-VfKFr0to/lPML0WwCkOSyMSHFQlnHgGF4CN4BBlMzyk=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.77-linux-aarch64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.88-linux-aarch64"
         },
-        "version": "1.0.77"
+        "version": "1.0.88"
     },
     "grok-x86_64-linux": {
         "cargoLock": null,
@@ -293,11 +293,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-twKVCqWCfYVeSTJ4q2IVpOD1vOtbumxiQ6n1XN0UOwo=",
+            "sha256": "sha256-ozAT/nPqY9LxjfY2+Q+EBgqIcS+ZMrd82gRH3YO0v+U=",
             "type": "url",
-            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.77-linux-x86_64"
+            "url": "https://storage.googleapis.com/grok-build-public-artifacts/cli/grok-1.0.88-linux-x86_64"
         },
-        "version": "1.0.77"
+        "version": "1.0.88"
     },
     "llama-cpp-aarch64-darwin": {
         "cargoLock": null,
@@ -413,11 +413,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-0IHE7CZbulhivqmtPrmpvswbRsiPRPELM09lFQj5qoY=",
+            "sha256": "sha256-poB2ofV0Zt4cPgwKnMQ/mYoFkkpXNeh+IiCakitnCoo=",
             "type": "url",
-            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.6.0/vp-aarch64-apple-darwin.tar.gz"
+            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.7.0/vp-aarch64-apple-darwin.tar.gz"
         },
-        "version": "1.6.0"
+        "version": "1.7.0"
     },
     "vite-plus-aarch64-linux": {
         "cargoLock": null,
@@ -428,11 +428,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-P3hB2oPwRoqaS2bGY0kfRAdD0O+YIDZvi8vpSSefmQk=",
+            "sha256": "sha256-rE0i1FGtUAhoXcN8m43Qgxw3YB1ZAzjAj5OXC8QmcIQ=",
             "type": "url",
-            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.6.0/vp-aarch64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.7.0/vp-aarch64-unknown-linux-musl.tar.gz"
         },
-        "version": "1.6.0"
+        "version": "1.7.0"
     },
     "vite-plus-x86_64-linux": {
         "cargoLock": null,
@@ -443,11 +443,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-D6LN428rin0//ILY2qXTSLSSaymYcvTTGs3FstctnHY=",
+            "sha256": "sha256-Mg1rEfizbYHPaUk660f47r45PS2p9iHC2r2nDRrp0Xc=",
             "type": "url",
-            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.6.0/vp-x86_64-unknown-linux-musl.tar.gz"
+            "url": "https://github.com/voidzero-dev/vite-plus/releases/download/v1.7.0/vp-x86_64-unknown-linux-musl.tar.gz"
         },
-        "version": "1.6.0"
+        "version": "1.7.0"
     },
     "zed-preview-x86_64-linux": {
         "cargoLock": null,
