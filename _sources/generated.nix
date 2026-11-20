@@ -184,42 +184,42 @@
   };
   pi-aarch64-darwin = {
     pname = "pi-aarch64-darwin";
-    version = "1.5.2";
+    version = "1.6.0";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.5.2/pi-darwin-arm64.tar.gz";
-      sha256 = "sha256-VrXhlNSFztVVZnuLoydhV6gnLp7N6eAB5CivgJhb3Zs=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.6.0/pi-darwin-arm64.tar.gz";
+      sha256 = "sha256-ZCkoe3rpjXJuxXeBXRT9aA58WH6J7MUVO0oUXcStujM=";
     };
   };
   pi-aarch64-linux = {
     pname = "pi-aarch64-linux";
-    version = "1.5.2";
+    version = "1.6.0";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.5.2/pi-linux-arm64.tar.gz";
-      sha256 = "sha256-QoBc1WFZUvy7/JxWsE+P64Q5UTSVLhaabNyNdnaXVmY=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.6.0/pi-linux-arm64.tar.gz";
+      sha256 = "sha256-VARUe5c5vlltUK5xQsUlNYmejn3Tenus6b5ZPgNVtGg=";
     };
   };
   pi-x86_64-linux = {
     pname = "pi-x86_64-linux";
-    version = "1.5.2";
+    version = "1.6.0";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.5.2/pi-linux-x64.tar.gz";
-      sha256 = "sha256-gRxvLJ56ruJStUBCUuVW+3E6ognB9/kkImqnfU73DLU=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.6.0/pi-linux-x64.tar.gz";
+      sha256 = "sha256-73fb5DebO960JaHhuGL6PJFcJVAA3+SWXJju6WpXZdE=";
     };
   };
   t3-aarch64-linux = {
     pname = "t3-aarch64-linux";
-    version = "0.1.10";
+    version = "0.1.11";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.10/t3-0.1.10-linux-arm64.tar.gz";
-      sha256 = "sha256-X/vSJPU9D4JyeYJTR6fr9aesmK1cE0fUdAnzCqKh5CU=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.11/t3-0.1.11-linux-arm64.tar.gz";
+      sha256 = "sha256-fZClrwMv4JiKYWQD4PUabLaO/37XqEvECZnMOZff/XE=";
     };
   };
   t3-x86_64-linux = {
     pname = "t3-x86_64-linux";
-    version = "0.1.10";
+    version = "0.1.11";
     src = fetchurl {
-      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.10/t3-0.1.10-linux-x64.tar.gz";
-      sha256 = "sha256-m+qdNqIXKZoK+IDow0e1Nu1qmi9b8yimldF01jYoxeg=";
+      url = "https://github.com/pingdotgg/t3code/releases/download/v0.1.11/t3-0.1.11-linux-x64.tar.gz";
+      sha256 = "sha256-K2kcB/W8ta3qSoY9UySq59shvW2CKAzsd4eDbcqgE+E=";
     };
   };
   vite-plus-aarch64-darwin = {
