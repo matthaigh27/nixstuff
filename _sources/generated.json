@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-xu7n5hbjlC5O4nnJP75/mJozf5GsWwBmUXQkSui1cm8=",
+            "sha256": "sha256-nZ4jUNSvnCzRw2NqWJLjtmmCkoTzpUslL+G9+2tJ2To=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.3/CLIProxyAPI_8.1.3_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.4/CLIProxyAPI_8.1.4_darwin_aarch64.tar.gz"
         },
-        "version": "8.1.3"
+        "version": "8.1.4"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-6nZ0cqqo7t8EFaYpQqVeo/ZfBPZmtHmx4pPv+0gy3zE=",
+            "sha256": "sha256-GsGcRGiWmj+oXEg+9+NMVkbW4NYQpSCg3VGvE2E9Zhk=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.3/CLIProxyAPI_8.1.3_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.4/CLIProxyAPI_8.1.4_linux_aarch64.tar.gz"
         },
-        "version": "8.1.3"
+        "version": "8.1.4"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -158,11 +158,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-+cZlExjYM6bITYsmBVSHL97gSreM+o4W4nC8S6fnlH4=",
+            "sha256": "sha256-021TBO3tOITNDEFoxBp2OKMjRjGmSlRkQGm5Y64ofOo=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.3/CLIProxyAPI_8.1.3_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.4/CLIProxyAPI_8.1.4_linux_amd64.tar.gz"
         },
-        "version": "8.1.3"
+        "version": "8.1.4"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
@@ -338,11 +338,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ZCkoe3rpjXJuxXeBXRT9aA58WH6J7MUVO0oUXcStujM=",
+            "sha256": "sha256-2P2OJMKlBUrjg9g7Jvbrb5UO32E5F+Q0pSOU9EzU2TM=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v1.6.0/pi-darwin-arm64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v1.6.1/pi-darwin-arm64.tar.gz"
         },
-        "version": "1.6.0"
+        "version": "1.6.1"
     },
     "pi-aarch64-linux": {
         "cargoLock": null,
@@ -353,11 +353,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-VARUe5c5vlltUK5xQsUlNYmejn3Tenus6b5ZPgNVtGg=",
+            "sha256": "sha256-r95kHWxZBNJpYN20Ijv1Y7CGDPGg68RDuF3v9n0Eh1M=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v1.6.0/pi-linux-arm64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v1.6.1/pi-linux-arm64.tar.gz"
         },
-        "version": "1.6.0"
+        "version": "1.6.1"
     },
     "pi-x86_64-linux": {
         "cargoLock": null,
@@ -368,11 +368,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-73fb5DebO960JaHhuGL6PJFcJVAA3+SWXJju6WpXZdE=",
+            "sha256": "sha256-PH8AcV61EuFlwNqMrTFNc8g7VNW/d0i+Stxhj8g1e2g=",
             "type": "url",
-            "url": "https://github.com/earendil-works/pi/releases/download/v1.6.0/pi-linux-x64.tar.gz"
+            "url": "https://github.com/earendil-works/pi/releases/download/v1.6.1/pi-linux-x64.tar.gz"
         },
-        "version": "1.6.0"
+        "version": "1.6.1"
     },
     "t3-aarch64-linux": {
         "cargoLock": null,
@@ -458,10 +458,10 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-FYjhcPu8lF1wYr5+aGPCbCgsgBOdXtF+hFGd/aR9UWA=",
+            "sha256": "sha256-7y3blmEhbHZ+usBQrv0M5qwrLk4jgg3Lfhg6FmYBEXQ=",
             "type": "url",
-            "url": "https://github.com/zed-industries/zed/releases/download/v1.30.2-pre/zed-linux-x86_64.tar.gz"
+            "url": "https://github.com/zed-industries/zed/releases/download/v1.31.0-pre/zed-linux-x86_64.tar.gz"
         },
-        "version": "1.30.2-pre"
+        "version": "1.31.0-pre"
     }
 }
