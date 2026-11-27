@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-bhPEpnU7dmiFpvmw8MaiHAd33GrS/m5ZWyoOvFJnZrI=",
+            "sha256": "sha256-Zn5vJHPomKw6bRbAHJzlzfc5oTtSjMgNMoZRo1BpGiw=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.6/CLIProxyAPI_8.1.6_darwin_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.7/CLIProxyAPI_8.1.7_darwin_aarch64.tar.gz"
         },
-        "version": "8.1.6"
+        "version": "8.1.7"
     },
     "cli-proxy-api-aarch64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-qksqY4KgC4z/0dkuVdBpuWtwl1cOIAbulBhnv8ZdAoU=",
+            "sha256": "sha256-TwoP6uEcHJ+dULelYewPGhfxuFGkIi0HqUmuru2zw6E=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.6/CLIProxyAPI_8.1.6_linux_aarch64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.7/CLIProxyAPI_8.1.7_linux_aarch64.tar.gz"
         },
-        "version": "8.1.6"
+        "version": "8.1.7"
     },
     "cli-proxy-api-x86_64-linux": {
         "cargoLock": null,
@@ -158,11 +158,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-EJ89RILaT9yI7yODHLxAeuBHh/86APVKUq+IK0meh6s=",
+            "sha256": "sha256-wv/ThFwVoQCmrF4qLBkqyoHWFwM2Ur8kmeQHgwKd4Uk=",
             "type": "url",
-            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.6/CLIProxyAPI_8.1.6_linux_amd64.tar.gz"
+            "url": "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.7/CLIProxyAPI_8.1.7_linux_amd64.tar.gz"
         },
-        "version": "8.1.6"
+        "version": "8.1.7"
     },
     "codex-aarch64-darwin": {
         "cargoLock": null,
@@ -383,11 +383,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-Kc+6sZEXqkNvFwA4Kvuc/l1+9HYJyrupNWJxoLylrZg=",
+            "sha256": "sha256-xVPBfbBwMNAygImJQn21AivwQCfrzsIhjGn7Gl+hN38=",
             "type": "url",
-            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.1.12/t3-0.1.12-linux-arm64.tar.gz"
+            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.1.13/t3-0.1.13-linux-arm64.tar.gz"
         },
-        "version": "0.1.12"
+        "version": "0.1.13"
     },
     "t3-x86_64-linux": {
         "cargoLock": null,
@@ -398,11 +398,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-m6PbRuNVT7mXD9Xt6egjwvbW9nY/QDQL1MjvawlQHFQ=",
+            "sha256": "sha256-ZOD4RG0/YYsVfU5aCmgIqzyL8aGz5E6rMQDlVL4F5dc=",
             "type": "url",
-            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.1.12/t3-0.1.12-linux-x64.tar.gz"
+            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.1.13/t3-0.1.13-linux-x64.tar.gz"
         },
-        "version": "0.1.12"
+        "version": "0.1.13"
     },
     "vite-plus-aarch64-darwin": {
         "cargoLock": null,
