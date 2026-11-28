@@ -72,26 +72,26 @@
   };
   cli-proxy-api-aarch64-darwin = {
     pname = "cli-proxy-api-aarch64-darwin";
-    version = "8.1.7";
+    version = "8.1.8";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.7/CLIProxyAPI_8.1.7_darwin_aarch64.tar.gz";
-      sha256 = "sha256-Zn5vJHPomKw6bRbAHJzlzfc5oTtSjMgNMoZRo1BpGiw=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.8/CLIProxyAPI_8.1.8_darwin_aarch64.tar.gz";
+      sha256 = "sha256-zjReisqQ3HZiD+3v/U6xthFNbUB0dMUt9O/wOKucNKY=";
     };
   };
   cli-proxy-api-aarch64-linux = {
     pname = "cli-proxy-api-aarch64-linux";
-    version = "8.1.7";
+    version = "8.1.8";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.7/CLIProxyAPI_8.1.7_linux_aarch64.tar.gz";
-      sha256 = "sha256-TwoP6uEcHJ+dULelYewPGhfxuFGkIi0HqUmuru2zw6E=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.8/CLIProxyAPI_8.1.8_linux_aarch64.tar.gz";
+      sha256 = "sha256-4OPaLARLJmORZZcNRIZlBHf9OexJI1FULD3DVJRPi0E=";
     };
   };
   cli-proxy-api-x86_64-linux = {
     pname = "cli-proxy-api-x86_64-linux";
-    version = "8.1.7";
+    version = "8.1.8";
     src = fetchurl {
-      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.7/CLIProxyAPI_8.1.7_linux_amd64.tar.gz";
-      sha256 = "sha256-wv/ThFwVoQCmrF4qLBkqyoHWFwM2Ur8kmeQHgwKd4Uk=";
+      url = "https://github.com/router-for-me/CLIProxyAPI/releases/download/v8.1.8/CLIProxyAPI_8.1.8_linux_amd64.tar.gz";
+      sha256 = "sha256-MEPaI4/obNM23I0w7tcnoM4+DTDH+e4BSlBXay8Rxsg=";
     };
   };
   codex-aarch64-darwin = {
@@ -168,10 +168,10 @@
   };
   llama-cpp-aarch64-darwin = {
     pname = "llama-cpp-aarch64-darwin";
-    version = "12776";
+    version = "12823";
     src = fetchurl {
-      url = "https://github.com/ggml-org/llama.cpp/releases/download/b12776/llama-b12776-bin-macos-arm64.tar.gz";
-      sha256 = "sha256-ywxcl6GkrVCg1k4iimdpTeXDqHbRrgB3s548I4HzoDk=";
+      url = "https://github.com/ggml-org/llama.cpp/releases/download/b12823/llama-b12823-bin-macos-arm64.tar.gz";
+      sha256 = "sha256-cJAFNnofoOO8AlNVqVa4zbDp7upw9w7Z6cWxoE//SDo=";
     };
   };
   mise-aarch64-darwin = {
@@ -184,26 +184,26 @@
   };
   pi-aarch64-darwin = {
     pname = "pi-aarch64-darwin";
-    version = "1.6.1";
+    version = "1.7.0";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.6.1/pi-darwin-arm64.tar.gz";
-      sha256 = "sha256-2P2OJMKlBUrjg9g7Jvbrb5UO32E5F+Q0pSOU9EzU2TM=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.7.0/pi-darwin-arm64.tar.gz";
+      sha256 = "sha256-/5WprhYKVbsEF7NQMahsP6UrOSFpmfulQLU1aPLvxus=";
     };
   };
   pi-aarch64-linux = {
     pname = "pi-aarch64-linux";
-    version = "1.6.1";
+    version = "1.7.0";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.6.1/pi-linux-arm64.tar.gz";
-      sha256 = "sha256-r95kHWxZBNJpYN20Ijv1Y7CGDPGg68RDuF3v9n0Eh1M=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.7.0/pi-linux-arm64.tar.gz";
+      sha256 = "sha256-zSCc/JD7lPtLAMzXhajWSkoVT5JOUviP6+ts821cmiQ=";
     };
   };
   pi-x86_64-linux = {
     pname = "pi-x86_64-linux";
-    version = "1.6.1";
+    version = "1.7.0";
     src = fetchurl {
-      url = "https://github.com/earendil-works/pi/releases/download/v1.6.1/pi-linux-x64.tar.gz";
-      sha256 = "sha256-PH8AcV61EuFlwNqMrTFNc8g7VNW/d0i+Stxhj8g1e2g=";
+      url = "https://github.com/earendil-works/pi/releases/download/v1.7.0/pi-linux-x64.tar.gz";
+      sha256 = "sha256-QvftZ+g/cn/lHdJ0bVDcRcfReEFZqVGClqKCQCrGj0o=";
     };
   };
   t3-aarch64-linux = {
